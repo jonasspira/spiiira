@@ -21,12 +21,19 @@ This repository is Jonas's website, www.spiiira.com. GitHub Pages builds it with
   - add a row for it to the table in `README.md`;
   - add the visit counter: copy the two GoatCounter lines (a comment and a `<script>`) from just before `</head>` in `index.html` to the same place in the new page. Every page has them, so visits show up at spiiira.goatcounter.com.
 - Build new tools in the spiiira-ui house style (the spiiira-ui skill) unless Jonas asks for something else.
-- `nyc26/` is the exception to the two bullets above, on purpose. It is Jonas's
-  private trip hub: the page is public but its contents sit behind a PIN checked
-  by a Cloudflare Worker. It has **no homepage card and no README row**, because
-  both would advertise that the trip exists, and `README.md` is served at
-  www.spiiira.com/README.md. Do not add either unless Jonas asks. It also has a
-  build step and a Worker; read `nyc26/AGENTS.md` before touching it.
+- Private pages are the exception to the two bullets above. A page that holds
+  personal content (a trip, for example) gets **no homepage card and no README
+  row**, because both would advertise that it exists, and `README.md` is served
+  at www.spiiira.com/README.md. Do not add either unless Jonas asks.
+- A private page's personal content never goes in this repository, because the
+  page itself is public. The content lives in a separate service that checks a
+  PIN or token first, and Jonas edits it on the page, never by changing files
+  here. Each private page explains its own setup in its folder's `AGENTS.md`.
+  Today that's `nyc26/`; read `nyc26/AGENTS.md` before touching it.
+- A tool with a build step keeps its source apart from what's served (for
+  example `nyc26/src/` and `plates/src/`). After changing the source, run its
+  build and its tests, then commit the source and the built files together.
+  GitHub Pages serves the built files as they are.
 - Pages are plain static files and everything in this repository is public. Anything that needs a secret goes in a separate service, never in the page (see `groton-inventory/worker.js` and `groton-inventory/SETUP.md`).
 
 ## What doesn't go here
