@@ -3,7 +3,7 @@
 (function () {
   'use strict';
 
-  var DATA_URL = 'data/sand-jars.json';
+  var DATA_URL = 'data/sand-jars.json?v=2'; // bump ?v= in index.html and here after every change, so browsers fetch the new files
   var WORLD = L.latLngBounds([[-48, -160], [68, 165]]);
   var WIDE = window.matchMedia('(min-width: 721px)');
 

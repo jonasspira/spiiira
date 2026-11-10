@@ -144,6 +144,14 @@ same command from `~/Projects/"SPIIIRA Tools"/spiiira` instead.)
 
 ## Log
 
+### 2026-11-10 — "I'm not seeing any of the updates" (Claude Code)
+
+Jonas's preview server (port 8080, in the worktree) was serving the new files
+correctly; his browser was showing a saved copy of the old script and styles.
+Fixed for good by adding version numbers to the file links (`?v=2`); the rule
+to bump them after each change is in `AGENTS.md`. Not live yet either:
+www.spiiira.com/sand/ is a 404 until the branch is merged and pushed.
+
 ### 2026-11-10 — accent colours, glanceable cards, this file (Claude Code)
 
 Jonas asked for: a different colour for not-a-beach pins with a key on the
