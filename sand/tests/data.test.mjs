@@ -58,6 +58,18 @@ test('duplicate groups match the inventory', () => {
   assert.notEqual(byId['SJ-053'].sand.summary, byId['SJ-060'].sand.summary, 'the two Santorini sands must differ');
 });
 
+test('cards have a short highlight, quick facts and a Wikipedia link', () => {
+  for (const j of pinned) {
+    const s = j.sand;
+    if (s.known) assert.ok(s.highlight, j.id + ' has no highlight');
+    else assert.equal(s.highlight, '', j.id + ' has a highlight but no published composition');
+    if (s.highlight) assert.ok(s.highlight.split(/\s+/).length <= 26, j.id + ' highlight is too long to glance at');
+    assert.ok(s.glance && 'colour' in s.glance && 'made_of' in s.glance && 'from' in s.glance, j.id);
+    for (const v of Object.values(s.glance)) assert.ok(v.split(/\s+/).length <= 8, j.id + ' quick fact too long: ' + v);
+    assert.ok(j.wikipedia === null || /^https:\/\/en\.wikipedia\.org\/wiki\//.test(j.wikipedia.url), j.id);
+  }
+});
+
 test('the country-only jars are Hawaii, Iceland and Nicaragua', () => {
   assert.deepEqual(jars.filter(j => j.category === 'country_only').map(j => j.id), ['SJ-054', 'SJ-057', 'SJ-091']);
 });

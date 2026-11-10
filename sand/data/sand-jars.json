@@ -23,6 +23,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Sanibel runs east to west, so waves hit it broadside and dump shells, making it famous for shelling.",
+   "glance": {
+    "colour": "Light tan to grey-white",
+    "made_of": "Quartz sand and broken shell",
+    "from": "Gulf coast quartz plus offshore shells"
+   },
    "colour": "light tan to grey-white, heavy with shell",
    "composition": "quartz sand mixed with lots of broken shell (calcium carbonate)",
    "origin": "quartz carried south along the Gulf coast plus shells from the shallow shelf",
@@ -34,6 +40,10 @@
     "https://www.jstor.org/stable/4297312",
     "https://www.sanddollarboattours.com/shelling-beaches/sanibel-island/"
    ]
+  },
+  "wikipedia": {
+   "title": "Sanibel, Florida",
+   "url": "https://en.wikipedia.org/wiki/Sanibel%2C_Florida"
   }
  },
  {
@@ -60,6 +70,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The San Andreas Fault comes ashore near the east end of this beach.",
+   "glance": {
+    "colour": "Light tan to grey-brown",
+    "made_of": "Sandstone, chert and serpentine bits",
+    "from": "Crumbling cliffs and hills behind it"
+   },
    "colour": "light tan to grey-brown",
    "composition": "mineral grains and rock bits from Franciscan rocks (sandstone, chert, serpentine)",
    "origin": "crumbling coastal cliffs and hills of the Franciscan rock mix",
@@ -71,6 +87,10 @@
     "https://coastview.org/2024/03/10/stinson-beach-bolinas-bay/",
     "https://www.nps.gov/goga/stbe.htm"
    ]
+  },
+  "wikipedia": {
+   "title": "Stinson Beach, California",
+   "url": "https://en.wikipedia.org/wiki/Stinson_Beach%2C_California"
   }
  },
  {
@@ -97,6 +117,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Quartz is so hard it outlasts nearly every other mineral on the river trip, so it ends up the main ingredient.",
+   "glance": {
+    "colour": "Golden tan with dark specks",
+    "made_of": "Quartz, feldspar and dark mica",
+    "from": "Inland granite mountains, carried by rivers"
+   },
    "colour": "golden tan with dark specks",
    "composition": "mostly quartz and feldspar with some dark biotite mica (regional description)",
    "origin": "weathered granite from Southern California's mountains, carried by rivers",
@@ -107,6 +133,10 @@
     "https://www.miracosta.edu/home/kmeldahl/labpacket/sandsintertidal.pdf",
     "https://coastalcare.org/educate/beach-basics/"
    ]
+  },
+  "wikipedia": {
+   "title": "Laguna Beach, California",
+   "url": "https://en.wikipedia.org/wiki/Laguna_Beach%2C_California"
   }
  },
  {
@@ -133,6 +163,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Dry sand this pure quartz often squeaks underfoot, and it stays cooler than darker sand in the sun.",
+   "glance": {
+    "colour": "Brilliant sugar-white",
+    "made_of": "Almost pure quartz",
+    "from": "Appalachian Mountains, carried by rivers"
+   },
    "colour": "brilliant sugar-white",
    "composition": "almost pure quartz, with a little finely ground shell",
    "origin": "quartz eroded from the Appalachian Mountains, carried south by rivers",
@@ -144,6 +180,10 @@
     "https://www.visitflorida.com/travel-ideas/articles/florida-white-orange-dark-sand-beaches/",
     "https://geoapps.geosociety.org/abstracts/paper/331787"
    ]
+  },
+  "wikipedia": {
+   "title": "Panama City Beach, Florida",
+   "url": "https://en.wikipedia.org/wiki/Panama_City_Beach%2C_Florida"
   }
  },
  {
@@ -170,6 +210,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "This coast's beaches formed about 5,000 years ago from Ice Age debris that glaciers bulldozed south from Scotland.",
+   "glance": {
+    "colour": "Pale golden",
+    "made_of": "Glacial sand with some pebbles",
+    "from": "Irish Sea glacial deposits, pushed ashore"
+   },
    "colour": "pale golden sand (regional)",
    "composition": "reworked glacial sediment: mineral sand with some pebbles (regional description)",
    "origin": "glacial deposits on the Irish Sea floor, pushed ashore as sea level rose",
@@ -180,6 +226,10 @@
     "https://gsi.geodata.gov.ie/downloads/Geoheritage/Reports/Wicklow_Audit.pdf",
     "https://heritage.wicklowheritage.org/places/brittas_bay_castletimon/wicklows_living_coast_-_brittas_bay"
    ]
+  },
+  "wikipedia": {
+   "title": "Brittas Bay",
+   "url": "https://en.wikipedia.org/wiki/Brittas_Bay"
   }
  },
  {
@@ -206,6 +256,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The north end is nearly pure white quartz, while the south end near Turtle Beach is darker and full of shell.",
+   "glance": {
+    "colour": "Brilliant white, shellier in south",
+    "made_of": "Nearly pure quartz",
+    "from": "Appalachian quartz, moved by currents"
+   },
    "colour": "brilliant white (north); darker and shellier (south)",
    "composition": "nearly pure quartz",
    "origin": "quartz from the Appalachian Mountains, moved down the coast by currents",
@@ -216,6 +272,10 @@
     "https://www.crystalsandsonsiestakey.com/why-is-the-sand-on-siesta-key-so-white/",
     "https://www.visitflorida.com/travel-ideas/articles/florida-white-orange-dark-sand-beaches/"
    ]
+  },
+  "wikipedia": {
+   "title": "Siesta Key, Florida",
+   "url": "https://en.wikipedia.org/wiki/Siesta_Key%2C_Florida"
   }
  },
  {
@@ -242,6 +302,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "These are rare mid-ocean islands made of real granite, so white reef sand sits against pink and grey boulders.",
+   "glance": {
+    "colour": "Bright white to cream",
+    "made_of": "Coral and shell fragments",
+    "from": "Coral reefs around granite islands"
+   },
    "colour": "bright white to cream",
    "composition": "coral and shell fragments (calcium carbonate), locally some quartz",
    "origin": "fringing coral reefs, beside the granite of the inner islands",
@@ -252,6 +318,10 @@
     "https://www.sciencedirect.com/science/article/pii/0025322769900358",
     "https://www.ovid.com/journals/jcres/fulltext/10.2112/05-0019.1~erosion-and-burial-of-granite-rocky-shores-in-the-recent-and"
    ]
+  },
+  "wikipedia": {
+   "title": "Seychelles",
+   "url": "https://en.wikipedia.org/wiki/Seychelles"
   }
  },
  {
@@ -278,6 +348,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "It is the southernmost barrier island with much quartz sand; south of here, beaches turn to shell and coral.",
+   "glance": {
+    "colour": "Light tan to cream",
+    "made_of": "Quartz mixed with shell and coral",
+    "from": "Southward-drifting quartz plus reef debris"
+   },
    "colour": "light tan to cream",
    "composition": "mix of quartz sand and shell/coral carbonate grains",
    "origin": "quartz drifting south along Florida's Atlantic coast plus shell and reef debris; some added sand",
@@ -289,6 +365,10 @@
     "https://www.govinfo.gov/content/pkg/CZIC-qh90-75-f6-b5-1984-phase-i/html/CZIC-qh90-75-f6-b5-1984-phase-i.htm",
     "https://keybiscayne.fl.gov/elevating_our_island_paradise/program_library/beach_renourishment_project.php"
    ]
+  },
+  "wikipedia": {
+   "title": "Key Biscayne, Florida",
+   "url": "https://en.wikipedia.org/wiki/Key_Biscayne%2C_Florida"
   }
  },
  {
@@ -315,6 +395,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Nearby Playa Blanca is golden, showing how much a beach's colour depends on the rock nearby.",
+   "glance": {
+    "colour": "Dark grey",
+    "made_of": "Ground-up volcanic rock",
+    "from": "Volcanic mountains, washed down by rivers"
+   },
    "colour": "dark grey",
    "composition": "ground-up volcanic rock and dark minerals",
    "origin": "volcanic rock washed down rivers from Costa Rica's mountains",
@@ -325,6 +411,10 @@
     "https://we-sell-paradise.com/costa-ricas-dark-sand/",
     "https://costaricaexperts.com/costa-rica-travel-blog/where-to-find-black-sand-beaches-in-costa-rica/"
    ]
+  },
+  "wikipedia": {
+   "title": "Jacó, Costa Rica",
+   "url": "https://en.wikipedia.org/wiki/Jac%C3%B3%2C_Costa_Rica"
   }
  },
  {
@@ -351,6 +441,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Black streaks on the beach are heavy dark minerals, not oil, and fossil sharks' teeth wash up here.",
+   "glance": {
+    "colour": "Light golden tan with shell",
+    "made_of": "Mostly quartz with crushed shell",
+    "from": "Quartz, shells and fossils from seafloor"
+   },
    "colour": "light golden tan with shell bits",
    "composition": "mostly quartz with roughly 10-15% crushed shell (regional NC description)",
    "origin": "quartz sand plus shells and fossils from the seafloor",
@@ -360,6 +456,10 @@
    "sources": [
     "https://indyweek.com/news/closer-read-north-carolina-shore/"
    ]
+  },
+  "wikipedia": {
+   "title": "Topsail Island",
+   "url": "https://en.wikipedia.org/wiki/Topsail_Island"
   }
  },
  {
@@ -386,6 +486,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "With no continent nearby to supply quartz, this sand is made of coral, chalky seaweed and tiny sea creatures.",
+   "glance": {
+    "colour": "Golden to light tan",
+    "made_of": "Coral, algae and shell grains",
+    "from": "Offshore reefs and sea life"
+   },
    "colour": "golden to light tan",
    "composition": "calcium carbonate grains from coral, algae, shells and other sea life",
    "origin": "reefs and marine life offshore; nearby headlands are basalt lava",
@@ -396,6 +502,10 @@
     "https://dlnr.hawaii.gov/occl/files/2013/08/Sand-in-Hawai.pdf",
     "https://www.soest.hawaii.edu/crc/resources-2/historical-mosaics/oneloamakena/"
    ]
+  },
+  "wikipedia": {
+   "title": "Mākena State Park",
+   "url": "https://en.wikipedia.org/wiki/M%C4%81kena_State_Park"
   }
  },
  {
@@ -422,6 +532,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The fine grains pack so hard when wet that cars can drive on the beach, which launched Daytona's beach racing.",
+   "glance": {
+    "colour": "Light tan with orange patches",
+    "made_of": "Quartz and ground coquina shell",
+    "from": "Atlantic coast quartz plus local shell"
+   },
    "colour": "light tan, with orange patches",
    "composition": "quartz mixed with finely ground coquina shell",
    "origin": "quartz drifting down the Atlantic coast plus local shell",
@@ -433,6 +549,10 @@
     "https://www.visitflorida.com/travel-ideas/articles/florida-white-orange-dark-sand-beaches/",
     "https://nextbreakout.com/blog/daytona-beach-driving-on-the-beach-guide"
    ]
+  },
+  "wikipedia": {
+   "title": "Daytona Beach, Florida",
+   "url": "https://en.wikipedia.org/wiki/Daytona_Beach%2C_Florida"
   }
  },
  {
@@ -459,6 +579,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Florida is built of limestone with little quartz of its own, so nearly all this quartz travelled in from far away.",
+   "glance": {
+    "colour": "White to light grey",
+    "made_of": "Mostly quartz with some shell",
+    "from": "Appalachian quartz along the Gulf coast"
+   },
    "colour": "white to light grey",
    "composition": "mostly quartz with some shell fragments",
    "origin": "Appalachian quartz moved along Florida's Gulf coast",
@@ -469,6 +595,10 @@
     "https://www.visitflorida.com/travel-ideas/articles/florida-white-orange-dark-sand-beaches/",
     "https://geoapps.geosociety.org/abstracts/paper/331787"
    ]
+  },
+  "wikipedia": {
+   "title": "Tampa, Florida",
+   "url": "https://en.wikipedia.org/wiki/Tampa%2C_Florida"
   }
  },
  {
@@ -495,6 +625,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The sand is almost pure quartz, so clean and white that it can squeak when you walk on it.",
+   "glance": {
+    "colour": "Brilliant sugar-white",
+    "made_of": "Almost pure quartz",
+    "from": "Appalachian Mountains, carried by rivers"
+   },
    "colour": "brilliant sugar-white",
    "composition": "almost pure quartz",
    "origin": "quartz from the Appalachian Mountains, carried by rivers to the Gulf",
@@ -505,6 +641,10 @@
     "https://visitpensacolabeach.com/a-national-treasure-blog/",
     "https://www.360blue.com/blogs/white-sand"
    ]
+  },
+  "wikipedia": {
+   "title": "Pensacola, Florida",
+   "url": "https://en.wikipedia.org/wiki/Pensacola%2C_Florida"
   }
  },
  {
@@ -531,6 +671,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Tybee loses so much sand that about 1.3 million cubic yards were added in a single winter, 2019-2020.",
+   "glance": {
+    "colour": "Light tan with dark specks",
+    "made_of": "Quartz, feldspar and dark minerals",
+    "from": "Appalachian rock, carried by rivers"
+   },
    "colour": "light tan with dark specks",
    "composition": "mostly quartz with feldspar and a few percent dark heavy minerals",
    "origin": "Appalachian rocks, carried by rivers to the Georgia coast",
@@ -542,6 +688,10 @@
     "https://www.govinfo.gov/content/pkg/GOVPUB-I-06188af546722b65cfbbef1b0e0b54c8/pdf/GOVPUB-I-06188af546722b65cfbbef1b0e0b54c8.pdf",
     "https://www.newsfromthestates.com/article/tybee-island-secures-funding-replenish-beach-sand"
    ]
+  },
+  "wikipedia": {
+   "title": "Tybee Island, Georgia",
+   "url": "https://en.wikipedia.org/wiki/Tybee_Island%2C_Georgia"
   }
  },
  {
@@ -568,6 +718,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "A tiny red sea creature called Homotrema gives some Bahamian beaches pink specks, even whole pink beaches.",
+   "glance": {
+    "colour": "White to cream, pink-flecked",
+    "made_of": "Shell, coral and tiny shells",
+    "from": "Local sea life and crumbled limestone"
+   },
    "colour": "white to pale cream, sometimes pink-flecked",
    "composition": "aragonite (calcium carbonate) grains from shells, coral and foraminifera",
    "origin": "shells and skeletons of local sea life, plus crumbled limestone",
@@ -578,6 +734,10 @@
     "http://www.jsjgeology.net/Carbonate-platform-beach-sediments.htm",
     "https://www.bahamas.com/natural-wonders/harbour-island-pink-sand-beach"
    ]
+  },
+  "wikipedia": {
+   "title": "Nassau, Bahamas",
+   "url": "https://en.wikipedia.org/wiki/Nassau%2C_Bahamas"
   }
  },
  {
@@ -604,6 +764,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The gold-looking flecks in Coronado's sand are mica, a mineral that splits into thin, shiny, mirror-like sheets.",
+   "glance": {
+    "colour": "Light tan with gold sparkles",
+    "made_of": "Quartz and feldspar with mica",
+    "from": "Weathered granite-type mountain rock"
+   },
    "colour": "light tan with gold and silver sparkles",
    "composition": "mineral sand (mostly quartz and feldspar) with flakes of mica",
    "origin": "weathered granite-type mountain rocks, carried to the coast",
@@ -615,6 +781,10 @@
     "https://manoa.hawaii.edu/exploringourfluidearth/physical/coastal-interactions/beaches-and-sand",
     "https://coastalcare.org/educate/beach-basics/"
    ]
+  },
+  "wikipedia": {
+   "title": "Coronado, California",
+   "url": "https://en.wikipedia.org/wiki/Coronado%2C_California"
   }
  },
  {
@@ -641,6 +811,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "This sand was once giant dunes that turned to stone about 150 million years ago, in the age of dinosaurs.",
+   "glance": {
+    "colour": "Red, orange, pink and cream",
+    "made_of": "Eroded sandstone stained by iron",
+    "from": "Ancient dunes turned to stone, eroding"
+   },
    "colour": "bright red, orange, pink and cream",
    "composition": "sand eroded from Aztec Sandstone, coloured by iron oxide",
    "origin": "Jurassic sand dunes turned to stone about 150 million years ago, now eroding",
@@ -652,6 +828,10 @@
     "https://en.wikipedia.org/wiki/Valley_of_Fire_State_Park",
     "https://www.redrockcanyonlv.org/geology-highlights/"
    ]
+  },
+  "wikipedia": {
+   "title": "Valley of Fire State Park",
+   "url": "https://en.wikipedia.org/wiki/Valley_of_Fire_State_Park"
   }
  },
  {
@@ -678,6 +858,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Sandy beaches are rare in Croatia because sand-sized bits of limestone dissolve quickly.",
+   "glance": {
+    "colour": "White to beige",
+    "made_of": "Limestone pebbles with some sand",
+    "from": "Limestone of the Dalmatian coast"
+   },
    "colour": "white to beige",
    "composition": "limestone pebbles with some sand",
    "origin": "the limestone that forms the Dalmatian coast",
@@ -688,6 +874,10 @@
     "https://www.earthmagazine.org/article/travels-geology-croatia-land-limestone/",
     "https://znjan.com/en/articles/sandy-beaches-near-split/"
    ]
+  },
+  "wikipedia": {
+   "title": "Split, Croatia",
+   "url": "https://en.wikipedia.org/wiki/Split%2C_Croatia"
   }
  },
  {
@@ -714,6 +904,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The shells make the sand alkaline, so orchids and other lime-loving wildflowers grow on the dunes.",
+   "glance": {
+    "colour": "Pale golden",
+    "made_of": "Sand rich in shell fragments",
+    "from": "Shells washed ashore over generations"
+   },
    "colour": "pale golden",
    "composition": "sand rich in shell fragments (calcium carbonate)",
    "origin": "shells washed ashore over generations, on top of limestone bedrock",
@@ -724,6 +920,10 @@
     "https://www.wildwest.ie/strandhillhabitat.html",
     "https://www.facebook.com/wildsligo/posts/%EF%B8%8F-sligos-own-little-desert-our-beautiful-coastal-sand-dunes-i-absolutely-love-to/252554780844018/"
    ]
+  },
+  "wikipedia": {
+   "title": "Strandhill",
+   "url": "https://en.wikipedia.org/wiki/Strandhill"
   }
  },
  {
@@ -750,6 +950,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The glitter in the water is white mica, which floats for a while before settling on the bottom.",
+   "glance": {
+    "colour": "Light golden, rusty, glittery specks",
+    "made_of": "Mostly quartz with white mica",
+    "from": "Maures hills, carried down by streams"
+   },
    "colour": "light golden, with occasional rusty and glittery specks",
    "composition": "mostly quartz grains, with flakes of white mica and some heavy minerals (garnet, staurolite, kyanite)",
    "origin": "rock of the Maures massif, worn down and carried to the coast by streams",
@@ -759,6 +965,10 @@
    "sources": [
     "https://www.conservatoiredufreinet.org/ressources/des-plages-des-maures-aux-multiples-tresors/"
    ]
+  },
+  "wikipedia": {
+   "title": "Saint-Tropez",
+   "url": "https://en.wikipedia.org/wiki/Saint-Tropez"
   }
  },
  {
@@ -785,6 +995,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Visitors must use mats and cannot take sand home, because it comes slowly from creatures living on offshore seagrass.",
+   "glance": {
+    "colour": "Very pale white",
+    "made_of": "Shell and skeleton fragments",
+    "from": "Offshore seagrass meadow and its creatures"
+   },
    "colour": "very pale white",
    "composition": "mostly bioclastic: fragments of shells and skeletons of sea creatures (calcium carbonate), with under 10% mineral grains",
    "origin": "the Posidonia seagrass meadow just offshore, whose plants and the animals living on them produce the shell debris",
@@ -794,6 +1010,10 @@
    "sources": [
     "https://www.researchgate.net/publication/264235035_Sedimentary_Features_Of_The_Offshore_Part_Of_The_La_Pelosa_Beach_Sardinia_Italy"
    ]
+  },
+  "wikipedia": {
+   "title": "Stintino",
+   "url": "https://en.wikipedia.org/wiki/Stintino"
   }
  },
  {
@@ -820,6 +1040,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Many grains are far older than the Cape: eroded from older rocks, then scooped up and dropped by glaciers.",
+   "glance": {
+    "colour": "Pale tan to light beige",
+    "made_of": "Mostly quartz, some feldspar",
+    "from": "Eroding glacial cliffs of the Cape"
+   },
    "colour": "pale tan to light beige",
    "composition": "about 89% quartz and 4% feldspar, with small amounts of glauconite and heavy minerals such as tourmaline, staurolite and garnet",
    "origin": "eroding sea cliffs made of sand and gravel left by melting glaciers about 20,000 years ago",
@@ -829,6 +1055,10 @@
    "sources": [
     "https://hero.epa.gov/reference/6900565/"
    ]
+  },
+  "wikipedia": {
+   "title": "Cape Cod",
+   "url": "https://en.wikipedia.org/wiki/Cape_Cod"
   }
  },
  {
@@ -855,6 +1085,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Barcelona had almost no beaches before the 1700s; today's sand is mostly brought in from elsewhere on the coast.",
+   "glance": {
+    "colour": "",
+    "made_of": "",
+    "from": "Elsewhere on the Catalan coast"
+   },
    "colour": "not published",
    "composition": "imported sand; its mineral make-up is not published in the sources found",
    "origin": "brought in from other parts of the Catalan coast, from dredged harbour mouths and sand deposits",
@@ -865,6 +1101,10 @@
     "https://www.icm.csic.es/en/news/jorge-guillen-erosive-trend-barcelonas-beaches-could-lead-their-disappearance-short-term",
     "https://coastalcare.org/2023/05/barcelonas-beaches-could-vanish-as-authorities-abandon-enhancement-the-guardian/"
    ]
+  },
+  "wikipedia": {
+   "title": "Barcelona",
+   "url": "https://en.wikipedia.org/wiki/Barcelona"
   }
  },
  {
@@ -884,7 +1124,8 @@
   "approximate": false,
   "approx_note": "",
   "geocode": null,
-  "sand": null
+  "sand": null,
+  "wikipedia": null
  },
  {
   "id": "SJ-026",
@@ -910,6 +1151,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Pumping oil made the seabed here sink by up to 1.2 m, explaining much of the sand that seemed to vanish.",
+   "glance": {
+    "colour": "",
+    "made_of": "Mineral sand, partly added by people",
+    "from": "Santa Ana River and dumped sand"
+   },
    "colour": "not published",
    "composition": "mineral sand washed down by rivers and added by beach nourishment; detailed mineral make-up not published in the sources found",
    "origin": "the Santa Ana and San Gabriel rivers, plus sand dumped at Surfside-Sunset Beach that waves carry south",
@@ -920,6 +1167,10 @@
     "https://escholarship.org/content/qt4tm114zf/qt4tm114zf.pdf",
     "https://www.spl.usace.army.mil/Missions/Civil-Works/Projects-and-Studies/Surfside-Sunset/"
    ]
+  },
+  "wikipedia": {
+   "title": "Huntington Beach, California",
+   "url": "https://en.wikipedia.org/wiki/Huntington_Beach%2C_California"
   }
  },
  {
@@ -946,6 +1197,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "This is a feeder beach: sand is dumped here on purpose so waves can spread it south to Huntington and Newport.",
+   "glance": {
+    "colour": "",
+    "made_of": "Sand placed by nourishment projects",
+    "from": "Dredged and dumped by Army engineers"
+   },
    "colour": "not published",
    "composition": "mostly sand placed by beach nourishment projects; detailed mineral make-up not published in the sources found",
    "origin": "sand dredged and dumped here by the Army Corps of Engineers as a feeder beach",
@@ -956,6 +1213,10 @@
     "https://escholarship.org/content/qt4tm114zf/qt4tm114zf.pdf",
     "https://www.spl.usace.army.mil/Missions/Civil-Works/Projects-and-Studies/Surfside-Sunset/"
    ]
+  },
+  "wikipedia": {
+   "title": "Sunset Beach, California",
+   "url": "https://en.wikipedia.org/wiki/Sunset_Beach%2C_California"
   }
  },
  {
@@ -982,6 +1243,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Much of this beach is sand dug out for a sewage plant in 1947 and a marina in the 1960s.",
+   "glance": {
+    "colour": "Light grey-tan",
+    "made_of": "Milky quartz, silvery mica, granite bits",
+    "from": "Mostly added by people since 1930s"
+   },
    "colour": "light grey-tan",
    "composition": "mineral sand, partly from granite (milky quartz, silvery mica, grey granite bits)",
    "origin": "largely sand added by people since the 1930s, especially from digging out the Hyperion sewage plant and Marina del Rey",
@@ -992,6 +1259,10 @@
     "https://escholarship.org/content/qt4tm114zf/qt4tm114zf.pdf",
     "https://laist.com/news/kpcc-archive/southern-california-s-geologic-history-as-told-by"
    ]
+  },
+  "wikipedia": {
+   "title": "Manhattan Beach, California",
+   "url": "https://en.wikipedia.org/wiki/Manhattan_Beach%2C_California"
   }
  },
  {
@@ -1018,6 +1289,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "A 1934 breakwater by the pier trapped drifting sand and made the beach about 200 m wider.",
+   "glance": {
+    "colour": "Light grey-tan",
+    "made_of": "Milky quartz, silvery mica, granite bits",
+    "from": "Drifting sand trapped by a breakwater"
+   },
    "colour": "light grey-tan",
    "composition": "mineral sand, partly from granite (milky quartz, silvery mica, grey granite bits)",
    "origin": "sand drifting south along the coast, trapped by a 1934 breakwater, plus the bay's wider nourishment",
@@ -1028,6 +1305,10 @@
     "https://escholarship.org/content/qt4tm114zf/qt4tm114zf.pdf",
     "https://laist.com/news/kpcc-archive/southern-california-s-geologic-history-as-told-by"
    ]
+  },
+  "wikipedia": {
+   "title": "Santa Monica State Beach",
+   "url": "https://en.wikipedia.org/wiki/Santa_Monica_State_Beach"
   }
  },
  {
@@ -1054,6 +1335,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Sand from building Marina del Rey and from the sewage plant site next door was piled here, some by conveyor belt.",
+   "glance": {
+    "colour": "Light grey-tan",
+    "made_of": "Milky quartz, silvery mica, granite bits",
+    "from": "Marina del Rey dredging, Hyperion site"
+   },
    "colour": "light grey-tan",
    "composition": "mineral sand, partly from granite (milky quartz, silvery mica, grey granite bits)",
    "origin": "mostly sand dumped from Marina del Rey dredging and the Hyperion plant site next door",
@@ -1064,6 +1351,10 @@
     "https://escholarship.org/content/qt4tm114zf/qt4tm114zf.pdf",
     "https://laist.com/news/kpcc-archive/southern-california-s-geologic-history-as-told-by"
    ]
+  },
+  "wikipedia": {
+   "title": "Playa del Rey, Los Angeles",
+   "url": "https://en.wikipedia.org/wiki/Playa_del_Rey,_Los_Angeles"
   }
  },
  {
@@ -1090,6 +1381,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Nearly 23 million cubic metres of sand were added to the beaches of this bay between 1938 and 1989.",
+   "glance": {
+    "colour": "Light grey-tan",
+    "made_of": "Milky quartz, silvery mica, granite bits",
+    "from": "Bay drift, much added by people"
+   },
    "colour": "light grey-tan",
    "composition": "mineral sand, partly from granite (milky quartz, silvery mica, grey granite bits)",
    "origin": "sand moving south through Santa Monica Bay, much of it added by people since the 1930s",
@@ -1100,6 +1397,10 @@
     "https://laist.com/news/kpcc-archive/southern-california-s-geologic-history-as-told-by",
     "https://escholarship.org/content/qt4tm114zf/qt4tm114zf.pdf"
    ]
+  },
+  "wikipedia": {
+   "title": "Redondo Beach, California",
+   "url": "https://en.wikipedia.org/wiki/Redondo_Beach,_California"
   }
  },
  {
@@ -1126,6 +1427,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The black and red flecks are bits of lava from volcanoes that erupted here about 24 million years ago.",
+   "glance": {
+    "colour": "Tan, black and red flecks",
+    "made_of": "Mineral sand with volcanic rock bits",
+    "from": "Drift around Point Dume, old volcanoes"
+   },
    "colour": "tan with black and red flecks",
    "composition": "mineral sand with volcanic rock fragments, mostly quartz at some beaches",
    "origin": "sand carried around Point Dume, plus volcanic rock from the Santa Monica Mountains",
@@ -1136,6 +1443,10 @@
     "https://laist.com/news/kpcc-archive/southern-california-s-geologic-history-as-told-by",
     "https://escholarship.org/content/qt4tm114zf/qt4tm114zf.pdf"
    ]
+  },
+  "wikipedia": {
+   "title": "Malibu, California",
+   "url": "https://en.wikipedia.org/wiki/Malibu,_California"
   }
  },
  {
@@ -1162,6 +1473,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "This beach is wide mainly because a 1934 breakwater by the pier trapped drifting sand, adding about 200 m.",
+   "glance": {
+    "colour": "Light grey-tan",
+    "made_of": "Milky quartz, silvery mica, granite bits",
+    "from": "Sand trapped by a 1934 breakwater"
+   },
    "colour": "light grey-tan",
    "composition": "mineral sand, partly from granite (milky quartz, silvery mica, grey granite bits)",
    "origin": "sand trapped by the 1934 Santa Monica breakwater, plus the bay's wider nourishment",
@@ -1172,6 +1489,10 @@
     "https://escholarship.org/content/qt4tm114zf/qt4tm114zf.pdf",
     "https://laist.com/news/kpcc-archive/southern-california-s-geologic-history-as-told-by"
    ]
+  },
+  "wikipedia": {
+   "title": "Muscle Beach",
+   "url": "https://en.wikipedia.org/wiki/Muscle_Beach"
   }
  },
  {
@@ -1198,6 +1519,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Southern California's beach-building began here in 1936, when work crews moved sand onto Venice's eroded beach.",
+   "glance": {
+    "colour": "Light grey-tan",
+    "made_of": "Milky quartz, silvery mica, granite bits",
+    "from": "Hyperion sand and breakwater trapping"
+   },
    "colour": "light grey-tan",
    "composition": "mineral sand, partly from granite (milky quartz, silvery mica, grey granite bits)",
    "origin": "sand moved from the Hyperion site from 1936 onward, plus sand trapped against the Marina del Rey breakwater",
@@ -1209,6 +1536,10 @@
     "https://escholarship.org/content/qt4tm114zf/qt4tm114zf.pdf",
     "https://laist.com/news/kpcc-archive/southern-california-s-geologic-history-as-told-by"
    ]
+  },
+  "wikipedia": {
+   "title": "Venice, Los Angeles",
+   "url": "https://en.wikipedia.org/wiki/Venice,_Los_Angeles"
   }
  },
  {
@@ -1235,6 +1566,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "This bay's beaches were naturally narrow; much of their sand was dug out of the Hyperion plant and Marina del Rey.",
+   "glance": {
+    "colour": "Light grey-tan",
+    "made_of": "Milky quartz, silvery mica, granite bits",
+    "from": "Bay drift, much added by people"
+   },
    "colour": "light grey-tan",
    "composition": "mineral sand, partly from granite (milky quartz, silvery mica, grey granite bits)",
    "origin": "sand moving south through Santa Monica Bay, much of it added by people since the 1930s",
@@ -1245,6 +1582,10 @@
     "https://escholarship.org/content/qt4tm114zf/qt4tm114zf.pdf",
     "https://laist.com/news/kpcc-archive/southern-california-s-geologic-history-as-told-by"
    ]
+  },
+  "wikipedia": {
+   "title": "Hermosa Beach, California",
+   "url": "https://en.wikipedia.org/wiki/Hermosa_Beach,_California"
   }
  },
  {
@@ -1271,6 +1612,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Kelso Dunes sand started as mountain granite, rode the Mojave River, then blew about 35 miles east on the wind.",
+   "glance": {
+    "colour": "Pale tan to light grey",
+    "made_of": "Quartz, feldspar and rock fragments",
+    "from": "Mountain granite, moved by river, wind"
+   },
    "colour": "pale tan to light grey",
    "composition": "mostly quartz and feldspar, with many small rock fragments",
    "origin": "granite of the San Bernardino Mountains, washed down by the Mojave River and blown east by wind",
@@ -1281,6 +1628,10 @@
     "https://masterprojects.jpl.nasa.gov/emissivity/validation/kelso-dunes",
     "https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=2097&context=usgsstaffpub"
    ]
+  },
+  "wikipedia": {
+   "title": "Mojave Desert",
+   "url": "https://en.wikipedia.org/wiki/Mojave_Desert"
   }
  },
  {
@@ -1307,6 +1658,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The biggest source of sand on this coast is its own sea cliffs, which are 140 to 150 million years old.",
+   "glance": {
+    "colour": "Golden",
+    "made_of": "Sand and pebbles from sea cliffs",
+    "from": "Eroding limestone, marl and sandstone cliffs"
+   },
    "colour": "golden",
    "composition": "sand and pebbles from eroded sea cliffs; detailed mineral make-up not published in the sources found",
    "origin": "erosion of the coastal cliffs of limestone, marl and sandstone along the Espichel coast",
@@ -1317,6 +1674,10 @@
     "https://doaj.org/article/2b80b87788614aa581ef0784b09c1ff4",
     "https://zh.mindat.org/loc-251066.html"
    ]
+  },
+  "wikipedia": {
+   "title": "Sesimbra",
+   "url": "https://en.wikipedia.org/wiki/Sesimbra"
   }
  },
  {
@@ -1343,6 +1704,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Less than 1% of this sand is quartz, because no rivers bring rock sand this far; living things make the rest.",
+   "glance": {
+    "colour": "Bright white to cream",
+    "made_of": "Coral, chalky seaweed and shells",
+    "from": "Barrier Reef and offshore seagrass beds"
+   },
    "colour": "bright white to cream",
    "composition": "calcium carbonate from coral, coralline algae, Halimeda seaweed and shells, with under 1% quartz",
    "origin": "the Belize Barrier Reef and seagrass beds offshore, on top of old limestone",
@@ -1353,6 +1720,10 @@
     "https://ambergriscaye.com/pages/mayan/Sedimentology-mazzullo.html",
     "https://oceanservice.noaa.gov/facts/sand.html"
    ]
+  },
+  "wikipedia": {
+   "title": "Ambergris Caye",
+   "url": "https://en.wikipedia.org/wiki/Ambergris_Caye"
   }
  },
  {
@@ -1379,6 +1750,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "On other Dominican tourist beaches, 88% of the sand comes from living things, earning reefs the name 'carbonate factories'.",
+   "glance": {
+    "colour": "White",
+    "made_of": "Coral, red algae and shell bits",
+    "from": "Coral reefs and sea life offshore"
+   },
    "colour": "white",
    "composition": "mostly biological calcium carbonate: coral, red algae and shell fragments",
    "origin": "coral reefs and other marine life just offshore",
@@ -1389,6 +1766,10 @@
     "https://www.intec.edu.do/notas-de-prensa/item/las-playas-dominicanas-dependen-de-la-conservacion-de-los-ecosistemas-marinos-el-88-de-su-arena-es-de-origen-biologico",
     "https://www.melia.com/en/blog/travel/what-to-see-playa-bavaro"
    ]
+  },
+  "wikipedia": {
+   "title": "Bávaro",
+   "url": "https://en.wikipedia.org/wiki/B%C3%A1varo"
   }
  },
  {
@@ -1415,6 +1796,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Some beaches here are pink, from the crushed red shells of a tiny sea creature; the pink shows best when wet.",
+   "glance": {
+    "colour": "White to pale pink",
+    "made_of": "Coral and shell, some red shells",
+    "from": "The island's surrounding coral reefs"
+   },
    "colour": "white to pale pink",
    "composition": "calcium carbonate from coral and shells, with red shells of a tiny single-celled creature (Homotrema rubrum) in the pink beaches",
    "origin": "the coral reefs around the island",
@@ -1425,6 +1812,10 @@
     "https://thecoveeleuthera.com/the-story-behind-harbour-islands-famous-pink-sand-beach/",
     "https://oceanservice.noaa.gov/facts/sand.html"
    ]
+  },
+  "wikipedia": {
+   "title": "Eleuthera",
+   "url": "https://en.wikipedia.org/wiki/Eleuthera"
   }
  },
  {
@@ -1451,6 +1842,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Just offshore, sand pours down an undersea canyon in 'sand falls' to depths over 1,000 m.",
+   "glance": {
+    "colour": "Golden to light tan",
+    "made_of": "Quartz-rich granite sand",
+    "from": "Local granite, worn by waves"
+   },
    "colour": "golden to light tan",
    "composition": "granite-derived mineral sand with a high quartz content",
    "origin": "the granite rocks of the Cabo San Lucas area, worn down by weather and waves",
@@ -1461,6 +1858,10 @@
     "https://www.mdpi.com/2073-445X/10/1/27",
     "https://en.wikipedia.org/wiki/San_Lucas_Canyon"
    ]
+  },
+  "wikipedia": {
+   "title": "Cabo San Lucas",
+   "url": "https://en.wikipedia.org/wiki/Cabo_San_Lucas"
   }
  },
  {
@@ -1487,6 +1888,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The curled tip of Cape Cod was built by waves carrying sand north from glacial cliffs farther south.",
+   "glance": {
+    "colour": "Pale tan to light grey",
+    "made_of": "Mostly quartz, some feldspar",
+    "from": "Outer Cape cliffs, carried north"
+   },
    "colour": "pale tan to light grey",
    "composition": "mostly quartz, with some feldspar",
    "origin": "sand worn off the glacial cliffs of the Outer Cape and carried north by waves",
@@ -1498,6 +1905,10 @@
     "https://npshistory.com/publications/caco/guides-guide/province-lands.pdf",
     "https://discovery.fiu.edu/display/pub193304"
    ]
+  },
+  "wikipedia": {
+   "title": "Provincetown, Massachusetts",
+   "url": "https://en.wikipedia.org/wiki/Provincetown%2C_Massachusetts"
   }
  },
  {
@@ -1524,6 +1935,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Southern California's beach-building began here in 1936, when work crews moved sand onto Venice's eroded beach.",
+   "glance": {
+    "colour": "Light grey-tan",
+    "made_of": "Milky quartz, silvery mica, granite bits",
+    "from": "Hyperion sand and breakwater trapping"
+   },
    "colour": "light grey-tan",
    "composition": "mineral sand, partly from granite (milky quartz, silvery mica, grey granite bits)",
    "origin": "sand moved from the Hyperion site from 1936 onward, plus sand trapped against the Marina del Rey breakwater",
@@ -1535,6 +1952,10 @@
     "https://escholarship.org/content/qt4tm114zf/qt4tm114zf.pdf",
     "https://laist.com/news/kpcc-archive/southern-california-s-geologic-history-as-told-by"
    ]
+  },
+  "wikipedia": {
+   "title": "Venice, Los Angeles",
+   "url": "https://en.wikipedia.org/wiki/Venice,_Los_Angeles"
   }
  },
  {
@@ -1561,6 +1982,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "In Hong Kong's humid climate, granite's feldspar rots into clay while tough quartz grains survive as sand.",
+   "glance": {
+    "colour": "Pale cream to light tan",
+    "made_of": "Quartz and feldspar from granite",
+    "from": "Granite bedrock of Lamma and neighbours"
+   },
    "colour": "pale cream to light tan",
    "composition": "quartz and feldspar grains from weathered granite (regional description)",
    "origin": "granite bedrock of Lamma and the surrounding Hong Kong islands",
@@ -1572,6 +1999,10 @@
     "https://hkss.cedd.gov.hk/hkss/en/publications-and-resources/educational-materials/hong-kong-geology/chapter-9/index.html",
     "https://ira.lib.polyu.edu.hk/handle/10397/103558"
    ]
+  },
+  "wikipedia": {
+   "title": "Lamma Island",
+   "url": "https://en.wikipedia.org/wiki/Lamma_Island"
   }
  },
  {
@@ -1598,6 +2029,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "This sand was never dark rock, just broken coral and shells, so the beach stays bright white.",
+   "glance": {
+    "colour": "Bright white",
+    "made_of": "Coral and shell fragments",
+    "from": "Nearby coral reefs and sea creatures"
+   },
    "colour": "bright white",
    "composition": "calcium carbonate (calcite and aragonite) from coral and shell fragments",
    "origin": "nearby coral reefs and marine creatures",
@@ -1608,6 +2045,10 @@
     "https://complete.bioone.org/journals/journal-of-coastal-research/volume-40/issue-1/JCOASTRES-D-22-00123.1/Physicochemical-Characterization-of-Beach-Sands-from-Renowned-Tourist-Regions-of/10.2112/JCOASTRES-D-22-00123.1.full",
     "https://dominicantoday.com/?p=2448"
    ]
+  },
+  "wikipedia": {
+   "title": "Punta Cana",
+   "url": "https://en.wikipedia.org/wiki/Punta_Cana"
   }
  },
  {
@@ -1634,6 +2075,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Tiny brown shell bits, some stained rusty orange by iron, give this sand its tan or orange tint.",
+   "glance": {
+    "colour": "Light tan, sometimes orange-tinted",
+    "made_of": "Quartz mixed with shell",
+    "from": "Appalachian quartz plus local shells"
+   },
    "colour": "light tan to grey-brown, sometimes orange-tinted",
    "composition": "quartz mixed with shell fragments (regional description)",
    "origin": "quartz from the Appalachian Mountains plus local shells",
@@ -1645,6 +2092,10 @@
     "https://geoapps.geosociety.org/abstracts/paper/331787",
     "https://gsa.confex.com/gsa/2023NC/webprogram/Paper386774.html"
    ]
+  },
+  "wikipedia": {
+   "title": "Cocoa Beach, Florida",
+   "url": "https://en.wikipedia.org/wiki/Cocoa_Beach%2C_Florida"
   }
  },
  {
@@ -1671,6 +2122,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Despite the label, Santo Domingo faces the Caribbean; the Dominican Republic has no Pacific coast at all.",
+   "glance": {
+    "colour": "White to cream",
+    "made_of": "Coral, shell and sea skeletons",
+    "from": "Coral reefs on the Caribbean coast"
+   },
    "colour": "white to cream",
    "composition": "mostly calcium carbonate from coral, shells and other marine skeletons",
    "origin": "coral reefs along the south (Caribbean) coast",
@@ -1682,6 +2139,10 @@
     "https://complete.bioone.org/journals/journal-of-coastal-research/volume-40/issue-1/JCOASTRES-D-22-00123.1/Physicochemical-Characterization-of-Beach-Sands-from-Renowned-Tourist-Regions-of/10.2112/JCOASTRES-D-22-00123.1.full",
     "https://dominicantoday.com/?p=2448"
    ]
+  },
+  "wikipedia": {
+   "title": "Santo Domingo",
+   "url": "https://en.wikipedia.org/wiki/Santo_Domingo"
   }
  },
  {
@@ -1708,6 +2169,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Small red garnets are mixed into this sand, which is about half quartz and half heat-transformed rock.",
+   "glance": {
+    "colour": "Light grey",
+    "made_of": "Quartz, metamorphic rock bits, garnet",
+    "from": "Peloritani Mountains behind the city"
+   },
    "colour": "light grey",
    "composition": "about 50-60% quartz, the rest metamorphic rock fragments with feldspar, mica and garnet",
    "origin": "crystalline rocks of the Peloritani Mountains behind the city",
@@ -1717,6 +2184,10 @@
    "sources": [
     "https://www.mdpi.com/2076-3263/14/6/167"
    ]
+  },
+  "wikipedia": {
+   "title": "Messina",
+   "url": "https://en.wikipedia.org/wiki/Messina"
   }
  },
  {
@@ -1743,6 +2214,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The red is a paper-thin rust-like coating on quartz grains, which river water scrubs off, so river sand is paler.",
+   "glance": {
+    "colour": "Red-brown to pale tan",
+    "made_of": "Mostly quartz from canyon rock",
+    "from": "Canyon walls and the Colorado River"
+   },
    "colour": "red-brown to pale tan",
    "composition": "sand eroded from the canyon's rock layers, largely quartz grains",
    "origin": "the canyon walls, upstream Colorado River and tributaries such as the Paria",
@@ -1754,6 +2231,10 @@
     "https://sites.google.com/suu.edu/thegrandcanyon/geologic-timeline",
     "https://www.usgs.gov/centers/southwest-biological-science-center/science/river-geomorphology-sediment-storage-sandbar?page=1"
    ]
+  },
+  "wikipedia": {
+   "title": "Grand Canyon",
+   "url": "https://en.wikipedia.org/wiki/Grand_Canyon"
   }
  },
  {
@@ -1780,6 +2261,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Key West's main public beach was built from crushed limestone and later topped up with sand barged from the Bahamas.",
+   "glance": {
+    "colour": "White",
+    "made_of": "Limestone, coral, shell and algae grains",
+    "from": "Reef, limestone and Bahamas sand"
+   },
    "colour": "white",
    "composition": "calcium carbonate: limestone grains, aragonite, coral, shell and algae fragments",
    "origin": "reef and limestone; the main public beach was built with sand barged from the Bahamas",
@@ -1790,6 +2277,10 @@
     "https://floridadep.gov/sites/default/files/CarbonateBeachesOfFlorida-NoAppendices.pdf",
     "https://floridadep.gov/sites/default/files/SBMP_Fl._Keys.pdf"
    ]
+  },
+  "wikipedia": {
+   "title": "Key West",
+   "url": "https://en.wikipedia.org/wiki/Key_West"
   }
  },
  {
@@ -1816,6 +2307,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Much of this beach is sand dug out for a sewage plant in 1947 and a marina in the 1960s.",
+   "glance": {
+    "colour": "Light grey-tan",
+    "made_of": "Milky quartz, silvery mica, granite bits",
+    "from": "Mostly added by people since 1930s"
+   },
    "colour": "light grey-tan",
    "composition": "mineral sand, partly from granite (milky quartz, silvery mica, grey granite bits)",
    "origin": "largely sand added by people since the 1930s, especially from digging out the Hyperion sewage plant and Marina del Rey",
@@ -1826,6 +2323,10 @@
     "https://escholarship.org/content/qt4tm114zf/qt4tm114zf.pdf",
     "https://laist.com/news/kpcc-archive/southern-california-s-geologic-history-as-told-by"
    ]
+  },
+  "wikipedia": {
+   "title": "Manhattan Beach, California",
+   "url": "https://en.wikipedia.org/wiki/Manhattan_Beach%2C_California"
   }
  },
  {
@@ -1852,6 +2353,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Sand here grows from the sea: tiny round grains build up in layers like pearls as currents roll them.",
+   "glance": {
+    "colour": "White to cream",
+    "made_of": "Tiny round grains and shell bits",
+    "from": "Warm shallows of Great Bahama Bank"
+   },
    "colour": "white to cream",
    "composition": "calcium carbonate: ooids (tiny round aragonite grains) and shell fragments",
    "origin": "forms in the warm shallow water of the Great Bahama Bank",
@@ -1863,6 +2370,10 @@
     "https://www.semanticscholar.org/paper/Bahamian-O%C3%B6litic-Sand-Newell-Purdy/582ad39fab26a31bdfe9aafcca943305bc20763c",
     "https://blueholes.org/The%20Rob%20Palmer%20Blue%20Holes%20Foundation/Carbonate%20Sands.html"
    ]
+  },
+  "wikipedia": {
+   "title": "Bimini",
+   "url": "https://en.wikipedia.org/wiki/Bimini"
   }
  },
  {
@@ -1889,6 +2400,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Santorini is the rim of a collapsed volcano, and waves grind its dark lava into this sand, which gets very hot.",
+   "glance": {
+    "colour": "Black to dark grey",
+    "made_of": "Ground-down lava and some pumice",
+    "from": "The island's volcano, broken by waves"
+   },
    "colour": "black to dark grey",
    "composition": "ground-down dark lava rock, with some pumice",
    "origin": "the island's volcano, broken down by waves",
@@ -1900,6 +2417,10 @@
     "https://emeraldcollection.gr/santorini-beaches/",
     "https://aromasuites.com/discover/perissa-vs-kamari-beach"
    ]
+  },
+  "wikipedia": {
+   "title": "Santorini",
+   "url": "https://en.wikipedia.org/wiki/Santorini"
   }
  },
  {
@@ -1926,6 +2447,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "At Reynisfjara, the same black lava rock stands as huge six-sided columns.",
+   "glance": {
+    "colour": "Black",
+    "made_of": "Basalt grains and volcanic glass",
+    "from": "Lava broken by glaciers and rivers"
+   },
    "colour": "black",
    "composition": "basalt (dark volcanic rock) grains and volcanic glass",
    "origin": "lava broken down by glaciers, rivers and waves",
@@ -1936,6 +2463,10 @@
     "https://www.visiticeland.com/article/black-beaches-iceland/",
     "https://guidetoiceland.is/travel-iceland/drive/reynisfjara"
    ]
+  },
+  "wikipedia": {
+   "title": "Iceland",
+   "url": "https://en.wikipedia.org/wiki/Iceland"
   }
  },
  {
@@ -1962,6 +2493,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "This sand starts in the Sierra Nevada and travels down rivers, through the Bay and out the Golden Gate.",
+   "glance": {
+    "colour": "Tan to grey, dark specks",
+    "made_of": "Quartz, feldspar and dark minerals",
+    "from": "Sierra Nevada, via rivers and Bay"
+   },
    "colour": "tan to grey, with dark specks",
    "composition": "mineral sand: quartz and feldspar with dark heavy minerals",
    "origin": "Sierra Nevada mountains, carried down rivers, through the Bay and out the Golden Gate",
@@ -1973,6 +2510,10 @@
     "https://pubs.usgs.gov/of/2007/1217/of2007-1217.pdf",
     "https://manoa.hawaii.edu/exploringourfluidearth/physical/coastal-interactions/beaches-and-sand"
    ]
+  },
+  "wikipedia": {
+   "title": "Golden Gate Park",
+   "url": "https://en.wikipedia.org/wiki/Golden_Gate_Park"
   }
  },
  {
@@ -1999,6 +2540,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Florida sits on limestone, so its quartz travelled all the way from the Appalachian Mountains.",
+   "glance": {
+    "colour": "Light tan to cream",
+    "made_of": "Quartz with shell and coral",
+    "from": "Appalachian quartz plus local reef debris"
+   },
    "colour": "light tan to cream",
    "composition": "quartz mixed with shell and coral fragments (regional description)",
    "origin": "quartz from the Appalachian Mountains plus local shells and reef debris",
@@ -2009,6 +2556,10 @@
     "https://www.visitflorida.com/travel-ideas/articles/florida-white-orange-dark-sand-beaches/",
     "https://geoapps.geosociety.org/abstracts/paper/331787"
    ]
+  },
+  "wikipedia": {
+   "title": "Fort Lauderdale, Florida",
+   "url": "https://en.wikipedia.org/wiki/Fort_Lauderdale,_Florida"
   }
  },
  {
@@ -2035,6 +2586,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "At South Point on the Big Island, one beach is almost entirely green, made of olivine crystals from lava.",
+   "glance": {
+    "colour": "White, black or green",
+    "made_of": "Coral, lava or olivine crystals",
+    "from": "Coral reefs and the islands' volcanoes"
+   },
    "colour": "white, black or green depending on the beach",
    "composition": "coral and shell (white), basalt lava (black) or olivine crystals (green)",
    "origin": "coral reefs and the islands' volcanoes",
@@ -2045,6 +2602,10 @@
     "https://dlnr.hawaii.gov/occl/files/2013/08/Sand-in-Hawai.pdf",
     "https://manoa.hawaii.edu/exploringourfluidearth/physical/coastal-interactions/beaches-and-sand"
    ]
+  },
+  "wikipedia": {
+   "title": "Hawaii",
+   "url": "https://en.wikipedia.org/wiki/Hawaii"
   }
  },
  {
@@ -2071,6 +2632,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The main beaches in this gulf have dark volcanic sand, while some boat-access coves nearby are white.",
+   "glance": {
+    "colour": "Dark grey; some white coves",
+    "made_of": "Volcanic grains, or shell and coral",
+    "from": "Volcanic rock plus local shells"
+   },
    "colour": "dark grey on the main bay beaches; white on some coves",
    "composition": "volcanic rock grains on the main beaches; shell and coral fragments on the white coves",
    "origin": "Costa Rica's volcanic rock, plus local shells",
@@ -2082,6 +2649,10 @@
     "https://oceanservice.noaa.gov/facts/sand.html",
     "https://we-sell-paradise.com/costa-ricas-dark-sand/"
    ]
+  },
+  "wikipedia": {
+   "title": "Gulf of Papagayo",
+   "url": "https://en.wikipedia.org/wiki/Gulf_of_Papagayo"
   }
  },
  {
@@ -2108,6 +2679,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Southern California's beach-building began here in 1936, when work crews moved sand onto Venice's eroded beach.",
+   "glance": {
+    "colour": "Light grey-tan",
+    "made_of": "Milky quartz, silvery mica, granite bits",
+    "from": "Hyperion sand and breakwater trapping"
+   },
    "colour": "light grey-tan",
    "composition": "mineral sand, partly from granite (milky quartz, silvery mica, grey granite bits)",
    "origin": "sand moved from the Hyperion site from 1936 onward, plus sand trapped against the Marina del Rey breakwater",
@@ -2119,6 +2696,10 @@
     "https://escholarship.org/content/qt4tm114zf/qt4tm114zf.pdf",
     "https://laist.com/news/kpcc-archive/southern-california-s-geologic-history-as-told-by"
    ]
+  },
+  "wikipedia": {
+   "title": "Venice, Los Angeles",
+   "url": "https://en.wikipedia.org/wiki/Venice,_Los_Angeles"
   }
  },
  {
@@ -2145,6 +2726,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The cliffs turned brick red as air and rain rusted the iron in layers of volcanic rock.",
+   "glance": {
+    "colour": "Rust red with black",
+    "made_of": "Iron-rich volcanic rock bits",
+    "from": "Red volcanic cliffs near Akrotiri"
+   },
    "colour": "rust red to dark red-brown, with black",
    "composition": "iron-rich volcanic rock fragments (scoria, tuff and lava)",
    "origin": "red volcanic cliffs above the beach, near Akrotiri",
@@ -2156,6 +2743,10 @@
     "https://www.nomadotravel.app/en/attractions/red-beach",
     "https://geomerid.com/en/place/red-beach-akrotiri-santorini/overview/"
    ]
+  },
+  "wikipedia": {
+   "title": "Santorini",
+   "url": "https://en.wikipedia.org/wiki/Santorini"
   }
  },
  {
@@ -2182,6 +2773,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Palm Jumeirah alone was built from about 94 million cubic metres of shell sand dredged from the seabed.",
+   "glance": {
+    "colour": "Pale cream to white",
+    "made_of": "Mostly shell sand, some quartz",
+    "from": "Gulf sea life and dredged seabed"
+   },
    "colour": "pale cream to white",
    "composition": "mostly carbonate shell sand, with some quartz (regional description)",
    "origin": "shells and sea life of the shallow Gulf, plus sand dredged from the seabed",
@@ -2193,6 +2790,10 @@
     "https://en.wikipedia.org/wiki/Palm_Islands",
     "https://www.emerald.com/jgeen/article/166/3/253/394827/Palm-Jumeirah-Dubai-cone-penetrometer-testing-data"
    ]
+  },
+  "wikipedia": {
+   "title": "Dubai",
+   "url": "https://en.wikipedia.org/wiki/Dubai"
   }
  },
  {
@@ -2219,6 +2820,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Coastal sand on the nearby Phang Nga coast is mostly rounded quartz, with a few shell and coral bits mixed in.",
+   "glance": {
+    "colour": "White to light tan",
+    "made_of": "Mostly quartz, some shell and coral",
+    "from": "Andaman coast granite plus reef debris"
+   },
    "colour": "white to light tan",
    "composition": "mostly quartz, with some shell and coral fragments (regional description)",
    "origin": "granite of the Andaman coast, plus local reef debris",
@@ -2229,6 +2836,10 @@
     "http://www.pjoes.com/pdf-88210-22068?filename=Geomorphology+and.pdf",
     "https://www.travelfish.org/location/thailand/southern_thailand/phang_nga/ko_yao_yai"
    ]
+  },
+  "wikipedia": {
+   "title": "Ko Yao Yai",
+   "url": "https://en.wikipedia.org/wiki/Ko_Yao_Yai"
   }
  },
  {
@@ -2255,6 +2866,12 @@
   },
   "sand": {
    "known": false,
+   "highlight": "",
+   "glance": {
+    "colour": "",
+    "made_of": "",
+    "from": ""
+   },
    "colour": "",
    "composition": "",
    "origin": "",
@@ -2262,6 +2879,10 @@
    "grain": "",
    "summary": "Sand composition for this beach is not published — the jar is listed here from its label.",
    "sources": []
+  },
+  "wikipedia": {
+   "title": "Manuel Antonio National Park",
+   "url": "https://en.wikipedia.org/wiki/Manuel_Antonio_National_Park"
   }
  },
  {
@@ -2288,6 +2909,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Parrotfish help make this sand: they bite off coral to eat the algae and pass out the ground-up rock.",
+   "glance": {
+    "colour": "Bright white",
+    "made_of": "Seaweed skeletons, coral and shell",
+    "from": "The reef around the island"
+   },
    "colour": "bright white",
    "composition": "calcium carbonate from green algae (Halimeda), coral, shells and urchin spines",
    "origin": "the coral reef around the island",
@@ -2297,6 +2924,10 @@
    "sources": [
     "https://www.caymancompass.com/2008/01/08/the-origins-of-cayman-s-sand/"
    ]
+  },
+  "wikipedia": {
+   "title": "Grand Cayman",
+   "url": "https://en.wikipedia.org/wiki/Grand_Cayman"
   }
  },
  {
@@ -2323,6 +2954,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "About 4% of one sample was tiny bits of rusted shrapnel from the D-Day landings in 1944.",
+   "glance": {
+    "colour": "Light grey",
+    "made_of": "Mostly quartz, plus wartime shrapnel",
+    "from": "Inland rock, carried by the Seine"
+   },
    "colour": "light grey",
    "composition": "mostly quartz (about 78%), with feldspar, shell and limestone bits, and a small share of wartime shrapnel",
    "origin": "sand worn from inland sedimentary rocks, carried to the coast by the Seine and smaller rivers",
@@ -2333,6 +2970,10 @@
     "https://www.earthmagazine.org/article/d-days-legacy-remnants-invasion-linger-beach-sands/",
     "https://blogs.scientificamerican.com/history-of-geology/the-geology-of-d-day-june-6-1944/"
    ]
+  },
+  "wikipedia": {
+   "title": "Omaha Beach",
+   "url": "https://en.wikipedia.org/wiki/Omaha_Beach"
   }
  },
  {
@@ -2359,6 +3000,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "These white grains began as Appalachian Mountain rock, carried all the way to the Gulf by rivers.",
+   "glance": {
+    "colour": "White",
+    "made_of": "Fine quartz with shell bits",
+    "from": "Appalachian rock, carried by rivers"
+   },
    "colour": "white",
    "composition": "mostly fine quartz grains, with shell fragments mixed in",
    "origin": "quartz weathered from the Appalachian Mountains long ago and carried south by rivers and currents, plus local shells",
@@ -2369,6 +3016,10 @@
     "https://www.paradisecoast.com/Beaches/Naples-Beach",
     "https://www.visitflorida.com/travel-ideas/articles/florida-white-orange-dark-sand-beaches/"
    ]
+  },
+  "wikipedia": {
+   "title": "Naples, Florida",
+   "url": "https://en.wikipedia.org/wiki/Naples%2C_Florida"
   }
  },
  {
@@ -2395,6 +3046,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Barcelona had almost no beaches before the 1700s; today's sand is mostly brought in from elsewhere on the coast.",
+   "glance": {
+    "colour": "",
+    "made_of": "",
+    "from": "Elsewhere on the Catalan coast"
+   },
    "colour": "not published",
    "composition": "imported sand; its mineral make-up is not published in the sources found",
    "origin": "brought in from other parts of the Catalan coast, from dredged harbour mouths and sand deposits",
@@ -2405,6 +3062,10 @@
     "https://www.icm.csic.es/en/news/jorge-guillen-erosive-trend-barcelonas-beaches-could-lead-their-disappearance-short-term",
     "https://coastalcare.org/2023/05/barcelonas-beaches-could-vanish-as-authorities-abandon-enhancement-the-guardian/"
    ]
+  },
+  "wikipedia": {
+   "title": "Barcelona",
+   "url": "https://en.wikipedia.org/wiki/Barcelona"
   }
  },
  {
@@ -2431,6 +3092,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The sand is almost pure quartz, so clean and white that it can squeak when you walk on it.",
+   "glance": {
+    "colour": "Brilliant sugar-white",
+    "made_of": "Almost pure quartz",
+    "from": "Appalachian Mountains, carried by rivers"
+   },
    "colour": "brilliant sugar-white",
    "composition": "almost pure quartz",
    "origin": "quartz from the Appalachian Mountains, carried by rivers to the Gulf",
@@ -2441,6 +3108,10 @@
     "https://visitpensacolabeach.com/a-national-treasure-blog/",
     "https://www.360blue.com/blogs/white-sand"
    ]
+  },
+  "wikipedia": {
+   "title": "Pensacola, Florida",
+   "url": "https://en.wikipedia.org/wiki/Pensacola%2C_Florida"
   }
  },
  {
@@ -2467,6 +3138,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "A 1934 breakwater by the pier trapped drifting sand and made the beach about 200 m wider.",
+   "glance": {
+    "colour": "Light grey-tan",
+    "made_of": "Milky quartz, silvery mica, granite bits",
+    "from": "Drifting sand trapped by a breakwater"
+   },
    "colour": "light grey-tan",
    "composition": "mineral sand, partly from granite (milky quartz, silvery mica, grey granite bits)",
    "origin": "sand drifting south along the coast, trapped by a 1934 breakwater, plus the bay's wider nourishment",
@@ -2477,6 +3154,10 @@
     "https://escholarship.org/content/qt4tm114zf/qt4tm114zf.pdf",
     "https://laist.com/news/kpcc-archive/southern-california-s-geologic-history-as-told-by"
    ]
+  },
+  "wikipedia": {
+   "title": "Santa Monica State Beach",
+   "url": "https://en.wikipedia.org/wiki/Santa_Monica_State_Beach"
   }
  },
  {
@@ -2503,6 +3184,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Tarifa's strong winds pile this sand into one of Europe's biggest moving dunes, about 50 metres tall.",
+   "glance": {
+    "colour": "Pale golden to off-white",
+    "made_of": "Very pure, rounded quartz",
+    "from": "Eroded local quartz sandstone hills"
+   },
    "colour": "pale golden to off-white",
    "composition": "very pure quartz sand with well-rounded grains",
    "origin": "eroded from local sandstone (the Aljibe sandstone) that is at least 90% quartz",
@@ -2513,6 +3200,10 @@
     "https://www.ugr.es/~geodina/web_acrespo/anexo1_1.html",
     "https://rodin.uca.es/handle/10498/15040"
    ]
+  },
+  "wikipedia": {
+   "title": "Tarifa",
+   "url": "https://en.wikipedia.org/wiki/Tarifa"
   }
  },
  {
@@ -2539,6 +3230,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "This is not ground-up rock but broken coral, shells and seaweed skeletons, so it stays cool underfoot.",
+   "glance": {
+    "colour": "Bright white",
+    "made_of": "Broken coral, shells and algae",
+    "from": "The nearby coral reef"
+   },
    "colour": "bright white",
    "composition": "calcium carbonate grains of biological origin: broken coral, shells and calcareous algae",
    "origin": "skeletons of reef creatures and algae, broken up by waves on the nearby coral reef",
@@ -2550,6 +3247,10 @@
     "https://geolsoc.org.uk/Education-and-Careers/Ask-a-Geologist/Earth-Materials/White-Sand",
     "https://archives.datapages.com/data/bulletns/1961-64/data/pg/0047/0002/0350/0357.htm"
    ]
+  },
+  "wikipedia": {
+   "title": "Playa del Carmen",
+   "url": "https://en.wikipedia.org/wiki/Playa_del_Carmen"
   }
  },
  {
@@ -2576,6 +3277,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Quartz stands out because it is tough enough to survive the long trip from the granite mountains inland.",
+   "glance": {
+    "colour": "Tan to light brown",
+    "made_of": "Mainly quartz and feldspar",
+    "from": "Inland granite, via rivers and cliffs"
+   },
    "colour": "tan to light brown",
    "composition": "mainly quartz and feldspar, with some darker minerals",
    "origin": "weathered granite from the Peninsular Ranges, carried by rivers and eroded from sea cliffs",
@@ -2587,6 +3294,10 @@
     "https://muse.jhu.edu/books/9780520942547/9780520942547-10.pdf",
     "https://journals.flvc.org/jcr/article/view/79996"
    ]
+  },
+  "wikipedia": {
+   "title": "Pacific Beach, San Diego",
+   "url": "https://en.wikipedia.org/wiki/Pacific_Beach,_San_Diego"
   }
  },
  {
@@ -2613,6 +3324,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The famous rock carvings were made by chipping through a dark natural coating to lighter stone beneath.",
+   "glance": {
+    "colour": "Dark grey to black",
+    "made_of": "Basalt lava rock",
+    "from": "Fissure eruption about 130,000 years ago"
+   },
    "colour": "dark grey to black (light grey when freshly broken)",
    "composition": "basalt lava rock, rich in iron, manganese and calcium, over older sand and gravel",
    "origin": "lava from a fissure eruption about 130,000 years ago, plus later cinder cones",
@@ -2623,6 +3340,10 @@
     "https://www.nps.gov/petr/planyourvisit/geology.htm",
     "https://pubs.usgs.gov/sim/3447/sim3447_georeferenced.pdf"
    ]
+  },
+  "wikipedia": {
+   "title": "Petroglyph National Monument",
+   "url": "https://en.wikipedia.org/wiki/Petroglyph_National_Monument"
   }
  },
  {
@@ -2649,6 +3370,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The red and black cinders are the same lava; the red bits simply rusted more.",
+   "glance": {
+    "colour": "Red, black and grey",
+    "made_of": "Basalt volcanic cinder",
+    "from": "Eruptions that built summit cinder cones"
+   },
    "colour": "red, black and grey, with some orange and yellow",
    "composition": "basaltic volcanic cinder and lava",
    "origin": "mildly explosive eruptions that built cinder cones on the summit crater floor over the last several thousand years",
@@ -2658,6 +3385,10 @@
    "sources": [
     "https://www.nps.gov/places/craters-edge.htm"
    ]
+  },
+  "wikipedia": {
+   "title": "Haleakalā",
+   "url": "https://en.wikipedia.org/wiki/Haleakal%C4%81"
   }
  },
  {
@@ -2684,6 +3415,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The granite behind this sand formed far to the south and slid north along the San Andreas Fault.",
+   "glance": {
+    "colour": "Light tan with dark flecks",
+    "made_of": "Mostly quartz and feldspar",
+    "from": "Santa Cruz Mountains granite and sandstone"
+   },
    "colour": "light tan with scattered dark grains",
    "composition": "mostly quartz and feldspar, with rare biotite mica, dark minerals and greenish grains",
    "origin": "granite under the Santa Cruz Mountains, plus recycled older sandstone and local sea cliffs",
@@ -2694,6 +3431,10 @@
     "https://santacruzmuseum.org/natural-history-in-the-palm-of-your-hand/",
     "https://baynature.org/magazine/summer2016/stories-in-sand/"
    ]
+  },
+  "wikipedia": {
+   "title": "Santa Cruz, California",
+   "url": "https://en.wikipedia.org/wiki/Santa_Cruz,_California"
   }
  },
  {
@@ -2720,6 +3461,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Kalkaska sand is Michigan's official state soil, covering nearly a million acres across 29 counties.",
+   "glance": {
+    "colour": "Black, brown and reddish layers",
+    "made_of": "Deep glacial sand soil",
+    "from": "Sand left by melting glaciers"
+   },
    "colour": "layered: black on top, then brown, reddish brown and yellowish brown",
    "composition": "deep sand soil (Kalkaska sand) formed in glacial sand deposits",
    "origin": "sandy drift left by melting glaciers on outwash plains and moraines",
@@ -2731,6 +3478,10 @@
     "https://project.geo.msu.edu/geogmich/state_soil.html",
     "https://en.wikipedia.org/wiki/Kalkaska_sand"
    ]
+  },
+  "wikipedia": {
+   "title": "Kalkaska sand",
+   "url": "https://en.wikipedia.org/wiki/Kalkaska_sand"
   }
  },
  {
@@ -2757,6 +3508,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Central Florida's sandy ridges are thought to be ancient beaches and dunes from when the sea was much higher.",
+   "glance": {
+    "colour": "White to grey-brown",
+    "made_of": "Deep quartz sand",
+    "from": "Ancient dune ridges, Appalachian quartz"
+   },
    "colour": "white to grey-brown",
    "composition": "deep quartz sand",
    "origin": "ancient beach and dune ridges formed when sea levels were much higher; the quartz first came from the Appalachian Mountains",
@@ -2767,6 +3524,10 @@
     "https://en.wikipedia.org/wiki/Lake_Wales_Ridge",
     "https://archives.datapages.com/data/gcags/data/028/028001/0647.htm"
    ]
+  },
+  "wikipedia": {
+   "title": "Orlando, Florida",
+   "url": "https://en.wikipedia.org/wiki/Orlando%2C_Florida"
   }
  },
  {
@@ -2793,6 +3554,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Unlike Belize's white coral islands, this golden sand is ground-up granite washed down from the Maya Mountains.",
+   "glance": {
+    "colour": "Golden",
+    "made_of": "Ground-up granite, not coral",
+    "from": "Maya Mountains, carried by rivers"
+   },
    "colour": "golden",
    "composition": "ground-up rock, largely from granite (not coral)",
    "origin": "granite from the Maya Mountains, carried to the coast by rivers",
@@ -2803,6 +3570,10 @@
     "https://catarina-schmidt.squarespace.com/belize-vacations-travel-blog/2016/3/12/1af15elvoee6r0po6yzxdz7esl9nhv",
     "https://fodors.fodors.com/world/mexico-and-central-america/belize/the-southern-coast/placencia-peninsula/northern-peninsula-and-maya-beach"
    ]
+  },
+  "wikipedia": {
+   "title": "Hopkins, Belize",
+   "url": "https://en.wikipedia.org/wiki/Hopkins,_Belize"
   }
  },
  {
@@ -2829,6 +3600,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The dunes at Formby Point are retreating by up to about 3 metres a year.",
+   "glance": {
+    "colour": "Pale golden",
+    "made_of": "Fine, evenly sized quartz",
+    "from": "The Irish Sea floor"
+   },
    "colour": "pale golden",
    "composition": "fine to medium quartz sand, uniform and well sorted",
    "origin": "sand pushed onshore from the bed of the Irish Sea",
@@ -2839,6 +3616,10 @@
     "https://www.geocaching.com/geocache/GC1B2FW",
     "https://assets.publishing.service.gov.uk/media/602662f9e90e070559970f6d/Part_3_The_geomorphological_and_management_status_of_coastal_dunes_in_England_and_Wales_technical_report_.pdf"
    ]
+  },
+  "wikipedia": {
+   "title": "Formby",
+   "url": "https://en.wikipedia.org/wiki/Formby"
   }
  },
  {
@@ -2865,6 +3646,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Deep layers hold sharp quartz from an old river course, while today's surface grains are smooth and well worn.",
+   "glance": {
+    "colour": "",
+    "made_of": "Mainly smooth, rounded quartz",
+    "from": "Coastal sediments moved by currents"
+   },
    "colour": "not published",
    "composition": "mainly quartz grains, smooth and rounded at the surface",
    "origin": "older coastal-plain sediments moved along the shore by currents; deeper layers came from the Appalachian Piedmont via the ancient Pee Dee River",
@@ -2875,6 +3662,10 @@
     "https://archives.datapages.com/data/sepm/journals/v55-58/data/055/055004/0483.htm",
     "https://pubs.usgs.gov/of/2005/1345/html/grainsize.html"
    ]
+  },
+  "wikipedia": {
+   "title": "Pawleys Island, South Carolina",
+   "url": "https://en.wikipedia.org/wiki/Pawleys_Island,_South_Carolina"
   }
  },
  {
@@ -2901,6 +3692,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "With no big rivers bringing rock to this flat limestone coast, the beach is about 90% broken shells.",
+   "glance": {
+    "colour": "White to cream",
+    "made_of": "Clam and snail shell fragments",
+    "from": "Broken shells of sea molluscs"
+   },
    "colour": "white to cream",
    "composition": "almost entirely shell fragments (calcium carbonate), mainly clams and snails",
    "origin": "broken shells of marine molluscs; no river-borne rock sand reaches this limestone coast",
@@ -2911,6 +3708,10 @@
     "https://link.springer.com/10.1007/s13146-015-0283-0",
     "https://www.redalyc.org/pdf/480/48025656002.pdf"
    ]
+  },
+  "wikipedia": {
+   "title": "Progreso, Yucatán",
+   "url": "https://en.wikipedia.org/wiki/Progreso,_Yucat%C3%A1n"
   }
  },
  {
@@ -2937,6 +3738,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Black sand beaches are short-lived: once coral reefs grow nearby, lighter sand tends to bury them.",
+   "glance": {
+    "colour": "Black",
+    "made_of": "Wave-smoothed basalt fragments",
+    "from": "Haleakala lava that reached the sea"
+   },
    "colour": "black",
    "composition": "fragments of basalt (dark volcanic rock)",
    "origin": "lava from Haleakala that flowed into the sea several hundred years ago",
@@ -2947,6 +3754,10 @@
     "https://hawaiimagazine.com/7-must-visit-waianapanapa-state-park-sites",
     "https://www.geocaching.com/geocache/GC1EGG5"
    ]
+  },
+  "wikipedia": {
+   "title": "Waiʻanapanapa State Park",
+   "url": "https://en.wikipedia.org/wiki/Wai%CA%BBanapanapa_State_Park"
   }
  },
  {
@@ -2973,6 +3784,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "These cliffs are natural ochre pigment, and the quarries once produced 17 different colours.",
+   "glance": {
+    "colour": "Yellow, orange and deep red",
+    "made_of": "Quartz sand, clay and iron oxides",
+    "from": "110-million-year-old seabed sand"
+   },
    "colour": "yellow, orange and deep red",
    "composition": "ochre: quartz sand mixed with kaolinite clay and iron oxides (goethite and hematite)",
    "origin": "green seabed sand laid down about 110 million years ago, later weathered in a hot, wet climate",
@@ -2983,6 +3800,10 @@
     "https://www.geocaching.com/geocache/GC2CFZE_ocres-de-roussillon",
     "https://hhgs.org.uk/monthly_meetings/previous_meetings/members_evening_2011/ochres_of_rousillon.htm"
    ]
+  },
+  "wikipedia": {
+   "title": "Roussillon, Vaucluse",
+   "url": "https://en.wikipedia.org/wiki/Roussillon,_Vaucluse"
   }
  },
  {
@@ -3009,6 +3830,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Most grains are flakes of a green seaweed that grows a limy skeleton, not quartz at all.",
+   "glance": {
+    "colour": "White to pale cream",
+    "made_of": "Seaweed flakes, shells, some coral",
+    "from": "Florida reef tract organisms"
+   },
    "colour": "white to pale cream",
    "composition": "calcium carbonate grains: mostly Halimeda algae flakes and mollusc shells, some coral",
    "origin": "skeletons of reef organisms and calcareous algae from the Florida reef tract",
@@ -3020,6 +3847,10 @@
     "https://floridadep.gov/fgs/fgs/content/key-largo-limestone",
     "https://www.visitflorida.com/travel-ideas/articles/florida-white-orange-dark-sand-beaches/"
    ]
+  },
+  "wikipedia": {
+   "title": "Key Largo",
+   "url": "https://en.wikipedia.org/wiki/Key_Largo"
   }
  },
  {
@@ -3046,6 +3877,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Agates turn up here, formed as mineral fillings in gas bubbles of ancient lava.",
+   "glance": {
+    "colour": "Reddish brown and grey pebbles",
+    "made_of": "Rhyolite, jasper and basalt pebbles",
+    "from": "Local conglomerate and ancient lava flows"
+   },
    "colour": "reddish brown and grey pebbles",
    "composition": "pebbles of rhyolite, jasper and basalt from local volcanic rock and conglomerate",
    "origin": "eroded from the Copper Harbor Conglomerate and ancient lava flows of the Keweenaw, spread by glaciers and waves",
@@ -3057,6 +3894,10 @@
     "https://www.nps.gov/parkhistory/online_books/geology/publications/pp/754-B/sec1.htm",
     "https://geo.mtu.edu/KeweenawGeoheritage/BlackLavas/Copper_Harbor_Congl.html"
    ]
+  },
+  "wikipedia": {
+   "title": "Copper Harbor, Michigan",
+   "url": "https://en.wikipedia.org/wiki/Copper_Harbor,_Michigan"
   }
  },
  {
@@ -3083,6 +3924,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The sand comes from a 360-foot cinder cone right at the end of the beach, worn down by waves.",
+   "glance": {
+    "colour": "Dark grey to reddish grey",
+    "made_of": "Eroded volcanic cinder",
+    "from": "Neighbouring Puʻu Olaʻi cinder cone"
+   },
    "colour": "dark grey to reddish grey, with black, red and some white grains",
    "composition": "eroded volcanic cinder and lava",
    "origin": "worn by waves from Puʻu Olaʻi, a dormant cinder cone right next to the beach",
@@ -3093,6 +3940,10 @@
     "https://www.to-hawaii.com/maui/beaches/oneuli-beach/",
     "https://www.hawaii-guide.com/maui/beaches/oneuli-beach-black-sand-beach"
    ]
+  },
+  "wikipedia": {
+   "title": "Mākena State Park",
+   "url": "https://en.wikipedia.org/wiki/M%C4%81kena_State_Park"
   }
  },
  {
@@ -3119,6 +3970,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The soft white quartz here started as Appalachian Mountain rock carried to the Gulf by rivers long ago.",
+   "glance": {
+    "colour": "White to light grey",
+    "made_of": "Quartz sand with shell bits",
+    "from": "Appalachian quartz plus local shell"
+   },
    "colour": "white to light grey",
    "composition": "quartz sand with shell fragments",
    "origin": "quartz originally from the Appalachians, reworked from the inner shelf, plus local shell",
@@ -3129,6 +3986,10 @@
     "https://pubs.usgs.gov/of/1999/of99-509/frames/location.htm",
     "https://www.visitflorida.com/travel-ideas/articles/florida-white-orange-dark-sand-beaches/"
    ]
+  },
+  "wikipedia": {
+   "title": "Treasure Island, Florida",
+   "url": "https://en.wikipedia.org/wiki/Treasure_Island,_Florida"
   }
  },
  {
@@ -3155,6 +4016,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Positano's main beach is coarse dark grey sand and pebbles, though the cliffs above are pale limestone.",
+   "glance": {
+    "colour": "Dark grey",
+    "made_of": "Coarse volcanic sand and pebbles",
+    "from": "Campania volcanic rock, worn by sea"
+   },
    "colour": "dark grey",
    "composition": "coarse volcanic sand mixed with small pebbles",
    "origin": "volcanic rock from the Campania region, worn down by the sea",
@@ -3166,6 +4033,10 @@
     "https://www.reidsitaly.com/destinations/campania/amalfi_coast/positano/sights/beaches.html",
     "https://www.citizendailypost.com/faq/why-is-amalfi-coast-sand-black/"
    ]
+  },
+  "wikipedia": {
+   "title": "Positano",
+   "url": "https://en.wikipedia.org/wiki/Positano"
   }
  },
  {
@@ -3192,6 +4063,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Sand dredged offshore to rebuild the beach starts out grey and lightens once mixed in.",
+   "glance": {
+    "colour": "Light tan",
+    "made_of": "Calcium carbonate from reef life",
+    "from": "Algae, tiny shelled creatures, coral"
+   },
    "colour": "light tan",
    "composition": "carbonate sand (calcium carbonate from reef life)",
    "origin": "broken skeletons of coralline algae, foraminifera and coral from nearby reefs",
@@ -3203,6 +4080,10 @@
     "https://dev-dlnr.hawaii.gov/occl/files/2022/01/Kaanapali-Fact-Sheet-Sand-Quality.pdf",
     "https://core.ac.uk/download/5098176.pdf"
    ]
+  },
+  "wikipedia": {
+   "title": "Kāʻanapali, Hawaii",
+   "url": "https://en.wikipedia.org/wiki/K%C4%81%CA%BBanapali,_Hawaii"
   }
  },
  {
@@ -3229,6 +4110,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "This is one of Iceland's rainiest spots, so the beach is nearly always wet and looks even blacker.",
+   "glance": {
+    "colour": "Jet black",
+    "made_of": "Basalt and volcanic glass",
+    "from": "Nearby volcanoes Katla and Bardarbunga"
+   },
    "colour": "jet black",
    "composition": "basalt fragments and volcanic glass",
    "origin": "lava and ash from nearby volcanoes, mainly Katla and Bardarbunga, broken up by waves and rivers",
@@ -3240,6 +4127,10 @@
     "https://troll.is/black-sand-beach-iceland",
     "https://adventures.com/iceland/attractions/beaches/reynisfjara-black-sand-beach"
    ]
+  },
+  "wikipedia": {
+   "title": "Reynisfjara",
+   "url": "https://en.wikipedia.org/wiki/Reynisfjara"
   }
  },
  {
@@ -3266,6 +4157,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "On Ometepe island in Lake Nicaragua, the volcanic sand holds enough iron mineral to be magnetic.",
+   "glance": {
+    "colour": "Dark Pacific, white Caribbean",
+    "made_of": "Volcanic rock and dark minerals",
+    "from": "Pacific Ring of Fire volcanoes"
+   },
    "colour": "dark grey to black on the Pacific; white on the Caribbean islands",
    "composition": "volcanic sand (rock fragments, magnetite and other dark minerals) on the Pacific coast",
    "origin": "Nicaragua's chain of volcanoes along the Pacific Ring of Fire",
@@ -3277,6 +4174,10 @@
     "https://www.sandatlas.org/?p=1548",
     "https://ouaw.se/en/location/nicaragua/"
    ]
+  },
+  "wikipedia": {
+   "title": "Nicaragua",
+   "url": "https://en.wikipedia.org/wiki/Nicaragua"
   }
  },
  {
@@ -3303,6 +4204,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The Santa Ana River once supplied this sand but now runs in a concrete channel, so sand is pumped in.",
+   "glance": {
+    "colour": "Light tan to golden",
+    "made_of": "Quartz, feldspar and some mica",
+    "from": "Inland granite, plus dredged harbor sand"
+   },
    "colour": "light tan to golden",
    "composition": "mostly quartz and feldspar with some mica",
    "origin": "granite rock from inland mountains carried down by the Santa Ana River, plus sand pumped in from the harbor and river",
@@ -3314,6 +4221,10 @@
     "https://apps.dtic.mil/sti/pdfs/AD0707062.pdf",
     "https://phys.org/news/2024-02-sand-southern-california-beaches.pdf"
    ]
+  },
+  "wikipedia": {
+   "title": "Newport Beach, California",
+   "url": "https://en.wikipedia.org/wiki/Newport_Beach,_California"
   }
  },
  {
@@ -3340,6 +4251,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The dark streaks are heavier minerals that waves and wind sort into bands.",
+   "glance": {
+    "colour": "Pale tan with dark streaks",
+    "made_of": "Mostly quartz, 75 to 90 percent",
+    "from": "Ice Age glacial deposits"
+   },
    "colour": "pale tan to cream, with dark streaks",
    "composition": "mostly quartz (about 75 to 90 percent), with some feldspar, carbonate and dark heavy minerals",
    "origin": "glacial deposits left by Ice Age ice sheets",
@@ -3351,6 +4268,10 @@
     "https://project.geo.msu.edu/geogmich/dunes.html",
     "https://www.michigan.gov/documents/deq/PA07_304669_7.pdf"
    ]
+  },
+  "wikipedia": {
+   "title": "Lake Michigan",
+   "url": "https://en.wikipedia.org/wiki/Lake_Michigan"
   }
  },
  {
@@ -3377,6 +4298,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Winds blow sand out of the Pirai riverbed into dune fields, like Lomas de Arena just south of the city.",
+   "glance": {
+    "colour": "Pale tan",
+    "made_of": "Fine quartz sand and silt",
+    "from": "Andes sediment via the Pirai River"
+   },
    "colour": "pale tan",
    "composition": "fine quartz sand and river silt",
    "origin": "sediment carried down from the Andes by the Pirai River and spread across the lowland plain",
@@ -3388,6 +4315,10 @@
     "https://www.internationalparks.org/bolivia/Lomas%20de%20Arena",
     "https://onemine.org/documents/piling-practice-in-sedimentary-granular-soils-of-santa-cruz-bolivia"
    ]
+  },
+  "wikipedia": {
+   "title": "Santa Cruz de la Sierra",
+   "url": "https://en.wikipedia.org/wiki/Santa_Cruz_de_la_Sierra"
   }
  },
  {
@@ -3414,6 +4345,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Nevis is a volcanic island, so its golden sand is mixed with dark volcanic grains.",
+   "glance": {
+    "colour": "Golden brown to greyish",
+    "made_of": "Dark volcanic and lighter grains",
+    "from": "The island's volcanic rock"
+   },
    "colour": "golden brown to greyish",
    "composition": "mix of dark volcanic grains and lighter sand",
    "origin": "the island's volcanic rock, worn down by the sea",
@@ -3425,6 +4362,10 @@
     "https://www.caribjournal.com/2025/07/10/nevis-beach-pinneys/",
     "https://driftandco.squarespace.com/blog/the-colour-of-beach-sands"
    ]
+  },
+  "wikipedia": {
+   "title": "Nevis",
+   "url": "https://en.wikipedia.org/wiki/Nevis"
   }
  },
  {
@@ -3451,6 +4392,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The whole island is limestone built from ancient coral reefs, and some beaches hold visible coral bits.",
+   "glance": {
+    "colour": "Bright white",
+    "made_of": "Coral, shell and limestone grains",
+    "from": "Reef life and coral limestone"
+   },
    "colour": "bright white",
    "composition": "carbonate sand (calcium carbonate) from coral, shells and limestone",
    "origin": "reef life and the island's own coral limestone",
@@ -3462,6 +4409,10 @@
     "https://vufind-test.katalog.k.utb.cz/SummonRecord/FETCH-LOGICAL-a329t-172fde6b9ca1f10833f89b18c82f3dd800e1d524e60e5592666d07855e771c1a3",
     "https://www.mightytravels.com/2025/06/exploring-cozumel-top-activities-for-cruise-visitors/"
    ]
+  },
+  "wikipedia": {
+   "title": "Cozumel",
+   "url": "https://en.wikipedia.org/wiki/Cozumel"
   }
  },
  {
@@ -3488,6 +4439,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Cuban scientists have studied how much carbon these shell-and-skeleton sands lock away.",
+   "glance": {
+    "colour": "White to cream",
+    "made_of": "Bits of algae, shells, tiny creatures",
+    "from": "Reef life on Cuba's north coast"
+   },
    "colour": "white to cream",
    "composition": "carbonate sand from algae, shells and foraminifera",
    "origin": "reef and seabed life along Cuba's north coast",
@@ -3498,6 +4455,10 @@
     "https://revistas.ucm.es/index.php/MARE/article/download/56823/51368",
     "https://revistas.ucm.es/index.php/MARE/article/download/58369/52506/119448"
    ]
+  },
+  "wikipedia": {
+   "title": "Havana",
+   "url": "https://en.wikipedia.org/wiki/Havana"
   }
  },
  {
@@ -3524,6 +4485,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Two nearby beaches differ: Turtle Beach has coarse white sand, Dunn's River has soft white sand.",
+   "glance": {
+    "colour": "White",
+    "made_of": "Calcium carbonate from reef life",
+    "from": "North-coast fringing coral reefs"
+   },
    "colour": "white",
    "composition": "carbonate sand (aragonite and calcite from reef life)",
    "origin": "fringing coral reefs along Jamaica's north coast, plus some older limestone",
@@ -3535,6 +4502,10 @@
     "https://digitalcommons.usu.edu/etd/6675",
     "https://gsa.confex.com/gsa/2021AM/webprogram/Paper367596.html"
    ]
+  },
+  "wikipedia": {
+   "title": "Ocho Rios",
+   "url": "https://en.wikipedia.org/wiki/Ocho_Rios"
   }
  },
  {
@@ -3561,6 +4532,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Doctor's Cave beach sits inside a marine park, with seagrass and a coral reef just offshore.",
+   "glance": {
+    "colour": "White",
+    "made_of": "Calcium carbonate from reef life",
+    "from": "Offshore coral reef and seagrass"
+   },
    "colour": "white",
    "composition": "carbonate sand (aragonite and calcite from reef life)",
    "origin": "fringing coral reef and seagrass beds just offshore",
@@ -3571,6 +4548,10 @@
     "https://websitearchive2020.nepa.gov.jm/new/services_products/subsites/beach_guide/beaches/doctors_cave.php",
     "https://digitalcommons.usu.edu/etd/6675"
    ]
+  },
+  "wikipedia": {
+   "title": "Montego Bay",
+   "url": "https://en.wikipedia.org/wiki/Montego_Bay"
   }
  },
  {
@@ -3597,6 +4578,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "A tiny red sea creature called Homotrema gives some Bahamian beaches pink specks, even whole pink beaches.",
+   "glance": {
+    "colour": "White to cream, pink-flecked",
+    "made_of": "Shell, coral and tiny shells",
+    "from": "Local sea life and crumbled limestone"
+   },
    "colour": "white to pale cream, sometimes pink-flecked",
    "composition": "aragonite (calcium carbonate) grains from shells, coral and foraminifera",
    "origin": "shells and skeletons of local sea life, plus crumbled limestone",
@@ -3607,6 +4594,10 @@
     "http://www.jsjgeology.net/Carbonate-platform-beach-sediments.htm",
     "https://www.bahamas.com/natural-wonders/harbour-island-pink-sand-beach"
    ]
+  },
+  "wikipedia": {
+   "title": "Nassau, Bahamas",
+   "url": "https://en.wikipedia.org/wiki/Nassau%2C_Bahamas"
   }
  },
  {
@@ -3633,6 +4624,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Biloxi's beach is largely man-made, and freshly pumped sand can look black until the sun bleaches it.",
+   "glance": {
+    "colour": "White to pale tan",
+    "made_of": "Mostly quartz",
+    "from": "Dredged from the Mississippi Sound floor"
+   },
    "colour": "white to pale tan (dark when freshly pumped)",
    "composition": "mostly quartz",
    "origin": "sand dredged from the floor of the Mississippi Sound and pumped onto a man-made beach",
@@ -3644,6 +4641,10 @@
     "https://pubs.usgs.gov/of/2001/of01-415/chap2txt.pdf",
     "https://dredgewire.com/dredging-begins-in-mississippi-sound-for-year-long-biloxi-beach-replenishment-project/"
    ]
+  },
+  "wikipedia": {
+   "title": "Biloxi, Mississippi",
+   "url": "https://en.wikipedia.org/wiki/Biloxi%2C_Mississippi"
   }
  },
  {
@@ -3670,6 +4671,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "This sheltered crescent beach sits between two old lava-flow headlands where reefs have grown.",
+   "glance": {
+    "colour": "White to golden",
+    "made_of": "Reef carbonate, a little volcanic grit",
+    "from": "Reef growing on lava headlands"
+   },
    "colour": "white to golden",
    "composition": "carbonate sand from reef organisms, with a little volcanic grit (typical of Hawaiian reef beaches)",
    "origin": "fringing reef growing on the lava headlands around the bay",
@@ -3681,6 +4688,10 @@
     "https://www.to-hawaii.com/maui/beaches/kapalua-bay/",
     "https://core.ac.uk/download/5098176.pdf"
    ]
+  },
+  "wikipedia": {
+   "title": "Kapalua, Hawaii",
+   "url": "https://en.wikipedia.org/wiki/Kapalua%2C_Hawaii"
   }
  },
  {
@@ -3707,6 +4718,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "A study comparing beach sand whiteness worldwide ranked Tulum's as the closest to pure white.",
+   "glance": {
+    "colour": "Brilliant white",
+    "made_of": "Shell and coral carbonate",
+    "from": "Shells, coral and reef life"
+   },
    "colour": "brilliant white",
    "composition": "carbonate sand: aragonite, calcite and magnesium-calcite",
    "origin": "shells, coral and other reef life",
@@ -3717,6 +4734,10 @@
     "https://info.igme.es/ConsultaSID/presentacion.asp?Id=155308",
     "https://www.timeout.com/news/these-beaches-have-the-whitest-sand-on-the-planet-according-to-a-new-study-081524"
    ]
+  },
+  "wikipedia": {
+   "title": "Tulum",
+   "url": "https://en.wikipedia.org/wiki/Tulum"
   }
  },
  {
@@ -3743,6 +4764,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Qatar's dune sands can even hold gypsum and salt crystals from its coastal salt flats.",
+   "glance": {
+    "colour": "Pale beige",
+    "made_of": "Shell grains and wind-blown quartz",
+    "from": "Gulf seabed life and desert sand"
+   },
    "colour": "pale beige",
    "composition": "mix of shell and carbonate grains and wind-blown quartz sand",
    "origin": "shallow Gulf seabed life plus desert sand blown across Qatar",
@@ -3754,6 +4781,10 @@
     "https://adgeo.copernicus.org/articles/63/1/2023/",
     "https://qspace.qu.edu.qa:8443/handle/10576/16944?show=full"
    ]
+  },
+  "wikipedia": {
+   "title": "Doha",
+   "url": "https://en.wikipedia.org/wiki/Doha"
   }
  },
  {
@@ -3780,6 +4811,12 @@
   },
   "sand": {
    "known": false,
+   "highlight": "",
+   "glance": {
+    "colour": "",
+    "made_of": "",
+    "from": ""
+   },
    "colour": "",
    "composition": "",
    "origin": "",
@@ -3787,6 +4824,10 @@
    "grain": "",
    "summary": "Sand composition for this beach is not published — the jar is listed here from its label.",
    "sources": []
+  },
+  "wikipedia": {
+   "title": "Punta Mita",
+   "url": "https://en.wikipedia.org/wiki/Punta_Mita"
   }
  },
  {
@@ -3813,6 +4854,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The glacier grinds rock into flour-fine silt, and the river carries roughly 114 million pounds seaward each year.",
+   "glance": {
+    "colour": "Grey",
+    "made_of": "Rock flour, sand and gravel",
+    "from": "Bedrock ground by the glacier"
+   },
    "colour": "grey",
    "composition": "glacial sediment: rock flour (silt), sand and gravel",
    "origin": "bedrock ground up under the Mendenhall Glacier",
@@ -3823,6 +4870,10 @@
     "https://www.juneauempire.com/life/curious-by-nature-what-is-glacial-flour",
     "https://pubs.usgs.gov/pp/1760/e/pp1760e.pdf"
    ]
+  },
+  "wikipedia": {
+   "title": "Mendenhall Glacier",
+   "url": "https://en.wikipedia.org/wiki/Mendenhall_Glacier"
   }
  },
  {
@@ -3849,6 +4900,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Much of this sand has passed through parrotfish, which eat coral and excrete the stony leftovers.",
+   "glance": {
+    "colour": "Bright white",
+    "made_of": "Coral and shell fragments",
+    "from": "Offshore reefs, partly via parrotfish"
+   },
    "colour": "bright white",
    "composition": "coral and shell fragments (calcium carbonate)",
    "origin": "reefs offshore, broken down partly by parrotfish",
@@ -3860,6 +4917,10 @@
     "https://www.beach.com/?p=33452",
     "https://cavac.at/cavacopedia/Coral%20sand"
    ]
+  },
+  "wikipedia": {
+   "title": "Aruba",
+   "url": "https://en.wikipedia.org/wiki/Aruba"
   }
  },
  {
@@ -3886,6 +4947,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "A tour operator says the fine coral sand here glows pink at dawn and sunset.",
+   "glance": {
+    "colour": "White",
+    "made_of": "",
+    "from": ""
+   },
    "colour": "white",
    "composition": "not analysed; local guides call it fine white coral sand",
    "origin": "not published",
@@ -3897,6 +4964,10 @@
     "https://www.freedomdive.com/en/dive_location/koh-talu",
     "https://thai-online.tours/shop/92/desc/pink-island-ko-talu-2024"
    ]
+  },
+  "wikipedia": {
+   "title": "Rayong province",
+   "url": "https://en.wikipedia.org/wiki/Rayong_province"
   }
  },
  {
@@ -3923,6 +4994,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The dunes are yellow near the sea and turn greyer inland as plants add humus.",
+   "glance": {
+    "colour": "Golden",
+    "made_of": "",
+    "from": "Sandstone coast and glacial deposits"
+   },
    "colour": "golden",
    "composition": "not analysed; local bedrock is Old Red Sandstone",
    "origin": "sand moved onshore by waves and tides on a coast of sandstone and glacial deposits",
@@ -3933,6 +5010,10 @@
     "https://www.discoveriveragh.ie/initiatives/the-geologic-history-of-the-iveragh-peninsula",
     "https://www.discoveriveragh.ie/initiatives/sand-dunes"
    ]
+  },
+  "wikipedia": {
+   "title": "Ring of Kerry",
+   "url": "https://en.wikipedia.org/wiki/Ring_of_Kerry"
   }
  },
  {
@@ -3959,6 +5040,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Many grains are ooids, tiny round beads that grow as minerals crystallise out of very warm seawater.",
+   "glance": {
+    "colour": "Brilliant white, sometimes pale pink",
+    "made_of": "Tiny round grains, coral, shell",
+    "from": "Formed in the sea itself"
+   },
    "colour": "brilliant white, locally pale pink",
    "composition": "calcium carbonate: round ooids plus coral, shell and algae fragments (aragonite)",
    "origin": "formed in the sea on the shallow Caicos Bank and around the reefs",
@@ -3969,6 +5056,10 @@
     "https://www.timespub.tc/2003/01/sifting-through-the-sands-of-time/",
     "https://sites.dartmouth.edu/dujs/?p=31"
    ]
+  },
+  "wikipedia": {
+   "title": "Turks and Caicos Islands",
+   "url": "https://en.wikipedia.org/wiki/Turks_and_Caicos_Islands"
   }
  },
  {
@@ -3995,6 +5086,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Haeundae Beach's sand is used every year for a big sand-sculpture festival.",
+   "glance": {
+    "colour": "Pale",
+    "made_of": "Stream sand and worn shells",
+    "from": "Chuncheon Stream and eroded shells"
+   },
    "colour": "pale",
    "composition": "stream sand mixed with worn shell fragments",
    "origin": "sand from Chuncheon Stream plus eroded shells (at Haeundae)",
@@ -4004,6 +5101,10 @@
    "sources": [
     "https://simple.wikipedia.org/wiki/Haeundae"
    ]
+  },
+  "wikipedia": {
+   "title": "Busan",
+   "url": "https://en.wikipedia.org/wiki/Busan"
   }
  },
  {
@@ -4030,6 +5131,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Above Victoria Falls the river carries nearly pure quartz recycled from ancient Kalahari desert dunes.",
+   "glance": {
+    "colour": "Pale",
+    "made_of": "Nearly pure quartz, some basalt",
+    "from": "Old Kalahari dunes, via the Zambezi"
+   },
    "colour": "pale",
    "composition": "almost pure quartz sand, with some dark basalt bits",
    "origin": "recycled Kalahari desert dune sand carried by the upper Zambezi",
@@ -4040,6 +5147,10 @@
     "https://hal.science/hal-04203620",
     "https://9bbwhftxd5a3sbyo.public.blob.vercel-storage.com/gsz/documents/Vic%20Falls%20Field%20GuidNovember%202013_c_Andy%20Moore%20-%20%20for%20Web.pdf"
    ]
+  },
+  "wikipedia": {
+   "title": "Victoria Falls",
+   "url": "https://en.wikipedia.org/wiki/Victoria_Falls"
   }
  },
  {
@@ -4066,6 +5177,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "These are among the world's tallest forested coastal dunes, rising more than 170 metres.",
+   "glance": {
+    "colour": "",
+    "made_of": "Sand rich in heavy minerals",
+    "from": "Northern KwaZulu-Natal coastal dunes"
+   },
    "colour": "not published",
    "composition": "sand rich in heavy minerals (ilmenite, rutile, zircon)",
    "origin": "coastal beach and dune sand of northern KwaZulu-Natal",
@@ -4076,6 +5193,10 @@
     "https://pubs.geoscienceworld.org/gssa/sajg/article/107/3/355/121914/Quaternary-evolution-of-the-coastal-dunes-between",
     "http://world-heritage-datasheets.unep-wcmc.org/datasheet/output/site/isimangaliso-wetland-park"
    ]
+  },
+  "wikipedia": {
+   "title": "St Lucia, South Africa",
+   "url": "https://en.wikipedia.org/wiki/St_Lucia,_South_Africa"
   }
  },
  {
@@ -4102,6 +5223,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Patches turn pink from crushed shells of tiny sea creatures, and taking sand home makes the pink fade.",
+   "glance": {
+    "colour": "White with pink patches",
+    "made_of": "White sand, crushed pink shells",
+    "from": "Tiny sea creatures' shells, washed ashore"
+   },
    "colour": "white with pink patches",
    "composition": "white sand mixed with crushed pink foraminifera shells (calcium carbonate)",
    "origin": "shells of tiny sea creatures washed up onto pale sand",
@@ -4112,6 +5239,10 @@
     "https://storymaps.arcgis.com/stories/a83c10e0b4364023badb8d56be43fc1d",
     "https://www.islands.com/1797349/breathtaking-pink-sand-beach-greece-claimed-title-world-best-elafonissi-2025"
    ]
+  },
+  "wikipedia": {
+   "title": "Elafonisi",
+   "url": "https://en.wikipedia.org/wiki/Elafonisi"
   }
  },
  {
@@ -4138,6 +5269,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The fine grains pack so hard when wet that cars can drive on the beach, which launched Daytona's beach racing.",
+   "glance": {
+    "colour": "Light tan with orange patches",
+    "made_of": "Quartz and ground coquina shell",
+    "from": "Atlantic coast quartz plus local shell"
+   },
    "colour": "light tan, with orange patches",
    "composition": "quartz mixed with finely ground coquina shell",
    "origin": "quartz drifting down the Atlantic coast plus local shell",
@@ -4149,6 +5286,10 @@
     "https://www.visitflorida.com/travel-ideas/articles/florida-white-orange-dark-sand-beaches/",
     "https://nextbreakout.com/blog/daytona-beach-driving-on-the-beach-guide"
    ]
+  },
+  "wikipedia": {
+   "title": "Daytona Beach, Florida",
+   "url": "https://en.wikipedia.org/wiki/Daytona_Beach%2C_Florida"
   }
  },
  {
@@ -4175,6 +5316,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The island is almost entirely volcanic rock, so many of its beaches have black or grey sand.",
+   "glance": {
+    "colour": "Black, grey or golden",
+    "made_of": "Grey volcanic lava grains",
+    "from": "Erosion of the island's volcanoes"
+   },
    "colour": "black or grey on many beaches; golden on others",
    "composition": "volcanic rock grains (andesite and dacite)",
    "origin": "erosion of the island's volcanoes",
@@ -4185,6 +5332,10 @@
     "https://caribbeanvolcanoes.com/?p=533",
     "https://caribbean.co.uk/best-beaches-st-kitts/"
    ]
+  },
+  "wikipedia": {
+   "title": "Saint Kitts",
+   "url": "https://en.wikipedia.org/wiki/Saint_Kitts"
   }
  },
  {
@@ -4211,6 +5362,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The white sand was worn from the southern Appalachians and carried to the Gulf by the Apalachicola River.",
+   "glance": {
+    "colour": "Brilliant white",
+    "made_of": "Almost pure quartz",
+    "from": "Southern Appalachians, via Apalachicola River"
+   },
    "colour": "brilliant white",
    "composition": "almost pure quartz",
    "origin": "southern Appalachian Mountains, carried by the Apalachicola River system",
@@ -4220,6 +5377,10 @@
    "sources": [
     "https://science.nasa.gov/earth/earth-observatory/bright-beaches-in-florida-152091/"
    ]
+  },
+  "wikipedia": {
+   "title": "Destin, Florida",
+   "url": "https://en.wikipedia.org/wiki/Destin%2C_Florida"
   }
  },
  {
@@ -4246,6 +5407,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The main beaches in this gulf have dark volcanic sand, while some boat-access coves nearby are white.",
+   "glance": {
+    "colour": "Dark grey; some white coves",
+    "made_of": "Volcanic grains, or shell and coral",
+    "from": "Volcanic rock plus local shells"
+   },
    "colour": "dark grey on the main bay beaches; white on some coves",
    "composition": "volcanic rock grains on the main beaches; shell and coral fragments on the white coves",
    "origin": "Costa Rica's volcanic rock, plus local shells",
@@ -4257,6 +5424,10 @@
     "https://oceanservice.noaa.gov/facts/sand.html",
     "https://we-sell-paradise.com/costa-ricas-dark-sand/"
    ]
+  },
+  "wikipedia": {
+   "title": "Gulf of Papagayo",
+   "url": "https://en.wikipedia.org/wiki/Gulf_of_Papagayo"
   }
  },
  {
@@ -4283,6 +5454,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Grey seals travel from far away to haul out on this island beach.",
+   "glance": {
+    "colour": "Pale, white to golden",
+    "made_of": "",
+    "from": ""
+   },
    "colour": "pale (described as white to golden)",
    "composition": "not analysed; island bedrock is Old Red Sandstone",
    "origin": "not published",
@@ -4293,6 +5470,10 @@
     "https://infomar.ie/sites/default/files/pdfs/The%20Blasket%20Islands.pdf",
     "https://www.marinetours.ie/wildlife-log/199-great-blasket-island-and-blasket-islands-facts-the-blaskets.html"
    ]
+  },
+  "wikipedia": {
+   "title": "Great Blasket Island",
+   "url": "https://en.wikipedia.org/wiki/Great_Blasket_Island"
   }
  },
  {
@@ -4319,6 +5500,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The Tonnara beach shifts between more sand and more fine gravel depending on the tide.",
+   "glance": {
+    "colour": "Pale",
+    "made_of": "Sand and fine gravel",
+    "from": "Aspromonte massif, Monte Sant'Elia"
+   },
    "colour": "pale",
    "composition": "sand and fine gravel; local rocks are gneiss, schist and granite",
    "origin": "Monte Sant'Elia, an offshoot of the Aspromonte massif",
@@ -4329,6 +5516,10 @@
     "https://www.italia.it/en/calabria/reggio-calabria/tonnara-di-palmi",
     "https://en.wikipedia.org/wiki/Aspromonte"
    ]
+  },
+  "wikipedia": {
+   "title": "Palmi, Calabria",
+   "url": "https://en.wikipedia.org/wiki/Palmi,_Calabria"
   }
  },
  {
@@ -4355,6 +5546,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Table Mountain Sandstone is about 95 percent quartz, so the sand worn from it is mostly quartz.",
+   "glance": {
+    "colour": "White to pale",
+    "made_of": "Quartz grains with shell bits",
+    "from": "Table Mountain sandstone and Cape granite"
+   },
    "colour": "white to pale",
    "composition": "quartz grains mixed with shell fragments",
    "origin": "Table Mountain Sandstone and Cape granite, plus broken seashells",
@@ -4366,6 +5563,10 @@
     "https://www.researchgate.net/publication/385786682_Sedimentology_of_False_Bay_Western_Cape_South_Africa_geological_background_information_for_the_integrated_environmental_management_of_a_physically_confined_coastal_compartment",
     "https://www.jstor.org/stable/4300382"
    ]
+  },
+  "wikipedia": {
+   "title": "Cape Town",
+   "url": "https://en.wikipedia.org/wiki/Cape_Town"
   }
  },
  {
@@ -4392,6 +5593,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Some beaches here are pink, from the crushed red shells of a tiny sea creature; the pink shows best when wet.",
+   "glance": {
+    "colour": "White to pale pink",
+    "made_of": "Coral and shell, some red shells",
+    "from": "The island's surrounding coral reefs"
+   },
    "colour": "white to pale pink",
    "composition": "calcium carbonate from coral and shells, with red shells of a tiny single-celled creature (Homotrema rubrum) in the pink beaches",
    "origin": "the coral reefs around the island",
@@ -4402,6 +5609,10 @@
     "https://thecoveeleuthera.com/the-story-behind-harbour-islands-famous-pink-sand-beach/",
     "https://oceanservice.noaa.gov/facts/sand.html"
    ]
+  },
+  "wikipedia": {
+   "title": "Eleuthera",
+   "url": "https://en.wikipedia.org/wiki/Eleuthera"
   }
  },
  {
@@ -4428,6 +5639,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "It is tan, not white, because Mississippi River sediment is darker than the pure quartz of Florida beaches.",
+   "glance": {
+    "colour": "Light tan to grey-brown",
+    "made_of": "Fine sand with shell bits",
+    "from": "Reworked Mississippi delta sediment"
+   },
    "colour": "light tan to grey-brown",
    "composition": "fine sand with shell bits",
    "origin": "Mississippi delta sediment reworked by waves (old Lafourche delta and Caminada headland)",
@@ -4439,6 +5656,10 @@
     "https://scholarworks.uno.edu/td/2649",
     "https://www.researchgate.net/figure/Shore-parallel-cross-section-along-the-Caminada-Headland-beach-illustrating-relatively_fig1_276918998"
    ]
+  },
+  "wikipedia": {
+   "title": "Grand Isle, Louisiana",
+   "url": "https://en.wikipedia.org/wiki/Grand_Isle,_Louisiana"
   }
  },
  {
@@ -4465,6 +5686,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Waves have carved this limestone and layered-rock coast into cliffs and coves.",
+   "glance": {
+    "colour": "Pale",
+    "made_of": "Mostly pebbles, some sand",
+    "from": "Limestone and layered sandstone-shale coast"
+   },
    "colour": "pale",
    "composition": "not analysed; pebbles and sand on a limestone and flysch coast",
    "origin": "a coast of limestone and flysch shaped by waves",
@@ -4475,6 +5702,10 @@
     "https://ikm.mk/ojs/index.php/kij/article/download/814/813/1626",
     "https://ciesm.org/online/monographs/CSS-1/CSS_1_187_201.pdf"
    ]
+  },
+  "wikipedia": {
+   "title": "Sarandë",
+   "url": "https://en.wikipedia.org/wiki/Sarand%C3%AB"
   }
  },
  {
@@ -4501,6 +5732,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "The lake-bed sediment mostly formed in the lake itself, in limestone country full of springs and caves.",
+   "glance": {
+    "colour": "",
+    "made_of": "",
+    "from": "Limestone basin with old river fans"
+   },
    "colour": "not published",
    "composition": "not analysed for beaches; lake sediment is mostly carbonate",
    "origin": "a karst (limestone) basin with old river fans along the shore",
@@ -4511,6 +5748,10 @@
     "https://bg.copernicus.org/articles/7/3333/2010/",
     "https://meetingorganizer.copernicus.org/EGU2010/EGU2010-10455-1.pdf"
    ]
+  },
+  "wikipedia": {
+   "title": "Lake Ohrid",
+   "url": "https://en.wikipedia.org/wiki/Lake_Ohrid"
   }
  },
  {
@@ -4537,6 +5778,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Since dams went up on the Drin River around 1970, the sea has been eating away the beach.",
+   "glance": {
+    "colour": "",
+    "made_of": "River sand",
+    "from": "The Drin River"
+   },
    "colour": "not published",
    "composition": "river sand (mineral breakdown not published)",
    "origin": "carried to the coast by the Drin River",
@@ -4547,6 +5794,10 @@
     "https://meetingorganizer.copernicus.org/EGU2015/EGU2015-552.pdf",
     "https://www.balkanweb.com/?p=2605859"
    ]
+  },
+  "wikipedia": {
+   "title": "Kunë-Vain-Talë-Patok-Fushëkuqe-Ishëm Nature Park",
+   "url": "https://en.wikipedia.org/wiki/Kun%C3%AB-Vain-Tal%C3%AB-Patok-Fush%C3%ABkuqe-Ish%C3%ABm_Nature_Park"
   }
  },
  {
@@ -4573,6 +5824,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "About 170 caves lie in and around Theth, in limestone that water dissolves into sinkholes and chasms.",
+   "glance": {
+    "colour": "",
+    "made_of": "Limestone rock and soil",
+    "from": "Glacier-carved Albanian Alps limestone"
+   },
    "colour": "not published",
    "composition": "limestone rock and soil",
    "origin": "limestone mountains of the Albanian Alps, shaped by glaciers",
@@ -4583,6 +5840,10 @@
     "https://thethi-guide.com/thethi-national-park/geography-and-geology/",
     "https://en.wikipedia.org/wiki/Accursed_Mountains"
    ]
+  },
+  "wikipedia": {
+   "title": "Alps of Albania National Park",
+   "url": "https://en.wikipedia.org/wiki/Alps_of_Albania_National_Park"
   }
  },
  {
@@ -4609,6 +5870,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Dark streaks in sand along this coast come from heavy minerals such as garnet.",
+   "glance": {
+    "colour": "Pale",
+    "made_of": "Mostly quartz, feldspar and shell",
+    "from": "Glacial sediment reworked by waves"
+   },
    "colour": "pale",
    "composition": "mostly quartz, with feldspar and shell fragments",
    "origin": "glacial sediment reworked by waves and tides since the last ice age",
@@ -4620,6 +5887,10 @@
     "https://core-prod.cambridgecore.org/core/journals/proceedings-of-the-royal-society-of-edinburgh-section-b-biological-sciences/article/sediments-of-the-tay-estuary-vi-sediments-of-the-lower-and-outer-reaches/5207D51E02FC13E93E0C4F6BA4ECC485",
     "https://fifecoastandcountrysidetrust.co.uk/walks/fife-beaches/st-andrews-west-sands/"
    ]
+  },
+  "wikipedia": {
+   "title": "St Andrews",
+   "url": "https://en.wikipedia.org/wiki/St_Andrews"
   }
  },
  {
@@ -4646,6 +5917,12 @@
   },
   "sand": {
    "known": true,
+   "highlight": "Rising and falling seas have sorted these quartz grains until nearly all are the same size.",
+   "glance": {
+    "colour": "Sugar white",
+    "made_of": "Almost entirely quartz",
+    "from": "The ancient Appalachian Mountains"
+   },
    "colour": "sugar white",
    "composition": "almost entirely quartz",
    "origin": "washed out of the ancient Appalachian Mountains",
@@ -4655,6 +5932,10 @@
    "sources": [
     "https://encyclopediaofalabama.org/article/alabamas-coastline/"
    ]
+  },
+  "wikipedia": {
+   "title": "Gulf Shores, Alabama",
+   "url": "https://en.wikipedia.org/wiki/Gulf_Shores,_Alabama"
   }
  }
 ]

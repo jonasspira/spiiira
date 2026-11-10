@@ -27,9 +27,12 @@
 
   <button type="button" class="btn btn-float" id="world" hidden>Return to map</button>
 
-  <div class="legend" id="legend">
-    <span class="legend-item"><span class="dot dot-exact" aria-hidden="true"></span>Exact place</span>
-    <span class="legend-item"><span class="dot dot-approx" aria-hidden="true"></span>Approx. place</span>
+  <div class="legend" id="legend" role="group" aria-label="Map key">
+    <span class="legend-title">Key</span>
+    <span class="legend-item"><span class="key key-beach" aria-hidden="true"></span>Beach</span>
+    <span class="legend-item"><span class="key key-nonbeach" aria-hidden="true"></span>Not a beach</span>
+    <span class="legend-item"><span class="key key-approx" aria-hidden="true"></span>Approx. place</span>
+    <span class="legend-item"><span class="key key-cluster" aria-hidden="true">3</span>Group of jars</span>
     <button type="button" class="link" id="empty-jar" hidden></button>
   </div>
 

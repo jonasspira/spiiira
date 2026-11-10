@@ -10,6 +10,13 @@ www.spiiira.com/sand/. Every jar with a known place has a pin; clicking one
 flies the map in and opens a card about the place and what its sand is made of.
 This folder is the only copy; there is no separate repository.
 
+**Start every session by reading `STATUS.md` in this folder.** It holds where
+this started, every decision so far, what is unfinished, and what to do next.
+Unlike the repo's other `STATUS.md` files it is committed (forced past
+`.git/info/exclude`) so Codex, cloud sessions and any other copy of the repo can
+read it. Nothing in it is private. Keep it committed and keep its
+`published: false` front matter.
+
 ## Where the pieces are
 
 | Piece | Lives in |
@@ -21,6 +28,7 @@ This folder is the only copy; there is no separate repository.
 | Map libraries (Leaflet 1.9.4, Leaflet.markercluster 1.5.3) | `vendor/`, copied unmodified from npm, with their licences |
 | Data checks | `tests/data.test.mjs` |
 | Tab icon | `favicon.svg` |
+| Progress, decisions, next steps | `STATUS.md` (committed) |
 
 ## Why plain files, not React + Vite
 
@@ -69,13 +77,33 @@ this folder are both the source and what is served. Edit them directly.
 - **v1 has one flow only**: map, pin, card, Random, Return to map. No search,
   filters, list view, accounts, comments, sharing or editing on the page. Do not
   turn it into a list, gallery or blog. The map is the page.
+- **Colours carry meaning; use them the same way everywhere.** Surfaces are the
+  spiiira-ui greys. Jonas chose four accents (2026-11-10):
+  amber `#FDBA21` = beach pins, the sand, numbers;
+  purple `#BF63F3` = not a beach (pins, clusters, tag, stat);
+  orange `#FE5517` = approximate or uncertain (approx. tag, confidence, caveat line);
+  blue `#0066FF` = controls (Random, links, focus ring, current jar), shown as
+  `#5C9BFF` where it is text on dark grey because `#0066FF` is too dark to read.
+  Do not use a colour for a second meaning.
+- **Colour is never the only cue.** Beach pins are circles, not-a-beach pins
+  are diamonds, approximate pins are hollow and dashed. The key on the map
+  explains all three. Keep the key in step with the pins.
+- **Cards are for glancing** (Jonas, 2026-11-10: less text, just interesting
+  details). Top to bottom: ID and country, place, label, tags, one short caveat
+  line at most, the one-sentence `highlight`, three quick facts (`glance`), the
+  Wikipedia link, the other jars from the same beach. Everything longer (the
+  full summary, grain, sources, inventory notes) stays folded under "More".
+  Do not move long text back above the fold.
+- **Highlights and quick facts are condensed from the sourced summary**, never
+  new facts. A place with `known: false` has an empty highlight; the card then
+  says the composition is not published.
 
 ## v1 defaults for the edge cases (data-driven: change the data, not the code)
 
 | Case | v1 handling |
 |---|---|
 | Duplicate jars (Venice x3; Nassau, Daytona, Pensacola, Barcelona, Manhattan Beach, Santa Monica, Papagayo, Eleuthera x2) | One pin per jar, same coordinates, shared `duplicate_group`. They cluster, then fan out when clicked. The card links to the other jar(s). |
-| Non-beach jars | `category: "not_a_beach"`, with a pin, a card and a "Not a beach" tag. |
+| Non-beach jars | `category: "not_a_beach"`, with a purple diamond pin, a card and a purple "Not a beach" tag. |
 | Country-only labels (Hawaii, Iceland, Nicaragua) | `category: "country_only"`, approximate pin at the country or state centre. |
 | SJ-025, the empty jar | `category: "empty"`, no coordinates, no pin. Shown only as the "empty jar awaiting sand" note in the legend, which opens its inventory row. |
 | SJ-121, "[?]af Beach, Cape Town" | Low confidence, approximate pin at central Cape Town, card says the name is unresolved. Do not guess the beach name; it needs a photo of the jar's left side. |
@@ -86,9 +114,14 @@ this folder are both the source and what is served. Edit them directly.
 Each jar: the seven inventory fields above, plus `place_key` (one per distinct
 place), `country`, `category` (`beach`, `not_a_beach`, `country_only`, `empty`),
 `duplicate_group`, `latitude`, `longitude`, `approximate`, `approx_note`, `zoom`
-(how far the map flies in), `geocode` (`source`, `osm`, `matched`), and `sand`
-(`known`, `colour`, `composition`, `origin`, `why_this_colour`, `grain`,
-`summary`, `sources`). `country` uses the sovereign state, except for
+(how far the map flies in), `geocode` (`source`, `osm`, `matched`),
+`wikipedia` (`title`, `url`, checked against Wikipedia's API: a real article,
+not a disambiguation page; sometimes the nearest broader article, e.g. La
+Pelosa links to Stintino), and `sand`: `known`, `highlight` (one sentence, at
+most about 22 words), `glance` (`colour`, `made_of`, `from`, a few words each,
+empty when unknown), then the longer research fields `colour`, `composition`,
+`origin`, `why_this_colour`, `grain`, `summary` (2 to 4 sentences) and
+`sources`. `country` uses the sovereign state, except for
 territories counted on their own: Hong Kong, Aruba, Cayman Islands, Turks and
 Caicos Islands. Hawaii is `United States`. The continent for each country is
 in the `CONTINENT` table in `app.js`; if a country is missing there, the

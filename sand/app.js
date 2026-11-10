@@ -24,8 +24,8 @@
     'South Korea': 'Asia', 'Hong Kong': 'Asia'
   };
   var CONFIDENCE_NOTE = {
-    medium: 'Part of this label is cut off or hard to read; the place name is inferred and not fully verified.',
-    low: 'The place name on this label is unresolved. Part of the first word wraps around the jar and cannot be read yet, so the beach is not named here.'
+    medium: 'Label partly cut off, so the place name is inferred.',
+    low: 'Beach name unresolved: part of the label wraps out of sight.'
   };
 
   var $ = function (id) { return document.getElementById(id); };
@@ -61,14 +61,16 @@
     worldBtn.hidden = !drawer.hidden || map.getZoom() <= worldZoom() + 0.5;
   }
 
+  function isNonBeach(jar) { return jar.category === 'not_a_beach'; }
+
   function pinIcon(jar, selected) {
-    var cls = 'pin' + (jar.approximate ? ' approx' : '') + (selected ? ' selected' : '');
+    var cls = 'pin' + (isNonBeach(jar) ? ' nonbeach' : '') + (jar.approximate ? ' approx' : '') + (selected ? ' selected' : '');
     var size = jar.approximate ? 16 : 14;
     return L.divIcon({ className: cls, html: '<span></span>', iconSize: [size, size], iconAnchor: [size / 2, size / 2] });
   }
 
   function pinLabel(jar) {
-    return jar.id + ', ' + jar.place + (jar.approximate ? ' (approximate location)' : '');
+    return jar.id + ', ' + jar.place + (isNonBeach(jar) ? ' (not a beach)' : '') + (jar.approximate ? ' (approximate location)' : '');
   }
 
   function addMarkers() {
@@ -76,20 +78,25 @@
       showCoverageOnHover: false,
       maxClusterRadius: 38,
       spiderfyDistanceMultiplier: 1.6,
+      // Amber for beaches; purple when every jar inside is not a beach; a purple
+      // ring when the group mixes both.
       iconCreateFunction: function (c) {
+        var kids = c.getAllChildMarkers();
+        var non = kids.filter(function (k) { return k.options.nonBeach; }).length;
+        var kind = non === kids.length ? ' nonbeach' : non ? ' mixed' : '';
         var n = c.getChildCount();
         var s = n < 5 ? 28 : n < 15 ? 34 : 40;
-        return L.divIcon({ className: 'cluster', html: '<span>' + n + '</span>', iconSize: [s, s] });
+        return L.divIcon({ className: 'cluster' + kind, html: '<span>' + n + '</span>', iconSize: [s, s] });
       }
     });
-    cluster.on('clustermouseover', function () {});
     // Clusters are markers too: give them a readable label for keyboard and screen-reader users.
     cluster.on('animationend spiderfied unspiderfied', labelClusters);
     map.on('zoomend', labelClusters);
 
     pinned.forEach(function (jar) {
       var m = L.marker([jar.latitude, jar.longitude], {
-        icon: pinIcon(jar, false), keyboard: true, title: pinLabel(jar), alt: pinLabel(jar), riseOnHover: true
+        icon: pinIcon(jar, false), keyboard: true, title: pinLabel(jar), alt: pinLabel(jar), riseOnHover: true,
+        nonBeach: isNonBeach(jar)
       });
       m.on('click', function () { openJar(jar, { fly: true }); });
       m.on('add', function () { decorate(m, jar); });
@@ -188,30 +195,32 @@
 
   function reduceMotion() { return window.matchMedia('(prefers-reduced-motion: reduce)').matches; }
 
+  // The card reads top-down in a glance: name, tags, one interesting line,
+  // three quick facts, links. Everything longer sits under "More".
   function renderCard(jar) {
     card.textContent = '';
     card.setAttribute('tabindex', '-1');
+    card.className = 'drawer-body card' + (isNonBeach(jar) ? ' nonbeach' : '');
 
     card.appendChild(el('p', { class: 'card-meta', text: jar.id + (jar.country ? ' · ' + jar.country : '') }));
     card.appendChild(el('h2', { class: 'card-title', id: 'card-title', text: jar.category === 'empty' ? 'Empty jar awaiting sand' : jar.place }));
     card.appendChild(el('p', { class: 'label-quote' }, ['Label: ', el('q', { text: jar.label_as_written })]));
 
     var tags = el('ul', { class: 'tags', 'aria-label': 'About this jar' });
-    if (jar.category === 'not_a_beach') tags.appendChild(el('li', { class: 'tag tag-sand', text: 'Not a beach' }));
-    if (jar.category === 'country_only') tags.appendChild(el('li', { class: 'tag tag-sand', text: 'Country only' }));
-    if (jar.category === 'empty') tags.appendChild(el('li', { class: 'tag tag-sand', text: 'Empty jar' }));
-    if (jar.approximate) tags.appendChild(el('li', { class: 'tag tag-warn', text: 'Approx. location' }));
-    if (jar.confidence === 'low') tags.appendChild(el('li', { class: 'tag tag-warn', text: 'Name unresolved' }));
-    tags.appendChild(el('li', { class: 'tag' + (jar.confidence === 'high' ? '' : ' tag-warn'), text: 'Confidence: ' + jar.confidence }));
-    card.appendChild(tags);
+    if (jar.category === 'not_a_beach') tags.appendChild(el('li', { class: 'tag tag-purple', text: 'Not a beach' }));
+    if (jar.category === 'country_only') tags.appendChild(el('li', { class: 'tag tag-amber', text: 'Country only' }));
+    if (jar.category === 'empty') tags.appendChild(el('li', { class: 'tag', text: 'Empty jar' }));
+    if (jar.approximate) tags.appendChild(el('li', { class: 'tag tag-orange', text: 'Approx. location' }));
+    if (jar.confidence === 'low') tags.appendChild(el('li', { class: 'tag tag-orange', text: 'Name unresolved' }));
+    if (jar.confidence !== 'high') tags.appendChild(el('li', { class: 'tag tag-orange', text: jar.confidence.charAt(0).toUpperCase() + jar.confidence.slice(1) + ' confidence' }));
+    if (tags.children.length) card.appendChild(tags);
 
-    if (CONFIDENCE_NOTE[jar.confidence]) card.appendChild(el('p', { class: 'notice', text: CONFIDENCE_NOTE[jar.confidence] }));
-    if (jar.approximate && jar.approx_note) {
-      card.appendChild(el('p', { class: 'notice' }, [el('strong', { text: 'Approximate location. ' }), jar.approx_note]));
-    }
-    if (jar.category === 'empty') {
-      card.appendChild(el('p', { class: 'notice', text: 'This jar is genuinely empty glass with no tag, so it has no place and no pin on the map.' }));
-    }
+    // One short caveat line at most; the full explanation is under More.
+    var caveat = CONFIDENCE_NOTE[jar.confidence] || (jar.approximate ? jar.approx_note : '');
+    if (jar.category === 'empty') caveat = 'Genuinely empty glass with no tag, so it has no pin on the map.';
+    if (caveat) card.appendChild(el('p', { class: 'caveat', text: caveat }));
+
+    if (jar.sand) renderGlance(jar);
 
     var group = jar.duplicate_group ? byGroup[jar.duplicate_group] : null;
     if (group && group.length > 1) {
@@ -225,36 +234,56 @@
       card.appendChild(el('div', { class: 'dupes' }, [group.length + ' jars from this beach. Each has its own label:', list]));
     }
 
-    if (jar.sand) card.appendChild(renderSand(jar));
-
-    var sec = el('dl');
-    [['Shelf', jar.shelf_group], ['Photo', jar.photo], ['Inventory note', jar.notes]].forEach(function (r) {
-      if (r[1]) { sec.appendChild(el('dt', { text: r[0] })); sec.appendChild(el('dd', { text: r[1] })); }
-    });
-    card.appendChild(el('div', { class: 'secondary' }, [sec]));
+    card.appendChild(renderMore(jar));
+    card.appendChild(el('p', { class: 'foot', text: [jar.shelf_group && 'Shelf ' + jar.shelf_group, jar.photo && 'Photo ' + jar.photo].filter(Boolean).join(' · ') }));
   }
 
-  function renderSand(jar) {
+  function renderGlance(jar) {
     var s = jar.sand;
-    var box = el('section', { class: 'sand', 'aria-label': 'The sand' }, [el('h3', { text: jar.category === 'not_a_beach' ? 'The material' : 'The sand' })]);
-    box.appendChild(el('p', { text: s.summary }));
-    if (s.known) {
-      var facts = el('dl', { class: 'facts' });
-      [['Colour', s.colour], ['Made of', s.composition], ['Comes from', s.origin], ['Why that colour', s.why_this_colour], ['Grain', s.grain]].forEach(function (r) {
-        if (r[1]) { facts.appendChild(el('dt', { text: r[0] })); facts.appendChild(el('dd', { text: r[1] })); }
-      });
-      box.appendChild(facts);
+    if (s.known && s.highlight) card.appendChild(el('p', { class: 'highlight', text: s.highlight }));
+    else card.appendChild(el('p', { class: 'highlight unknown', text: 'What this sand is made of is not published. The jar is on the map from its label.' }));
+
+    var g = s.glance || {};
+    var rows = [['Colour', g.colour], ['Made of', g.made_of], ['From', g.from]].filter(function (r) { return r[1]; });
+    if (rows.length) {
+      var dl = el('dl', { class: 'glance' });
+      rows.forEach(function (r) { dl.appendChild(el('div', null, [el('dt', { text: r[0] }), el('dd', { text: r[1] })])); });
+      card.appendChild(dl);
     }
-    if (s.sources && s.sources.length) {
+
+    if (jar.wikipedia && /^https:\/\/en\.wikipedia\.org\//.test(jar.wikipedia.url)) {
+      var a = el('a', { class: 'btn', href: jar.wikipedia.url, target: '_blank', rel: 'noopener', text: 'Wikipedia: ' + jar.wikipedia.title });
+      card.appendChild(el('div', { class: 'links' }, [a]));
+    }
+  }
+
+  // Full research, sources and inventory notes, folded away.
+  function renderMore(jar) {
+    var d = el('details', { class: 'more' }, [el('summary', { text: jar.sand ? 'More about this ' + (isNonBeach(jar) ? 'material' : 'sand') : 'Inventory details' })]);
+    var s = jar.sand;
+    if (s) {
+      d.appendChild(el('p', { text: s.summary }));
+      var facts = el('dl', { class: 'facts' });
+      [['Why that colour', s.why_this_colour], ['Grain', s.grain]].forEach(function (r) {
+        if (r[1] && r[1] !== 'not published') { facts.appendChild(el('dt', { text: r[0] })); facts.appendChild(el('dd', { text: r[1] })); }
+      });
+      if (facts.children.length) d.appendChild(facts);
+    }
+    var inv = el('dl', { class: 'facts' });
+    [['Location', jar.approximate ? jar.approx_note : ''], ['Inventory note', jar.notes]].forEach(function (r) {
+      if (r[1]) { inv.appendChild(el('dt', { text: r[0] })); inv.appendChild(el('dd', { text: r[1] })); }
+    });
+    if (inv.children.length) d.appendChild(inv);
+    if (s && s.sources && s.sources.length) {
       var ul = el('ul');
       s.sources.forEach(function (u) {
         if (!/^https?:\/\//.test(u)) return;
         var host = u; try { host = new URL(u).hostname.replace(/^www\./, ''); } catch (e) {}
         ul.appendChild(el('li', null, [el('a', { href: u, target: '_blank', rel: 'noopener', text: host })]));
       });
-      box.appendChild(el('div', { class: 'sources' }, ['Sources', ul]));
+      d.appendChild(el('div', { class: 'sources' }, ['Sources', ul]));
     }
-    return box;
+    return d;
   }
 
   // ---------- stats (all computed from the data file) ----------
@@ -276,9 +305,9 @@
       [Object.keys(countries).length, 'countries & territories']
     ];
     if (!missing) items.push([Object.keys(continents).length, 'continents']);
-    items.push([beach, 'beaches'], [notBeach, 'not beaches']);
+    items.push([beach, 'beaches'], [notBeach, 'not beaches', 's-purple']);
     var ul = $('stats');
-    items.forEach(function (it) { ul.appendChild(el('li', null, [el('b', { text: String(it[0]) }), it[1]])); });
+    items.forEach(function (it) { ul.appendChild(el('li', it[2] ? { class: it[2] } : null, [el('b', { text: String(it[0]) }), it[1]])); });
   }
 
   // ---------- random ----------
