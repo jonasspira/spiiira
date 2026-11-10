@@ -44,6 +44,15 @@
   "wikipedia": {
    "title": "Sanibel, Florida",
    "url": "https://en.wikipedia.org/wiki/Sanibel%2C_Florida"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Thalasseus_maximus_Sanibel.jpg/500px-Thalasseus_maximus_Sanibel.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Thalasseus_maximus_Sanibel.jpg/500px-Thalasseus_maximus_Sanibel.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Thalasseus_maximus_Sanibel.jpg/960px-Thalasseus_maximus_Sanibel.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Thalasseus_maximus_Sanibel.jpg",
+   "file": "File:Thalasseus maximus Sanibel.jpg",
+   "artist": "Fredlyfish4",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Royal terns on the shore at Bowman's Beach"
   }
  },
  {
@@ -91,6 +100,15 @@
   "wikipedia": {
    "title": "Stinson Beach, California",
    "url": "https://en.wikipedia.org/wiki/Stinson_Beach%2C_California"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Stinson_Beach%2C_CA_-_panoramio_%282%29.jpg/500px-Stinson_Beach%2C_CA_-_panoramio_%282%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Stinson_Beach%2C_CA_-_panoramio_%282%29.jpg/500px-Stinson_Beach%2C_CA_-_panoramio_%282%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Stinson_Beach%2C_CA_-_panoramio_%282%29.jpg/960px-Stinson_Beach%2C_CA_-_panoramio_%282%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Stinson_Beach,_CA_-_panoramio_(2).jpg",
+   "file": "File:Stinson Beach, CA - panoramio (2).jpg",
+   "artist": "MARELBU",
+   "licence": "CC BY 3.0",
+   "caption": "Stinson Beach and coastline from above"
   }
  },
  {
@@ -137,6 +155,15 @@
   "wikipedia": {
    "title": "Laguna Beach, California",
    "url": "https://en.wikipedia.org/wiki/Laguna_Beach%2C_California"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/North_Laguna_Aerial_photo_by_Don_Ramey_Logan.jpg/500px-North_Laguna_Aerial_photo_by_Don_Ramey_Logan.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/North_Laguna_Aerial_photo_by_Don_Ramey_Logan.jpg/500px-North_Laguna_Aerial_photo_by_Don_Ramey_Logan.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/North_Laguna_Aerial_photo_by_Don_Ramey_Logan.jpg/960px-North_Laguna_Aerial_photo_by_Don_Ramey_Logan.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:North_Laguna_Aerial_photo_by_Don_Ramey_Logan.jpg",
+   "file": "File:North Laguna Aerial photo by Don Ramey Logan.jpg",
+   "artist": "Don Ramey Logan",
+   "licence": "CC BY 4.0",
+   "caption": "Laguna Beach coves from the air"
   }
  },
  {
@@ -184,6 +211,15 @@
   "wikipedia": {
    "title": "Panama City Beach, Florida",
    "url": "https://en.wikipedia.org/wiki/Panama_City_Beach%2C_Florida"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Panama_City_Beach%2C_Florida_%28J.S._Clark%29.jpg/500px-Panama_City_Beach%2C_Florida_%28J.S._Clark%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Panama_City_Beach%2C_Florida_%28J.S._Clark%29.jpg/500px-Panama_City_Beach%2C_Florida_%28J.S._Clark%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Panama_City_Beach%2C_Florida_%28J.S._Clark%29.jpg/960px-Panama_City_Beach%2C_Florida_%28J.S._Clark%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Panama_City_Beach,_Florida_(J.S._Clark).jpg",
+   "file": "File:Panama City Beach, Florida (J.S. Clark).jpg",
+   "artist": "j.s. clark/ \"Image by jsclark.net.\"",
+   "licence": "CC BY-SA 2.0",
+   "caption": "White sand shoreline at Panama City Beach"
   }
  },
  {
@@ -230,6 +266,15 @@
   "wikipedia": {
    "title": "Brittas Bay",
    "url": "https://en.wikipedia.org/wiki/Brittas_Bay"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Brittas_Bay_-_geograph.org.uk_-_6171238.jpg/500px-Brittas_Bay_-_geograph.org.uk_-_6171238.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Brittas_Bay_-_geograph.org.uk_-_6171238.jpg/500px-Brittas_Bay_-_geograph.org.uk_-_6171238.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Brittas_Bay_-_geograph.org.uk_-_6171238.jpg/960px-Brittas_Bay_-_geograph.org.uk_-_6171238.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Brittas_Bay_-_geograph.org.uk_-_6171238.jpg",
+   "file": "File:Brittas Bay - geograph.org.uk - 6171238.jpg",
+   "artist": "Jo and Steve Turner",
+   "licence": "CC BY-SA 2.0",
+   "caption": "Brittas Bay beach and dunes"
   }
  },
  {
@@ -276,6 +321,15 @@
   "wikipedia": {
    "title": "Siesta Key, Florida",
    "url": "https://en.wikipedia.org/wiki/Siesta_Key%2C_Florida"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Siesta_Key_Beach._Sarasota_-_panoramio_-_4net_%283%29.jpg/500px-Siesta_Key_Beach._Sarasota_-_panoramio_-_4net_%283%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Siesta_Key_Beach._Sarasota_-_panoramio_-_4net_%283%29.jpg/500px-Siesta_Key_Beach._Sarasota_-_panoramio_-_4net_%283%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Siesta_Key_Beach._Sarasota_-_panoramio_-_4net_%283%29.jpg/960px-Siesta_Key_Beach._Sarasota_-_panoramio_-_4net_%283%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Siesta_Key_Beach._Sarasota_-_panoramio_-_4net_(3).jpg",
+   "file": "File:Siesta Key Beach. Sarasota - panoramio - 4net (3).jpg",
+   "artist": "4net",
+   "licence": "CC BY 3.0",
+   "caption": "White sand and lifeguard tower, Siesta Key"
   }
  },
  {
@@ -322,6 +376,15 @@
   "wikipedia": {
    "title": "Seychelles",
    "url": "https://en.wikipedia.org/wiki/Seychelles"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Beach_at_Union_Estate_Park_-_La_Digue_-_Seychelles.jpg/500px-Beach_at_Union_Estate_Park_-_La_Digue_-_Seychelles.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Beach_at_Union_Estate_Park_-_La_Digue_-_Seychelles.jpg/500px-Beach_at_Union_Estate_Park_-_La_Digue_-_Seychelles.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Beach_at_Union_Estate_Park_-_La_Digue_-_Seychelles.jpg/960px-Beach_at_Union_Estate_Park_-_La_Digue_-_Seychelles.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Beach_at_Union_Estate_Park_-_La_Digue_-_Seychelles.jpg",
+   "file": "File:Beach at Union Estate Park - La Digue - Seychelles.jpg",
+   "artist": "NorbertNagel",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Beach at Union Estate, La Digue"
   }
  },
  {
@@ -369,6 +432,15 @@
   "wikipedia": {
    "title": "Key Biscayne, Florida",
    "url": "https://en.wikipedia.org/wiki/Key_Biscayne%2C_Florida"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Cape_Florida_Beach_1.jpg/500px-Cape_Florida_Beach_1.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Cape_Florida_Beach_1.jpg/500px-Cape_Florida_Beach_1.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Cape_Florida_Beach_1.jpg/960px-Cape_Florida_Beach_1.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Cape_Florida_Beach_1.jpg",
+   "file": "File:Cape Florida Beach 1.jpg",
+   "artist": "Wilfredor",
+   "licence": "CC0",
+   "caption": "Palms on Cape Florida Beach, Key Biscayne"
   }
  },
  {
@@ -415,6 +487,15 @@
   "wikipedia": {
    "title": "Jacó, Costa Rica",
    "url": "https://en.wikipedia.org/wiki/Jac%C3%B3%2C_Costa_Rica"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Playa_Jac%C3%B3.jpg/500px-Playa_Jac%C3%B3.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Playa_Jac%C3%B3.jpg/500px-Playa_Jac%C3%B3.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Playa_Jac%C3%B3.jpg/960px-Playa_Jac%C3%B3.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Playa_Jac%C3%B3.jpg",
+   "file": "File:Playa Jacó.jpg",
+   "artist": "Pantar at Italian Wikipedia",
+   "licence": "CC BY-SA 4.0",
+   "caption": "The curve of Playa Jacó from above"
   }
  },
  {
@@ -460,6 +541,15 @@
   "wikipedia": {
    "title": "Topsail Island",
    "url": "https://en.wikipedia.org/wiki/Topsail_Island"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/North_Topsail_Beach%2C_NC_%284600325820%29.jpg/500px-North_Topsail_Beach%2C_NC_%284600325820%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/North_Topsail_Beach%2C_NC_%284600325820%29.jpg/500px-North_Topsail_Beach%2C_NC_%284600325820%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/North_Topsail_Beach%2C_NC_%284600325820%29.jpg/960px-North_Topsail_Beach%2C_NC_%284600325820%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:North_Topsail_Beach,_NC_(4600325820).jpg",
+   "file": "File:North Topsail Beach, NC (4600325820).jpg",
+   "artist": "rjones0856 from USA",
+   "licence": "CC BY 2.0",
+   "caption": "Sand and surf at North Topsail Beach"
   }
  },
  {
@@ -506,6 +596,15 @@
   "wikipedia": {
    "title": "Mākena State Park",
    "url": "https://en.wikipedia.org/wiki/M%C4%81kena_State_Park"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Big_waves_at_Makena_Beach_%28Big_Beach%29_%2830799850077%29.jpg/500px-Big_waves_at_Makena_Beach_%28Big_Beach%29_%2830799850077%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Big_waves_at_Makena_Beach_%28Big_Beach%29_%2830799850077%29.jpg/500px-Big_waves_at_Makena_Beach_%28Big_Beach%29_%2830799850077%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Big_waves_at_Makena_Beach_%28Big_Beach%29_%2830799850077%29.jpg/960px-Big_waves_at_Makena_Beach_%28Big_Beach%29_%2830799850077%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Big_waves_at_Makena_Beach_(Big_Beach)_(30799850077).jpg",
+   "file": "File:Big waves at Makena Beach (Big Beach) (30799850077).jpg",
+   "artist": "dronepicr",
+   "licence": "CC BY 2.0",
+   "caption": "Big Beach at Makena from the cliffs"
   }
  },
  {
@@ -553,6 +652,15 @@
   "wikipedia": {
    "title": "Daytona Beach, Florida",
    "url": "https://en.wikipedia.org/wiki/Daytona_Beach%2C_Florida"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Daytona_Beach_Pier_from_north.jpg/500px-Daytona_Beach_Pier_from_north.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Daytona_Beach_Pier_from_north.jpg/500px-Daytona_Beach_Pier_from_north.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Daytona_Beach_Pier_from_north.jpg/960px-Daytona_Beach_Pier_from_north.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Daytona_Beach_Pier_from_north.jpg",
+   "file": "File:Daytona Beach Pier from north.jpg",
+   "artist": "Dough4872",
+   "licence": "CC BY-SA 3.0",
+   "caption": "Daytona Beach sand and pier from the north"
   }
  },
  {
@@ -599,6 +707,15 @@
   "wikipedia": {
    "title": "Tampa, Florida",
    "url": "https://en.wikipedia.org/wiki/Tampa%2C_Florida"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Cypress_point_beach.jpg/500px-Cypress_point_beach.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Cypress_point_beach.jpg/500px-Cypress_point_beach.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Cypress_point_beach.jpg/960px-Cypress_point_beach.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Cypress_point_beach.jpg",
+   "file": "File:Cypress point beach.jpg",
+   "artist": "MdeVicente",
+   "licence": "CC0",
+   "caption": "Sandy shore at Cypress Point Park, Tampa"
   }
  },
  {
@@ -645,6 +762,15 @@
   "wikipedia": {
    "title": "Pensacola, Florida",
    "url": "https://en.wikipedia.org/wiki/Pensacola%2C_Florida"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Pensacola_Beach.jpg/500px-Pensacola_Beach.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Pensacola_Beach.jpg/500px-Pensacola_Beach.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Pensacola_Beach.jpg/960px-Pensacola_Beach.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Pensacola_Beach.jpg",
+   "file": "File:Pensacola Beach.jpg",
+   "artist": "Darrellcdow",
+   "licence": "Public domain",
+   "caption": "White sand at Pensacola Beach"
   }
  },
  {
@@ -692,6 +818,15 @@
   "wikipedia": {
    "title": "Tybee Island, Georgia",
    "url": "https://en.wikipedia.org/wiki/Tybee_Island%2C_Georgia"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/362_Beach%2C_Tybee_Island%2C_Georgia.jpg/500px-362_Beach%2C_Tybee_Island%2C_Georgia.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/362_Beach%2C_Tybee_Island%2C_Georgia.jpg/500px-362_Beach%2C_Tybee_Island%2C_Georgia.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/362_Beach%2C_Tybee_Island%2C_Georgia.jpg/960px-362_Beach%2C_Tybee_Island%2C_Georgia.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:362_Beach,_Tybee_Island,_Georgia.jpg",
+   "file": "File:362 Beach, Tybee Island, Georgia.jpg",
+   "artist": "XeresNelro",
+   "licence": "CC BY-SA 4.0",
+   "caption": "362 Beach on Tybee Island"
   }
  },
  {
@@ -738,6 +873,15 @@
   "wikipedia": {
    "title": "Nassau, Bahamas",
    "url": "https://en.wikipedia.org/wiki/Nassau%2C_Bahamas"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Cabbage_Beach%2C_Bahamas.jpg/500px-Cabbage_Beach%2C_Bahamas.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Cabbage_Beach%2C_Bahamas.jpg/500px-Cabbage_Beach%2C_Bahamas.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Cabbage_Beach%2C_Bahamas.jpg/960px-Cabbage_Beach%2C_Bahamas.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Cabbage_Beach,_Bahamas.jpg",
+   "file": "File:Cabbage Beach, Bahamas.jpg",
+   "artist": "Coolcaesar",
+   "licence": "CC BY 4.0",
+   "caption": "Turquoise water at Cabbage Beach, Nassau"
   }
  },
  {
@@ -785,6 +929,15 @@
   "wikipedia": {
    "title": "Coronado, California",
    "url": "https://en.wikipedia.org/wiki/Coronado%2C_California"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Coronado_Beach_2018.jpg/500px-Coronado_Beach_2018.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Coronado_Beach_2018.jpg/500px-Coronado_Beach_2018.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Coronado_Beach_2018.jpg/960px-Coronado_Beach_2018.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Coronado_Beach_2018.jpg",
+   "file": "File:Coronado Beach 2018.jpg",
+   "artist": "Antony-22",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Coronado Beach shoreline"
   }
  },
  {
@@ -832,6 +985,15 @@
   "wikipedia": {
    "title": "Valley of Fire State Park",
    "url": "https://en.wikipedia.org/wiki/Valley_of_Fire_State_Park"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Valley_of_fire_State_Park_3.jpg/500px-Valley_of_fire_State_Park_3.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Valley_of_fire_State_Park_3.jpg/500px-Valley_of_fire_State_Park_3.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Valley_of_fire_State_Park_3.jpg/960px-Valley_of_fire_State_Park_3.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Valley_of_fire_State_Park_3.jpg",
+   "file": "File:Valley of fire State Park 3.jpg",
+   "artist": "Clément Bardot",
+   "licence": "CC BY-SA 3.0",
+   "caption": "Red sandstone formations in Valley of Fire"
   }
  },
  {
@@ -878,6 +1040,15 @@
   "wikipedia": {
    "title": "Split, Croatia",
    "url": "https://en.wikipedia.org/wiki/Split%2C_Croatia"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Strand_Bacvice_in_Split%2C_Kroatien_%2848693677716%29.jpg/500px-Strand_Bacvice_in_Split%2C_Kroatien_%2848693677716%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Strand_Bacvice_in_Split%2C_Kroatien_%2848693677716%29.jpg/500px-Strand_Bacvice_in_Split%2C_Kroatien_%2848693677716%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Strand_Bacvice_in_Split%2C_Kroatien_%2848693677716%29.jpg/960px-Strand_Bacvice_in_Split%2C_Kroatien_%2848693677716%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Strand_Bacvice_in_Split,_Kroatien_(48693677716).jpg",
+   "file": "File:Strand Bacvice in Split, Kroatien (48693677716).jpg",
+   "artist": "dronepicr",
+   "licence": "CC BY 2.0",
+   "caption": "Bačvice sand beach in Split"
   }
  },
  {
@@ -924,6 +1095,15 @@
   "wikipedia": {
    "title": "Strandhill",
    "url": "https://en.wikipedia.org/wiki/Strandhill"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Strandhill_Beach_-_geograph.org.uk_-_6888286.jpg/500px-Strandhill_Beach_-_geograph.org.uk_-_6888286.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Strandhill_Beach_-_geograph.org.uk_-_6888286.jpg/500px-Strandhill_Beach_-_geograph.org.uk_-_6888286.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Strandhill_Beach_-_geograph.org.uk_-_6888286.jpg/960px-Strandhill_Beach_-_geograph.org.uk_-_6888286.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Strandhill_Beach_-_geograph.org.uk_-_6888286.jpg",
+   "file": "File:Strandhill Beach - geograph.org.uk - 6888286.jpg",
+   "artist": "Rossographer",
+   "licence": "CC BY-SA 2.0",
+   "caption": "Strandhill Beach and dunes"
   }
  },
  {
@@ -969,6 +1149,15 @@
   "wikipedia": {
    "title": "Saint-Tropez",
    "url": "https://en.wikipedia.org/wiki/Saint-Tropez"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Saint-Tropez_La_Ponche_02.jpg/500px-Saint-Tropez_La_Ponche_02.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Saint-Tropez_La_Ponche_02.jpg/500px-Saint-Tropez_La_Ponche_02.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Saint-Tropez_La_Ponche_02.jpg/960px-Saint-Tropez_La_Ponche_02.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Saint-Tropez_La_Ponche_02.jpg",
+   "file": "File:Saint-Tropez La Ponche 02.jpg",
+   "artist": "François de Dijon",
+   "licence": "CC BY-SA 4.0",
+   "caption": "La Ponche beach in old Saint-Tropez"
   }
  },
  {
@@ -1014,6 +1203,15 @@
   "wikipedia": {
    "title": "Stintino",
    "url": "https://en.wikipedia.org/wiki/Stintino"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/View_of_La_Pelosa%2C_Stintino_%28Sardinia%2C_Italy%29_%2823828109590%29.jpg/500px-View_of_La_Pelosa%2C_Stintino_%28Sardinia%2C_Italy%29_%2823828109590%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/View_of_La_Pelosa%2C_Stintino_%28Sardinia%2C_Italy%29_%2823828109590%29.jpg/500px-View_of_La_Pelosa%2C_Stintino_%28Sardinia%2C_Italy%29_%2823828109590%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/View_of_La_Pelosa%2C_Stintino_%28Sardinia%2C_Italy%29_%2823828109590%29.jpg/960px-View_of_La_Pelosa%2C_Stintino_%28Sardinia%2C_Italy%29_%2823828109590%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:View_of_La_Pelosa,_Stintino_(Sardinia,_Italy)_(23828109590).jpg",
+   "file": "File:View of La Pelosa, Stintino (Sardinia, Italy) (23828109590).jpg",
+   "artist": "Tommie Hansen from Stockholm, Sweden",
+   "licence": "CC BY 2.0",
+   "caption": "Turquoise shallows and Pelosa tower"
   }
  },
  {
@@ -1059,6 +1257,15 @@
   "wikipedia": {
    "title": "Cape Cod",
    "url": "https://en.wikipedia.org/wiki/Cape_Cod"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Nauset_Beach%2C_Cape_Cod%2C_Mass.jpg/500px-Nauset_Beach%2C_Cape_Cod%2C_Mass.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Nauset_Beach%2C_Cape_Cod%2C_Mass.jpg/500px-Nauset_Beach%2C_Cape_Cod%2C_Mass.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Nauset_Beach%2C_Cape_Cod%2C_Mass.jpg/960px-Nauset_Beach%2C_Cape_Cod%2C_Mass.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Nauset_Beach,_Cape_Cod,_Mass.jpg",
+   "file": "File:Nauset Beach, Cape Cod, Mass.jpg",
+   "artist": "DC_Rebecca",
+   "licence": "CC BY 2.0",
+   "caption": "Nauset Beach on Cape Cod"
   }
  },
  {
@@ -1105,6 +1312,15 @@
   "wikipedia": {
    "title": "Barcelona",
    "url": "https://en.wikipedia.org/wiki/Barcelona"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Platja_de_la_Barceloneta_01.jpg/500px-Platja_de_la_Barceloneta_01.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Platja_de_la_Barceloneta_01.jpg/500px-Platja_de_la_Barceloneta_01.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Platja_de_la_Barceloneta_01.jpg/960px-Platja_de_la_Barceloneta_01.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Platja_de_la_Barceloneta_01.jpg",
+   "file": "File:Platja de la Barceloneta 01.jpg",
+   "artist": "CPG83",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Barceloneta beach on a sunny day"
   }
  },
  {
@@ -1125,7 +1341,8 @@
   "approx_note": "",
   "geocode": null,
   "sand": null,
-  "wikipedia": null
+  "wikipedia": null,
+  "image": null
  },
  {
   "id": "SJ-026",
@@ -1171,6 +1388,15 @@
   "wikipedia": {
    "title": "Huntington Beach, California",
    "url": "https://en.wikipedia.org/wiki/Huntington_Beach%2C_California"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Huntington_beach_california.jpg/500px-Huntington_beach_california.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Huntington_beach_california.jpg/500px-Huntington_beach_california.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Huntington_beach_california.jpg/960px-Huntington_beach_california.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Huntington_beach_california.jpg",
+   "file": "File:Huntington beach california.jpg",
+   "artist": "John Salatas",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Wide sand beach with lifeguard tower"
   }
  },
  {
@@ -1217,6 +1443,15 @@
   "wikipedia": {
    "title": "Sunset Beach, California",
    "url": "https://en.wikipedia.org/wiki/Sunset_Beach%2C_California"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Lifeguard_station_12_-_Sunset_Beach%2C_California.JPG/500px-Lifeguard_station_12_-_Sunset_Beach%2C_California.JPG",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Lifeguard_station_12_-_Sunset_Beach%2C_California.JPG/500px-Lifeguard_station_12_-_Sunset_Beach%2C_California.JPG 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Lifeguard_station_12_-_Sunset_Beach%2C_California.JPG/960px-Lifeguard_station_12_-_Sunset_Beach%2C_California.JPG 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Lifeguard_station_12_-_Sunset_Beach,_California.JPG",
+   "file": "File:Lifeguard station 12 - Sunset Beach, California.JPG",
+   "artist": "M.O. Stevens",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Lifeguard tower on Sunset Beach, Orange County"
   }
  },
  {
@@ -1263,6 +1498,15 @@
   "wikipedia": {
    "title": "Manhattan Beach, California",
    "url": "https://en.wikipedia.org/wiki/Manhattan_Beach%2C_California"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Manhattan_Beach_and_Pier_%281251680654%29.jpg/500px-Manhattan_Beach_and_Pier_%281251680654%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Manhattan_Beach_and_Pier_%281251680654%29.jpg/500px-Manhattan_Beach_and_Pier_%281251680654%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Manhattan_Beach_and_Pier_%281251680654%29.jpg/960px-Manhattan_Beach_and_Pier_%281251680654%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Manhattan_Beach_and_Pier_(1251680654).jpg",
+   "file": "File:Manhattan Beach and Pier (1251680654).jpg",
+   "artist": "Paul Hamilton",
+   "licence": "CC BY-SA 2.0",
+   "caption": "Manhattan Beach sand and pier"
   }
  },
  {
@@ -1309,6 +1553,15 @@
   "wikipedia": {
    "title": "Santa Monica State Beach",
    "url": "https://en.wikipedia.org/wiki/Santa_Monica_State_Beach"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Santa_Monica_-_Beach.jpg/500px-Santa_Monica_-_Beach.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Santa_Monica_-_Beach.jpg/500px-Santa_Monica_-_Beach.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Santa_Monica_-_Beach.jpg/960px-Santa_Monica_-_Beach.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Santa_Monica_-_Beach.jpg",
+   "file": "File:Santa Monica - Beach.jpg",
+   "artist": "P. Hughes",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Santa Monica beach curving along the surf"
   }
  },
  {
@@ -1355,6 +1608,15 @@
   "wikipedia": {
    "title": "Playa del Rey, Los Angeles",
    "url": "https://en.wikipedia.org/wiki/Playa_del_Rey,_Los_Angeles"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Breakers_on_The_Shore_at_Playa_del_Rey.jpg/500px-Breakers_on_The_Shore_at_Playa_del_Rey.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Breakers_on_The_Shore_at_Playa_del_Rey.jpg/500px-Breakers_on_The_Shore_at_Playa_del_Rey.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Breakers_on_The_Shore_at_Playa_del_Rey.jpg/960px-Breakers_on_The_Shore_at_Playa_del_Rey.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Breakers_on_The_Shore_at_Playa_del_Rey.jpg",
+   "file": "File:Breakers on The Shore at Playa del Rey.jpg",
+   "artist": "Mike Izzo",
+   "licence": "Public domain",
+   "caption": "Breakers on the sand at Playa del Rey"
   }
  },
  {
@@ -1401,6 +1663,15 @@
   "wikipedia": {
    "title": "Redondo Beach, California",
    "url": "https://en.wikipedia.org/wiki/Redondo_Beach,_California"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Redondo-Beach.jpg/500px-Redondo-Beach.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Redondo-Beach.jpg/500px-Redondo-Beach.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Redondo-Beach.jpg/960px-Redondo-Beach.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Redondo-Beach.jpg",
+   "file": "File:Redondo-Beach.jpg",
+   "artist": "Amblin new",
+   "licence": "Public domain",
+   "caption": "Redondo Beach sand with the pier behind"
   }
  },
  {
@@ -1447,6 +1718,15 @@
   "wikipedia": {
    "title": "Malibu, California",
    "url": "https://en.wikipedia.org/wiki/Malibu,_California"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Malibu_beach_and_pier_2012_05.jpg/500px-Malibu_beach_and_pier_2012_05.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Malibu_beach_and_pier_2012_05.jpg/500px-Malibu_beach_and_pier_2012_05.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Malibu_beach_and_pier_2012_05.jpg/960px-Malibu_beach_and_pier_2012_05.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Malibu_beach_and_pier_2012_05.jpg",
+   "file": "File:Malibu beach and pier 2012 05.jpg",
+   "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Malibu beach curving toward the pier"
   }
  },
  {
@@ -1493,6 +1773,15 @@
   "wikipedia": {
    "title": "Muscle Beach",
    "url": "https://en.wikipedia.org/wiki/Muscle_Beach"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/The_location_of_original_Muscle_Beach.jpg/500px-The_location_of_original_Muscle_Beach.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/The_location_of_original_Muscle_Beach.jpg/500px-The_location_of_original_Muscle_Beach.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/The_location_of_original_Muscle_Beach.jpg/960px-The_location_of_original_Muscle_Beach.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:The_location_of_original_Muscle_Beach.jpg",
+   "file": "File:The location of original Muscle Beach.jpg",
+   "artist": "Marcin Wichary from San Francisco, U.S.A.",
+   "licence": "CC BY 2.0",
+   "caption": "Original Muscle Beach in Santa Monica"
   }
  },
  {
@@ -1540,6 +1829,15 @@
   "wikipedia": {
    "title": "Venice, Los Angeles",
    "url": "https://en.wikipedia.org/wiki/Venice,_Los_Angeles"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Venice_Beach%2C_Los_Angeles%2C_CA_01.jpg/500px-Venice_Beach%2C_Los_Angeles%2C_CA_01.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Venice_Beach%2C_Los_Angeles%2C_CA_01.jpg/500px-Venice_Beach%2C_Los_Angeles%2C_CA_01.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Venice_Beach%2C_Los_Angeles%2C_CA_01.jpg/960px-Venice_Beach%2C_Los_Angeles%2C_CA_01.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Venice_Beach,_Los_Angeles,_CA_01.jpg",
+   "file": "File:Venice Beach, Los Angeles, CA 01.jpg",
+   "artist": "Blake Everett",
+   "licence": "CC0",
+   "caption": "Waves rolling onto Venice Beach"
   }
  },
  {
@@ -1586,6 +1884,15 @@
   "wikipedia": {
    "title": "Hermosa Beach, California",
    "url": "https://en.wikipedia.org/wiki/Hermosa_Beach,_California"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Hermosa_beach_summer_day.jpg/500px-Hermosa_beach_summer_day.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Hermosa_beach_summer_day.jpg/500px-Hermosa_beach_summer_day.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Hermosa_beach_summer_day.jpg/960px-Hermosa_beach_summer_day.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Hermosa_beach_summer_day.jpg",
+   "file": "File:Hermosa beach summer day.jpg",
+   "artist": "The original uploader was Estrategy at English Wikipedia.",
+   "licence": "CC BY-SA 3.0",
+   "caption": "Surf and sand by Hermosa Beach Pier"
   }
  },
  {
@@ -1632,6 +1939,15 @@
   "wikipedia": {
    "title": "Mojave Desert",
    "url": "https://en.wikipedia.org/wiki/Mojave_Desert"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Mojave_Trails_National_Monument_dunes.jpg/500px-Mojave_Trails_National_Monument_dunes.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Mojave_Trails_National_Monument_dunes.jpg/500px-Mojave_Trails_National_Monument_dunes.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Mojave_Trails_National_Monument_dunes.jpg/960px-Mojave_Trails_National_Monument_dunes.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Mojave_Trails_National_Monument_dunes.jpg",
+   "file": "File:Mojave Trails National Monument dunes.jpg",
+   "artist": "Bob Wick of the Bureau of Land Management",
+   "licence": "Public domain",
+   "caption": "Kelso Dunes in the Mojave Desert"
   }
  },
  {
@@ -1678,6 +1994,15 @@
   "wikipedia": {
    "title": "Sesimbra",
    "url": "https://en.wikipedia.org/wiki/Sesimbra"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Vista_de_Sesimbra_-_vila_-_praia_-_fortaleza.JPG/500px-Vista_de_Sesimbra_-_vila_-_praia_-_fortaleza.JPG",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Vista_de_Sesimbra_-_vila_-_praia_-_fortaleza.JPG/500px-Vista_de_Sesimbra_-_vila_-_praia_-_fortaleza.JPG 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Vista_de_Sesimbra_-_vila_-_praia_-_fortaleza.JPG/960px-Vista_de_Sesimbra_-_vila_-_praia_-_fortaleza.JPG 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Vista_de_Sesimbra_-_vila_-_praia_-_fortaleza.JPG",
+   "file": "File:Vista de Sesimbra - vila - praia - fortaleza.JPG",
+   "artist": "Paulo Juntas",
+   "licence": "CC BY-SA 2.5",
+   "caption": "Sesimbra town beach below the cliffs"
   }
  },
  {
@@ -1724,6 +2049,15 @@
   "wikipedia": {
    "title": "Ambergris Caye",
    "url": "https://en.wikipedia.org/wiki/Ambergris_Caye"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Ambergris_Caye_beach_palapa_Nov_2019.png/500px-Ambergris_Caye_beach_palapa_Nov_2019.png",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Ambergris_Caye_beach_palapa_Nov_2019.png/500px-Ambergris_Caye_beach_palapa_Nov_2019.png 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Ambergris_Caye_beach_palapa_Nov_2019.png/960px-Ambergris_Caye_beach_palapa_Nov_2019.png 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Ambergris_Caye_beach_palapa_Nov_2019.png",
+   "file": "File:Ambergris Caye beach palapa Nov 2019.png",
+   "artist": "Asdfjrjjj",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Palapas on the sand, Ambergris Caye"
   }
  },
  {
@@ -1770,6 +2104,15 @@
   "wikipedia": {
    "title": "Bávaro",
    "url": "https://en.wikipedia.org/wiki/B%C3%A1varo"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Iberostar_Selection_B%C3%A1varo_Suites_beach_-_01.jpg/500px-Iberostar_Selection_B%C3%A1varo_Suites_beach_-_01.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Iberostar_Selection_B%C3%A1varo_Suites_beach_-_01.jpg/500px-Iberostar_Selection_B%C3%A1varo_Suites_beach_-_01.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Iberostar_Selection_B%C3%A1varo_Suites_beach_-_01.jpg/960px-Iberostar_Selection_B%C3%A1varo_Suites_beach_-_01.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Iberostar_Selection_B%C3%A1varo_Suites_beach_-_01.jpg",
+   "file": "File:Iberostar Selection Bávaro Suites beach - 01.jpg",
+   "artist": "Oleg Yunakov",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Palm-lined sand on Bávaro Beach"
   }
  },
  {
@@ -1816,6 +2159,15 @@
   "wikipedia": {
    "title": "Eleuthera",
    "url": "https://en.wikipedia.org/wiki/Eleuthera"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Beach_scene_at_Current%2C_Eleuthera_%288222670396%29.jpg/500px-Beach_scene_at_Current%2C_Eleuthera_%288222670396%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Beach_scene_at_Current%2C_Eleuthera_%288222670396%29.jpg/500px-Beach_scene_at_Current%2C_Eleuthera_%288222670396%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Beach_scene_at_Current%2C_Eleuthera_%288222670396%29.jpg/960px-Beach_scene_at_Current%2C_Eleuthera_%288222670396%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Beach_scene_at_Current,_Eleuthera_(8222670396).jpg",
+   "file": "File:Beach scene at Current, Eleuthera (8222670396).jpg",
+   "artist": "Trish Hartmann from Tampa, Florida, USA",
+   "licence": "CC BY 2.0",
+   "caption": "Beach at Current, Eleuthera"
   }
  },
  {
@@ -1862,6 +2214,15 @@
   "wikipedia": {
    "title": "Cabo San Lucas",
    "url": "https://en.wikipedia.org/wiki/Cabo_San_Lucas"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Medano_lands_end.jpeg/500px-Medano_lands_end.jpeg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Medano_lands_end.jpeg/500px-Medano_lands_end.jpeg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Medano_lands_end.jpeg/960px-Medano_lands_end.jpeg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Medano_lands_end.jpeg",
+   "file": "File:Medano lands end.jpeg",
+   "artist": "Cristo Vlahos",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Médano Beach looking toward Land's End"
   }
  },
  {
@@ -1909,6 +2270,15 @@
   "wikipedia": {
    "title": "Provincetown, Massachusetts",
    "url": "https://en.wikipedia.org/wiki/Provincetown%2C_Massachusetts"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Provincetown_Beach%2C_Massachusetts_%28493670%29_%2811112151055%29.jpg/500px-Provincetown_Beach%2C_Massachusetts_%28493670%29_%2811112151055%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Provincetown_Beach%2C_Massachusetts_%28493670%29_%2811112151055%29.jpg/500px-Provincetown_Beach%2C_Massachusetts_%28493670%29_%2811112151055%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Provincetown_Beach%2C_Massachusetts_%28493670%29_%2811112151055%29.jpg/960px-Provincetown_Beach%2C_Massachusetts_%28493670%29_%2811112151055%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Provincetown_Beach,_Massachusetts_(493670)_(11112151055).jpg",
+   "file": "File:Provincetown Beach, Massachusetts (493670) (11112151055).jpg",
+   "artist": "Robert Linsdell from St. Andrews, Canada",
+   "licence": "CC BY 2.0",
+   "caption": "Provincetown Beach at low tide"
   }
  },
  {
@@ -1956,6 +2326,15 @@
   "wikipedia": {
    "title": "Venice, Los Angeles",
    "url": "https://en.wikipedia.org/wiki/Venice,_Los_Angeles"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Venice_Beach%2C_Los_Angeles%2C_CA_01.jpg/500px-Venice_Beach%2C_Los_Angeles%2C_CA_01.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Venice_Beach%2C_Los_Angeles%2C_CA_01.jpg/500px-Venice_Beach%2C_Los_Angeles%2C_CA_01.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Venice_Beach%2C_Los_Angeles%2C_CA_01.jpg/960px-Venice_Beach%2C_Los_Angeles%2C_CA_01.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Venice_Beach,_Los_Angeles,_CA_01.jpg",
+   "file": "File:Venice Beach, Los Angeles, CA 01.jpg",
+   "artist": "Blake Everett",
+   "licence": "CC0",
+   "caption": "Waves rolling onto Venice Beach"
   }
  },
  {
@@ -2003,6 +2382,15 @@
   "wikipedia": {
    "title": "Lamma Island",
    "url": "https://en.wikipedia.org/wiki/Lamma_Island"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Lo_So_Shing_Beach.JPG/500px-Lo_So_Shing_Beach.JPG",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Lo_So_Shing_Beach.JPG/500px-Lo_So_Shing_Beach.JPG 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Lo_So_Shing_Beach.JPG/960px-Lo_So_Shing_Beach.JPG 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Lo_So_Shing_Beach.JPG",
+   "file": "File:Lo So Shing Beach.JPG",
+   "artist": "Exploringlife",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Lo So Shing Beach on Lamma Island"
   }
  },
  {
@@ -2049,6 +2437,15 @@
   "wikipedia": {
    "title": "Punta Cana",
    "url": "https://en.wikipedia.org/wiki/Punta_Cana"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Punta_Cana_Beach_01.jpg/500px-Punta_Cana_Beach_01.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Punta_Cana_Beach_01.jpg/500px-Punta_Cana_Beach_01.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Punta_Cana_Beach_01.jpg/960px-Punta_Cana_Beach_01.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Punta_Cana_Beach_01.jpg",
+   "file": "File:Punta Cana Beach 01.jpg",
+   "artist": "NoonIcarus",
+   "licence": "CC BY-SA 3.0",
+   "caption": "Palm-lined sand beach at Punta Cana"
   }
  },
  {
@@ -2096,6 +2493,15 @@
   "wikipedia": {
    "title": "Cocoa Beach, Florida",
    "url": "https://en.wikipedia.org/wiki/Cocoa_Beach%2C_Florida"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Cocoa_Beach_Pier_from_the_beach_2023-05-19_%282%29.JPG/500px-Cocoa_Beach_Pier_from_the_beach_2023-05-19_%282%29.JPG",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Cocoa_Beach_Pier_from_the_beach_2023-05-19_%282%29.JPG/500px-Cocoa_Beach_Pier_from_the_beach_2023-05-19_%282%29.JPG 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Cocoa_Beach_Pier_from_the_beach_2023-05-19_%282%29.JPG/960px-Cocoa_Beach_Pier_from_the_beach_2023-05-19_%282%29.JPG 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Cocoa_Beach_Pier_from_the_beach_2023-05-19_(2).JPG",
+   "file": "File:Cocoa Beach Pier from the beach 2023-05-19 (2).JPG",
+   "artist": "Benoît Prieur",
+   "licence": "CC0",
+   "caption": "Cocoa Beach and pier from the sand"
   }
  },
  {
@@ -2143,6 +2549,15 @@
   "wikipedia": {
    "title": "Santo Domingo",
    "url": "https://en.wikipedia.org/wiki/Santo_Domingo"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/DOM_Boca_Chica%2C_Playa_Boca_Chica_0023.jpg/500px-DOM_Boca_Chica%2C_Playa_Boca_Chica_0023.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/DOM_Boca_Chica%2C_Playa_Boca_Chica_0023.jpg/500px-DOM_Boca_Chica%2C_Playa_Boca_Chica_0023.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/DOM_Boca_Chica%2C_Playa_Boca_Chica_0023.jpg/960px-DOM_Boca_Chica%2C_Playa_Boca_Chica_0023.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:DOM_Boca_Chica,_Playa_Boca_Chica_0023.jpg",
+   "file": "File:DOM Boca Chica, Playa Boca Chica 0023.jpg",
+   "artist": "-wuppertaler",
+   "licence": "CC BY 4.0",
+   "caption": "Boca Chica beach near Santo Domingo"
   }
  },
  {
@@ -2188,6 +2603,15 @@
   "wikipedia": {
    "title": "Messina",
    "url": "https://en.wikipedia.org/wiki/Messina"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Strait_of_Messina%2C_cariddi.JPG/500px-Strait_of_Messina%2C_cariddi.JPG",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Strait_of_Messina%2C_cariddi.JPG/500px-Strait_of_Messina%2C_cariddi.JPG 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Strait_of_Messina%2C_cariddi.JPG/960px-Strait_of_Messina%2C_cariddi.JPG 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Strait_of_Messina,_cariddi.JPG",
+   "file": "File:Strait of Messina, cariddi.JPG",
+   "artist": "Shifegu",
+   "licence": "CC0",
+   "caption": "Beach at Cariddi on the Strait of Messina"
   }
  },
  {
@@ -2235,6 +2659,15 @@
   "wikipedia": {
    "title": "Grand Canyon",
    "url": "https://en.wikipedia.org/wiki/Grand_Canyon"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/USA_09847_Grand_Canyon_Luca_Galuzzi_2007.jpg/500px-USA_09847_Grand_Canyon_Luca_Galuzzi_2007.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/USA_09847_Grand_Canyon_Luca_Galuzzi_2007.jpg/500px-USA_09847_Grand_Canyon_Luca_Galuzzi_2007.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/USA_09847_Grand_Canyon_Luca_Galuzzi_2007.jpg/960px-USA_09847_Grand_Canyon_Luca_Galuzzi_2007.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:USA_09847_Grand_Canyon_Luca_Galuzzi_2007.jpg",
+   "file": "File:USA 09847 Grand Canyon Luca Galuzzi 2007.jpg",
+   "artist": "Luca Galuzzi (Lucag)",
+   "licence": "CC BY-SA 2.5",
+   "caption": "Grand Canyon from the South Rim"
   }
  },
  {
@@ -2281,6 +2714,15 @@
   "wikipedia": {
    "title": "Key West",
    "url": "https://en.wikipedia.org/wiki/Key_West"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Florida_Keys_Scenic_Highway_-_Smathers_Beach_in_Key_West_-_NARA_-_7718453.jpg/500px-Florida_Keys_Scenic_Highway_-_Smathers_Beach_in_Key_West_-_NARA_-_7718453.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Florida_Keys_Scenic_Highway_-_Smathers_Beach_in_Key_West_-_NARA_-_7718453.jpg/500px-Florida_Keys_Scenic_Highway_-_Smathers_Beach_in_Key_West_-_NARA_-_7718453.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Florida_Keys_Scenic_Highway_-_Smathers_Beach_in_Key_West_-_NARA_-_7718453.jpg/960px-Florida_Keys_Scenic_Highway_-_Smathers_Beach_in_Key_West_-_NARA_-_7718453.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Florida_Keys_Scenic_Highway_-_Smathers_Beach_in_Key_West_-_NARA_-_7718453.jpg",
+   "file": "File:Florida Keys Scenic Highway - Smathers Beach in Key West - NARA - 7718453.jpg",
+   "artist": "Unknown authorUnknown author or not provided",
+   "licence": "Public domain",
+   "caption": "Smathers Beach in Key West"
   }
  },
  {
@@ -2327,6 +2769,15 @@
   "wikipedia": {
    "title": "Manhattan Beach, California",
    "url": "https://en.wikipedia.org/wiki/Manhattan_Beach%2C_California"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Manhattan_Beach_and_Pier_%281251680654%29.jpg/500px-Manhattan_Beach_and_Pier_%281251680654%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Manhattan_Beach_and_Pier_%281251680654%29.jpg/500px-Manhattan_Beach_and_Pier_%281251680654%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Manhattan_Beach_and_Pier_%281251680654%29.jpg/960px-Manhattan_Beach_and_Pier_%281251680654%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Manhattan_Beach_and_Pier_(1251680654).jpg",
+   "file": "File:Manhattan Beach and Pier (1251680654).jpg",
+   "artist": "Paul Hamilton",
+   "licence": "CC BY-SA 2.0",
+   "caption": "Manhattan Beach sand and pier"
   }
  },
  {
@@ -2374,6 +2825,15 @@
   "wikipedia": {
    "title": "Bimini",
    "url": "https://en.wikipedia.org/wiki/Bimini"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Bimini_Islands_from_30%2C000_feet_-_panoramio.jpg/500px-Bimini_Islands_from_30%2C000_feet_-_panoramio.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Bimini_Islands_from_30%2C000_feet_-_panoramio.jpg/500px-Bimini_Islands_from_30%2C000_feet_-_panoramio.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Bimini_Islands_from_30%2C000_feet_-_panoramio.jpg/960px-Bimini_Islands_from_30%2C000_feet_-_panoramio.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Bimini_Islands_from_30,000_feet_-_panoramio.jpg",
+   "file": "File:Bimini Islands from 30,000 feet - panoramio.jpg",
+   "artist": "JesseG",
+   "licence": "CC BY-SA 3.0",
+   "caption": "Bimini and its shallows from the air"
   }
  },
  {
@@ -2421,6 +2881,15 @@
   "wikipedia": {
    "title": "Santorini",
    "url": "https://en.wikipedia.org/wiki/Santorini"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Perissa_Beach%2C_Santorini_on_June_7%2C_2009.jpg/500px-Perissa_Beach%2C_Santorini_on_June_7%2C_2009.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Perissa_Beach%2C_Santorini_on_June_7%2C_2009.jpg/500px-Perissa_Beach%2C_Santorini_on_June_7%2C_2009.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Perissa_Beach%2C_Santorini_on_June_7%2C_2009.jpg/960px-Perissa_Beach%2C_Santorini_on_June_7%2C_2009.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Perissa_Beach,_Santorini_on_June_7,_2009.jpg",
+   "file": "File:Perissa Beach, Santorini on June 7, 2009.jpg",
+   "artist": "Bryan McDonald",
+   "licence": "CC BY-SA 2.0",
+   "caption": "Black sand at Perissa Beach"
   }
  },
  {
@@ -2467,6 +2936,15 @@
   "wikipedia": {
    "title": "Iceland",
    "url": "https://en.wikipedia.org/wiki/Iceland"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Dyrh%C3%B3laey%2C_seen_from_Reynisfjara%2C_Iceland%2C_20240720_0831_2823.jpg/500px-Dyrh%C3%B3laey%2C_seen_from_Reynisfjara%2C_Iceland%2C_20240720_0831_2823.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Dyrh%C3%B3laey%2C_seen_from_Reynisfjara%2C_Iceland%2C_20240720_0831_2823.jpg/500px-Dyrh%C3%B3laey%2C_seen_from_Reynisfjara%2C_Iceland%2C_20240720_0831_2823.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Dyrh%C3%B3laey%2C_seen_from_Reynisfjara%2C_Iceland%2C_20240720_0831_2823.jpg/960px-Dyrh%C3%B3laey%2C_seen_from_Reynisfjara%2C_Iceland%2C_20240720_0831_2823.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Dyrh%C3%B3laey,_seen_from_Reynisfjara,_Iceland,_20240720_0831_2823.jpg",
+   "file": "File:Dyrhólaey, seen from Reynisfjara, Iceland, 20240720 0831 2823.jpg",
+   "artist": "Jakub Hałun",
+   "licence": "CC BY 4.0",
+   "caption": "Black sand at Reynisfjara, south Iceland"
   }
  },
  {
@@ -2514,6 +2992,15 @@
   "wikipedia": {
    "title": "Golden Gate Park",
    "url": "https://en.wikipedia.org/wiki/Golden_Gate_Park"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Cliff_House_from_Ocean_Beach.jpg/500px-Cliff_House_from_Ocean_Beach.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Cliff_House_from_Ocean_Beach.jpg/500px-Cliff_House_from_Ocean_Beach.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Cliff_House_from_Ocean_Beach.jpg/960px-Cliff_House_from_Ocean_Beach.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Cliff_House_from_Ocean_Beach.jpg",
+   "file": "File:Cliff House from Ocean Beach.jpg",
+   "artist": "Brocken Inaglory",
+   "licence": "CC BY-SA 3.0",
+   "caption": "Ocean Beach looking toward Cliff House"
   }
  },
  {
@@ -2560,6 +3047,15 @@
   "wikipedia": {
    "title": "Fort Lauderdale, Florida",
    "url": "https://en.wikipedia.org/wiki/Fort_Lauderdale,_Florida"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Beach_at_Fort_Lauderdale.jpg/500px-Beach_at_Fort_Lauderdale.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Beach_at_Fort_Lauderdale.jpg/500px-Beach_at_Fort_Lauderdale.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Beach_at_Fort_Lauderdale.jpg/960px-Beach_at_Fort_Lauderdale.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Beach_at_Fort_Lauderdale.jpg",
+   "file": "File:Beach at Fort Lauderdale.jpg",
+   "artist": "Daniel Dudek",
+   "licence": "CC BY 2.0",
+   "caption": "Fort Lauderdale beach from above"
   }
  },
  {
@@ -2606,6 +3102,15 @@
   "wikipedia": {
    "title": "Hawaii",
    "url": "https://en.wikipedia.org/wiki/Hawaii"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Hapuna_Beach_2017.jpg/500px-Hapuna_Beach_2017.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Hapuna_Beach_2017.jpg/500px-Hapuna_Beach_2017.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Hapuna_Beach_2017.jpg/960px-Hapuna_Beach_2017.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Hapuna_Beach_2017.jpg",
+   "file": "File:Hapuna Beach 2017.jpg",
+   "artist": "Ekrem Canli",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Hapuna Beach on the Big Island"
   }
  },
  {
@@ -2653,6 +3158,15 @@
   "wikipedia": {
    "title": "Gulf of Papagayo",
    "url": "https://en.wikipedia.org/wiki/Gulf_of_Papagayo"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Papagayo_Peninsula.JPG/500px-Papagayo_Peninsula.JPG",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Papagayo_Peninsula.JPG/500px-Papagayo_Peninsula.JPG 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Papagayo_Peninsula.JPG/960px-Papagayo_Peninsula.JPG 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Papagayo_Peninsula.JPG",
+   "file": "File:Papagayo Peninsula.JPG",
+   "artist": "LorraineAtkins",
+   "licence": "CC BY-SA 3.0",
+   "caption": "Beach on the Papagayo Peninsula"
   }
  },
  {
@@ -2700,6 +3214,15 @@
   "wikipedia": {
    "title": "Venice, Los Angeles",
    "url": "https://en.wikipedia.org/wiki/Venice,_Los_Angeles"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Venice_Beach%2C_Los_Angeles%2C_CA_01.jpg/500px-Venice_Beach%2C_Los_Angeles%2C_CA_01.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Venice_Beach%2C_Los_Angeles%2C_CA_01.jpg/500px-Venice_Beach%2C_Los_Angeles%2C_CA_01.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Venice_Beach%2C_Los_Angeles%2C_CA_01.jpg/960px-Venice_Beach%2C_Los_Angeles%2C_CA_01.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Venice_Beach,_Los_Angeles,_CA_01.jpg",
+   "file": "File:Venice Beach, Los Angeles, CA 01.jpg",
+   "artist": "Blake Everett",
+   "licence": "CC0",
+   "caption": "Waves rolling onto Venice Beach"
   }
  },
  {
@@ -2747,6 +3270,15 @@
   "wikipedia": {
    "title": "Santorini",
    "url": "https://en.wikipedia.org/wiki/Santorini"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Red_Beach_in_Santorini.jpg/500px-Red_Beach_in_Santorini.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Red_Beach_in_Santorini.jpg/500px-Red_Beach_in_Santorini.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Red_Beach_in_Santorini.jpg/960px-Red_Beach_in_Santorini.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Red_Beach_in_Santorini.jpg",
+   "file": "File:Red Beach in Santorini.jpg",
+   "artist": "Anthony Baratier",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Red cliffs above Red Beach, Santorini"
   }
  },
  {
@@ -2794,6 +3326,15 @@
   "wikipedia": {
    "title": "Dubai",
    "url": "https://en.wikipedia.org/wiki/Dubai"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Dubai_Jumeirah_Beach.JPG/500px-Dubai_Jumeirah_Beach.JPG",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Dubai_Jumeirah_Beach.JPG/500px-Dubai_Jumeirah_Beach.JPG 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Dubai_Jumeirah_Beach.JPG/960px-Dubai_Jumeirah_Beach.JPG 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Dubai_Jumeirah_Beach.JPG",
+   "file": "File:Dubai Jumeirah Beach.JPG",
+   "artist": "pe-sa",
+   "licence": "CC BY 3.0",
+   "caption": "Jumeirah Beach below the Dubai Marina towers"
   }
  },
  {
@@ -2840,6 +3381,15 @@
   "wikipedia": {
    "title": "Ko Yao Yai",
    "url": "https://en.wikipedia.org/wiki/Ko_Yao_Yai"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Ko_Yao_Yai.jpg/500px-Ko_Yao_Yai.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Ko_Yao_Yai.jpg/500px-Ko_Yao_Yai.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Ko_Yao_Yai.jpg/960px-Ko_Yao_Yai.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Ko_Yao_Yai.jpg",
+   "file": "File:Ko Yao Yai.jpg",
+   "artist": "Ole.Pophal",
+   "licence": "CC BY-SA 2.0",
+   "caption": "Palm over a white sand spit"
   }
  },
  {
@@ -2883,6 +3433,15 @@
   "wikipedia": {
    "title": "Manuel Antonio National Park",
    "url": "https://en.wikipedia.org/wiki/Manuel_Antonio_National_Park"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Parque_Nacional_Manuel_Antonio_02.jpg/500px-Parque_Nacional_Manuel_Antonio_02.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Parque_Nacional_Manuel_Antonio_02.jpg/500px-Parque_Nacional_Manuel_Antonio_02.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Parque_Nacional_Manuel_Antonio_02.jpg/960px-Parque_Nacional_Manuel_Antonio_02.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Manuel_Antonio_02.jpg",
+   "file": "File:Parque Nacional Manuel Antonio 02.jpg",
+   "artist": "Bernard Gagnon",
+   "licence": "CC0",
+   "caption": "Beach in Manuel Antonio National Park"
   }
  },
  {
@@ -2928,6 +3487,15 @@
   "wikipedia": {
    "title": "Grand Cayman",
    "url": "https://en.wikipedia.org/wiki/Grand_Cayman"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Seven_Mile_Beach_Facing_North.jpg/500px-Seven_Mile_Beach_Facing_North.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Seven_Mile_Beach_Facing_North.jpg/500px-Seven_Mile_Beach_Facing_North.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Seven_Mile_Beach_Facing_North.jpg/960px-Seven_Mile_Beach_Facing_North.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Seven_Mile_Beach_Facing_North.jpg",
+   "file": "File:Seven Mile Beach Facing North.jpg",
+   "artist": "Coolcaesar",
+   "licence": "CC BY 4.0",
+   "caption": "Seven Mile Beach, Grand Cayman"
   }
  },
  {
@@ -2974,6 +3542,15 @@
   "wikipedia": {
    "title": "Omaha Beach",
    "url": "https://en.wikipedia.org/wiki/Omaha_Beach"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Omaha_Beach_from_Dog_Red_sector.jpg/500px-Omaha_Beach_from_Dog_Red_sector.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Omaha_Beach_from_Dog_Red_sector.jpg/500px-Omaha_Beach_from_Dog_Red_sector.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Omaha_Beach_from_Dog_Red_sector.jpg/960px-Omaha_Beach_from_Dog_Red_sector.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Omaha_Beach_from_Dog_Red_sector.jpg",
+   "file": "File:Omaha Beach from Dog Red sector.jpg",
+   "artist": "Jebulon",
+   "licence": "CC0",
+   "caption": "Omaha Beach sands from Dog Red sector"
   }
  },
  {
@@ -3020,6 +3597,15 @@
   "wikipedia": {
    "title": "Naples, Florida",
    "url": "https://en.wikipedia.org/wiki/Naples%2C_Florida"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Naples_-_a_dream_beach%2C_the_Naples_Municipal_Beach_%2815871623455%29.jpg/500px-Naples_-_a_dream_beach%2C_the_Naples_Municipal_Beach_%2815871623455%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Naples_-_a_dream_beach%2C_the_Naples_Municipal_Beach_%2815871623455%29.jpg/500px-Naples_-_a_dream_beach%2C_the_Naples_Municipal_Beach_%2815871623455%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Naples_-_a_dream_beach%2C_the_Naples_Municipal_Beach_%2815871623455%29.jpg/960px-Naples_-_a_dream_beach%2C_the_Naples_Municipal_Beach_%2815871623455%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Naples_-_a_dream_beach,_the_Naples_Municipal_Beach_(15871623455).jpg",
+   "file": "File:Naples - a dream beach, the Naples Municipal Beach (15871623455).jpg",
+   "artist": "Reinhard Link from Germany",
+   "licence": "CC BY-SA 2.0",
+   "caption": "Naples Municipal Beach shoreline"
   }
  },
  {
@@ -3066,6 +3652,15 @@
   "wikipedia": {
    "title": "Barcelona",
    "url": "https://en.wikipedia.org/wiki/Barcelona"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Platja_de_la_Barceloneta_01.jpg/500px-Platja_de_la_Barceloneta_01.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Platja_de_la_Barceloneta_01.jpg/500px-Platja_de_la_Barceloneta_01.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Platja_de_la_Barceloneta_01.jpg/960px-Platja_de_la_Barceloneta_01.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Platja_de_la_Barceloneta_01.jpg",
+   "file": "File:Platja de la Barceloneta 01.jpg",
+   "artist": "CPG83",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Barceloneta beach on a sunny day"
   }
  },
  {
@@ -3112,6 +3707,15 @@
   "wikipedia": {
    "title": "Pensacola, Florida",
    "url": "https://en.wikipedia.org/wiki/Pensacola%2C_Florida"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Pensacola_Beach.jpg/500px-Pensacola_Beach.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Pensacola_Beach.jpg/500px-Pensacola_Beach.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Pensacola_Beach.jpg/960px-Pensacola_Beach.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Pensacola_Beach.jpg",
+   "file": "File:Pensacola Beach.jpg",
+   "artist": "Darrellcdow",
+   "licence": "Public domain",
+   "caption": "White sand at Pensacola Beach"
   }
  },
  {
@@ -3158,6 +3762,15 @@
   "wikipedia": {
    "title": "Santa Monica State Beach",
    "url": "https://en.wikipedia.org/wiki/Santa_Monica_State_Beach"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Santa_Monica_-_Beach.jpg/500px-Santa_Monica_-_Beach.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Santa_Monica_-_Beach.jpg/500px-Santa_Monica_-_Beach.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Santa_Monica_-_Beach.jpg/960px-Santa_Monica_-_Beach.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Santa_Monica_-_Beach.jpg",
+   "file": "File:Santa Monica - Beach.jpg",
+   "artist": "P. Hughes",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Santa Monica beach curving along the surf"
   }
  },
  {
@@ -3204,6 +3817,15 @@
   "wikipedia": {
    "title": "Tarifa",
    "url": "https://en.wikipedia.org/wiki/Tarifa"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Tarifa_Playa_de_Los_Lances_-_05_%2810479559976%29.jpg/500px-Tarifa_Playa_de_Los_Lances_-_05_%2810479559976%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Tarifa_Playa_de_Los_Lances_-_05_%2810479559976%29.jpg/500px-Tarifa_Playa_de_Los_Lances_-_05_%2810479559976%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Tarifa_Playa_de_Los_Lances_-_05_%2810479559976%29.jpg/960px-Tarifa_Playa_de_Los_Lances_-_05_%2810479559976%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Tarifa_Playa_de_Los_Lances_-_05_(10479559976).jpg",
+   "file": "File:Tarifa Playa de Los Lances - 05 (10479559976).jpg",
+   "artist": "Andrew Nash from Vienna, Austria",
+   "licence": "CC BY-SA 2.0",
+   "caption": "Playa de Los Lances in Tarifa"
   }
  },
  {
@@ -3251,6 +3873,15 @@
   "wikipedia": {
    "title": "Playa del Carmen",
    "url": "https://en.wikipedia.org/wiki/Playa_del_Carmen"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Playa_del_Carmen%2C_Mexico_-_la_Playa_-_Dic_202.jpg/500px-Playa_del_Carmen%2C_Mexico_-_la_Playa_-_Dic_202.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Playa_del_Carmen%2C_Mexico_-_la_Playa_-_Dic_202.jpg/500px-Playa_del_Carmen%2C_Mexico_-_la_Playa_-_Dic_202.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Playa_del_Carmen%2C_Mexico_-_la_Playa_-_Dic_202.jpg/960px-Playa_del_Carmen%2C_Mexico_-_la_Playa_-_Dic_202.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Playa_del_Carmen,_Mexico_-_la_Playa_-_Dic_202.jpg",
+   "file": "File:Playa del Carmen, Mexico - la Playa - Dic 202.jpg",
+   "artist": "Sharon Hahn Darlin",
+   "licence": "CC BY 2.0",
+   "caption": "Clear shallows on Playa del Carmen beach"
   }
  },
  {
@@ -3298,6 +3929,15 @@
   "wikipedia": {
    "title": "Pacific Beach, San Diego",
    "url": "https://en.wikipedia.org/wiki/Pacific_Beach,_San_Diego"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Pacific_Beach_southwards.JPG/500px-Pacific_Beach_southwards.JPG",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Pacific_Beach_southwards.JPG/500px-Pacific_Beach_southwards.JPG 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Pacific_Beach_southwards.JPG/960px-Pacific_Beach_southwards.JPG 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Pacific_Beach_southwards.JPG",
+   "file": "File:Pacific Beach southwards.JPG",
+   "artist": "Adbar",
+   "licence": "CC BY-SA 3.0",
+   "caption": "Pacific Beach looking south"
   }
  },
  {
@@ -3344,6 +3984,15 @@
   "wikipedia": {
    "title": "Petroglyph National Monument",
    "url": "https://en.wikipedia.org/wiki/Petroglyph_National_Monument"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Petroglyph_National_Monument_-_HCP_-_September_25%2C_2022_-_29.jpg/500px-Petroglyph_National_Monument_-_HCP_-_September_25%2C_2022_-_29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Petroglyph_National_Monument_-_HCP_-_September_25%2C_2022_-_29.jpg/500px-Petroglyph_National_Monument_-_HCP_-_September_25%2C_2022_-_29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Petroglyph_National_Monument_-_HCP_-_September_25%2C_2022_-_29.jpg/960px-Petroglyph_National_Monument_-_HCP_-_September_25%2C_2022_-_29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Petroglyph_National_Monument_-_HCP_-_September_25,_2022_-_29.jpg",
+   "file": "File:Petroglyph National Monument - HCP - September 25, 2022 - 29.jpg",
+   "artist": "Vulturesong",
+   "licence": "CC0",
+   "caption": "Basalt boulders at Petroglyph National Monument"
   }
  },
  {
@@ -3389,6 +4038,15 @@
   "wikipedia": {
    "title": "Haleakalā",
    "url": "https://en.wikipedia.org/wiki/Haleakal%C4%81"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Haleakala_Crater_-_3527607478_%28May_2009%29.jpg/500px-Haleakala_Crater_-_3527607478_%28May_2009%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Haleakala_Crater_-_3527607478_%28May_2009%29.jpg/500px-Haleakala_Crater_-_3527607478_%28May_2009%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Haleakala_Crater_-_3527607478_%28May_2009%29.jpg/960px-Haleakala_Crater_-_3527607478_%28May_2009%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Haleakala_Crater_-_3527607478_(May_2009).jpg",
+   "file": "File:Haleakala Crater - 3527607478 (May 2009).jpg",
+   "artist": "lamoix",
+   "licence": "CC BY 2.0",
+   "caption": "Cinder cones inside Haleakalā crater"
   }
  },
  {
@@ -3435,6 +4093,15 @@
   "wikipedia": {
    "title": "Santa Cruz, California",
    "url": "https://en.wikipedia.org/wiki/Santa_Cruz,_California"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Santa_Cruz_Beach_Boardwalk_2023-07-16_%281%29.jpg/500px-Santa_Cruz_Beach_Boardwalk_2023-07-16_%281%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Santa_Cruz_Beach_Boardwalk_2023-07-16_%281%29.jpg/500px-Santa_Cruz_Beach_Boardwalk_2023-07-16_%281%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Santa_Cruz_Beach_Boardwalk_2023-07-16_%281%29.jpg/960px-Santa_Cruz_Beach_Boardwalk_2023-07-16_%281%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Santa_Cruz_Beach_Boardwalk_2023-07-16_(1).jpg",
+   "file": "File:Santa Cruz Beach Boardwalk 2023-07-16 (1).jpg",
+   "artist": "The wub",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Santa Cruz Main Beach by the Boardwalk"
   }
  },
  {
@@ -3482,6 +4149,15 @@
   "wikipedia": {
    "title": "Kalkaska sand",
    "url": "https://en.wikipedia.org/wiki/Kalkaska_sand"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Long_Lake_%28Kalkaska_County%2C_Michigan%29.jpg/500px-Long_Lake_%28Kalkaska_County%2C_Michigan%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Long_Lake_%28Kalkaska_County%2C_Michigan%29.jpg/500px-Long_Lake_%28Kalkaska_County%2C_Michigan%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Long_Lake_%28Kalkaska_County%2C_Michigan%29.jpg/960px-Long_Lake_%28Kalkaska_County%2C_Michigan%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Long_Lake_(Kalkaska_County,_Michigan).jpg",
+   "file": "File:Long Lake (Kalkaska County, Michigan).jpg",
+   "artist": "Notorious4life(Uploads)",
+   "licence": "CC0",
+   "caption": "Long Lake in Kalkaska County"
   }
  },
  {
@@ -3528,6 +4204,15 @@
   "wikipedia": {
    "title": "Orlando, Florida",
    "url": "https://en.wikipedia.org/wiki/Orlando%2C_Florida"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Lake-eola-park-orlando-florida.jpg/500px-Lake-eola-park-orlando-florida.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Lake-eola-park-orlando-florida.jpg/500px-Lake-eola-park-orlando-florida.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Lake-eola-park-orlando-florida.jpg/960px-Lake-eola-park-orlando-florida.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Lake-eola-park-orlando-florida.jpg",
+   "file": "File:Lake-eola-park-orlando-florida.jpg",
+   "artist": "OrlandoThings.com",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Lake Eola and the downtown Orlando skyline"
   }
  },
  {
@@ -3574,6 +4259,15 @@
   "wikipedia": {
    "title": "Hopkins, Belize",
    "url": "https://en.wikipedia.org/wiki/Hopkins,_Belize"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Almond_Beach%2C_Hopkins%2C_Stann_Creek%2C_Belize.jpg/500px-Almond_Beach%2C_Hopkins%2C_Stann_Creek%2C_Belize.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Almond_Beach%2C_Hopkins%2C_Stann_Creek%2C_Belize.jpg/500px-Almond_Beach%2C_Hopkins%2C_Stann_Creek%2C_Belize.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Almond_Beach%2C_Hopkins%2C_Stann_Creek%2C_Belize.jpg/960px-Almond_Beach%2C_Hopkins%2C_Stann_Creek%2C_Belize.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Almond_Beach,_Hopkins,_Stann_Creek,_Belize.jpg",
+   "file": "File:Almond Beach, Hopkins, Stann Creek, Belize.jpg",
+   "artist": "Flickr user Walter Rodriguez",
+   "licence": "CC BY 2.0",
+   "caption": "Almond Beach in Hopkins, Belize"
   }
  },
  {
@@ -3620,6 +4314,15 @@
   "wikipedia": {
    "title": "Formby",
    "url": "https://en.wikipedia.org/wiki/Formby"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Formby_Beach_-_geograph.org.uk_-_6451790.jpg/500px-Formby_Beach_-_geograph.org.uk_-_6451790.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Formby_Beach_-_geograph.org.uk_-_6451790.jpg/500px-Formby_Beach_-_geograph.org.uk_-_6451790.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Formby_Beach_-_geograph.org.uk_-_6451790.jpg/960px-Formby_Beach_-_geograph.org.uk_-_6451790.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Formby_Beach_-_geograph.org.uk_-_6451790.jpg",
+   "file": "File:Formby Beach - geograph.org.uk - 6451790.jpg",
+   "artist": "habiloid",
+   "licence": "CC BY-SA 2.0",
+   "caption": "Formby Beach below the sand dunes"
   }
  },
  {
@@ -3666,6 +4369,15 @@
   "wikipedia": {
    "title": "Pawleys Island, South Carolina",
    "url": "https://en.wikipedia.org/wiki/Pawleys_Island,_South_Carolina"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Pawleys_beach.jpg/500px-Pawleys_beach.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Pawleys_beach.jpg/500px-Pawleys_beach.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Pawleys_beach.jpg/960px-Pawleys_beach.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Pawleys_beach.jpg",
+   "file": "File:Pawleys beach.jpg",
+   "artist": "Phoebe",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Beach chairs on the sand at Pawleys Island"
   }
  },
  {
@@ -3712,6 +4424,15 @@
   "wikipedia": {
    "title": "Progreso, Yucatán",
    "url": "https://en.wikipedia.org/wiki/Progreso,_Yucat%C3%A1n"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/The_beach%2C_pier_and_terminal_of_Progreso_de_Castro%2C_Yucat%C3%A1n.jpg/500px-The_beach%2C_pier_and_terminal_of_Progreso_de_Castro%2C_Yucat%C3%A1n.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/The_beach%2C_pier_and_terminal_of_Progreso_de_Castro%2C_Yucat%C3%A1n.jpg/500px-The_beach%2C_pier_and_terminal_of_Progreso_de_Castro%2C_Yucat%C3%A1n.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/The_beach%2C_pier_and_terminal_of_Progreso_de_Castro%2C_Yucat%C3%A1n.jpg/960px-The_beach%2C_pier_and_terminal_of_Progreso_de_Castro%2C_Yucat%C3%A1n.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:The_beach,_pier_and_terminal_of_Progreso_de_Castro,_Yucat%C3%A1n.jpg",
+   "file": "File:The beach, pier and terminal of Progreso de Castro, Yucatán.jpg",
+   "artist": "DaLoetz",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Progreso beach with the long pier"
   }
  },
  {
@@ -3758,6 +4479,15 @@
   "wikipedia": {
    "title": "Waiʻanapanapa State Park",
    "url": "https://en.wikipedia.org/wiki/Wai%CA%BBanapanapa_State_Park"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Waianapanapa_black_sand_beach_Maui_Hawaii_%2831869652128%29.jpg/500px-Waianapanapa_black_sand_beach_Maui_Hawaii_%2831869652128%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Waianapanapa_black_sand_beach_Maui_Hawaii_%2831869652128%29.jpg/500px-Waianapanapa_black_sand_beach_Maui_Hawaii_%2831869652128%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Waianapanapa_black_sand_beach_Maui_Hawaii_%2831869652128%29.jpg/960px-Waianapanapa_black_sand_beach_Maui_Hawaii_%2831869652128%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Waianapanapa_black_sand_beach_Maui_Hawaii_(31869652128).jpg",
+   "file": "File:Waianapanapa black sand beach Maui Hawaii (31869652128).jpg",
+   "artist": "dronepicr",
+   "licence": "CC BY 2.0",
+   "caption": "Black sand cove at Waiʻanapanapa, Maui"
   }
  },
  {
@@ -3804,6 +4534,15 @@
   "wikipedia": {
    "title": "Roussillon, Vaucluse",
    "url": "https://en.wikipedia.org/wiki/Roussillon,_Vaucluse"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Roussillon_-_Sentier_des_Ocres_22.jpg/500px-Roussillon_-_Sentier_des_Ocres_22.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Roussillon_-_Sentier_des_Ocres_22.jpg/500px-Roussillon_-_Sentier_des_Ocres_22.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Roussillon_-_Sentier_des_Ocres_22.jpg/960px-Roussillon_-_Sentier_des_Ocres_22.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Roussillon_-_Sentier_des_Ocres_22.jpg",
+   "file": "File:Roussillon - Sentier des Ocres 22.jpg",
+   "artist": "Own work",
+   "licence": "CC BY-SA 3.0",
+   "caption": "Ochre cliffs on the Sentier des Ocres"
   }
  },
  {
@@ -3851,6 +4590,15 @@
   "wikipedia": {
    "title": "Key Largo",
    "url": "https://en.wikipedia.org/wiki/Key_Largo"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Gfp-florida-keys-key-largo-rocky-shoreline.jpg/500px-Gfp-florida-keys-key-largo-rocky-shoreline.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Gfp-florida-keys-key-largo-rocky-shoreline.jpg/500px-Gfp-florida-keys-key-largo-rocky-shoreline.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Gfp-florida-keys-key-largo-rocky-shoreline.jpg/960px-Gfp-florida-keys-key-largo-rocky-shoreline.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Gfp-florida-keys-key-largo-rocky-shoreline.jpg",
+   "file": "File:Gfp-florida-keys-key-largo-rocky-shoreline.jpg",
+   "artist": "Yinan Chen",
+   "licence": "Public Domain",
+   "caption": "Rocky shoreline at Key Largo"
   }
  },
  {
@@ -3898,6 +4646,15 @@
   "wikipedia": {
    "title": "Copper Harbor, Michigan",
    "url": "https://en.wikipedia.org/wiki/Copper_Harbor,_Michigan"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Copper_Harbor_Lighthouse_Michigan_2020-1521.jpg/500px-Copper_Harbor_Lighthouse_Michigan_2020-1521.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Copper_Harbor_Lighthouse_Michigan_2020-1521.jpg/500px-Copper_Harbor_Lighthouse_Michigan_2020-1521.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Copper_Harbor_Lighthouse_Michigan_2020-1521.jpg/960px-Copper_Harbor_Lighthouse_Michigan_2020-1521.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Copper_Harbor_Lighthouse_Michigan_2020-1521.jpg",
+   "file": "File:Copper Harbor Lighthouse Michigan 2020-1521.jpg",
+   "artist": "James Conkis",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Lake Superior shore at Copper Harbor"
   }
  },
  {
@@ -3944,6 +4701,15 @@
   "wikipedia": {
    "title": "Mākena State Park",
    "url": "https://en.wikipedia.org/wiki/M%C4%81kena_State_Park"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Oneuli_Beach_Maui_Hawaii_%2831869255618%29.jpg/500px-Oneuli_Beach_Maui_Hawaii_%2831869255618%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Oneuli_Beach_Maui_Hawaii_%2831869255618%29.jpg/500px-Oneuli_Beach_Maui_Hawaii_%2831869255618%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Oneuli_Beach_Maui_Hawaii_%2831869255618%29.jpg/960px-Oneuli_Beach_Maui_Hawaii_%2831869255618%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Oneuli_Beach_Maui_Hawaii_(31869255618).jpg",
+   "file": "File:Oneuli Beach Maui Hawaii (31869255618).jpg",
+   "artist": "dronepicr",
+   "licence": "CC BY 2.0",
+   "caption": "Oneuli Beach below Puʻu Ōlaʻi cinder cone"
   }
  },
  {
@@ -3990,6 +4756,15 @@
   "wikipedia": {
    "title": "Treasure Island, Florida",
    "url": "https://en.wikipedia.org/wiki/Treasure_Island,_Florida"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Sunset_Beach%2CTreasure_Island%2CFlorida%2CUSA._-_panoramio_%282%29.jpg/500px-Sunset_Beach%2CTreasure_Island%2CFlorida%2CUSA._-_panoramio_%282%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Sunset_Beach%2CTreasure_Island%2CFlorida%2CUSA._-_panoramio_%282%29.jpg/500px-Sunset_Beach%2CTreasure_Island%2CFlorida%2CUSA._-_panoramio_%282%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Sunset_Beach%2CTreasure_Island%2CFlorida%2CUSA._-_panoramio_%282%29.jpg/960px-Sunset_Beach%2CTreasure_Island%2CFlorida%2CUSA._-_panoramio_%282%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Sunset_Beach,Treasure_Island,Florida,USA._-_panoramio_(2).jpg",
+   "file": "File:Sunset Beach,Treasure Island,Florida,USA. - panoramio (2).jpg",
+   "artist": "Roman Eugeniusz",
+   "licence": "CC BY-SA 3.0",
+   "caption": "Sunset Beach on Treasure Island"
   }
  },
  {
@@ -4037,6 +4812,15 @@
   "wikipedia": {
    "title": "Positano",
    "url": "https://en.wikipedia.org/wiki/Positano"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Blick_auf_die_Spiaggia_Grande_%28Positano%29_von_der_Via_Cristoforo_Colombo_-_02.jpg/500px-Blick_auf_die_Spiaggia_Grande_%28Positano%29_von_der_Via_Cristoforo_Colombo_-_02.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Blick_auf_die_Spiaggia_Grande_%28Positano%29_von_der_Via_Cristoforo_Colombo_-_02.jpg/500px-Blick_auf_die_Spiaggia_Grande_%28Positano%29_von_der_Via_Cristoforo_Colombo_-_02.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Blick_auf_die_Spiaggia_Grande_%28Positano%29_von_der_Via_Cristoforo_Colombo_-_02.jpg/960px-Blick_auf_die_Spiaggia_Grande_%28Positano%29_von_der_Via_Cristoforo_Colombo_-_02.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Blick_auf_die_Spiaggia_Grande_(Positano)_von_der_Via_Cristoforo_Colombo_-_02.jpg",
+   "file": "File:Blick auf die Spiaggia Grande (Positano) von der Via Cristoforo Colombo - 02.jpg",
+   "artist": "Rudolfo Kithera",
+   "licence": "CC0",
+   "caption": "Spiaggia Grande, Positano, seen from above"
   }
  },
  {
@@ -4084,6 +4868,15 @@
   "wikipedia": {
    "title": "Kāʻanapali, Hawaii",
    "url": "https://en.wikipedia.org/wiki/K%C4%81%CA%BBanapali,_Hawaii"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Kaanapali_Beach_Maui_Hawaii_%2844826205585%29.jpg/500px-Kaanapali_Beach_Maui_Hawaii_%2844826205585%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Kaanapali_Beach_Maui_Hawaii_%2844826205585%29.jpg/500px-Kaanapali_Beach_Maui_Hawaii_%2844826205585%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Kaanapali_Beach_Maui_Hawaii_%2844826205585%29.jpg/960px-Kaanapali_Beach_Maui_Hawaii_%2844826205585%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Kaanapali_Beach_Maui_Hawaii_(44826205585).jpg",
+   "file": "File:Kaanapali Beach Maui Hawaii (44826205585).jpg",
+   "artist": "dronepicr",
+   "licence": "CC BY 2.0",
+   "caption": "Palms leaning over Kāʻanapali Beach sand"
   }
  },
  {
@@ -4131,6 +4924,15 @@
   "wikipedia": {
    "title": "Reynisfjara",
    "url": "https://en.wikipedia.org/wiki/Reynisfjara"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Dyrh%C3%B3laey%2C_seen_from_Reynisfjara%2C_Iceland%2C_20240720_0831_2823.jpg/500px-Dyrh%C3%B3laey%2C_seen_from_Reynisfjara%2C_Iceland%2C_20240720_0831_2823.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Dyrh%C3%B3laey%2C_seen_from_Reynisfjara%2C_Iceland%2C_20240720_0831_2823.jpg/500px-Dyrh%C3%B3laey%2C_seen_from_Reynisfjara%2C_Iceland%2C_20240720_0831_2823.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Dyrh%C3%B3laey%2C_seen_from_Reynisfjara%2C_Iceland%2C_20240720_0831_2823.jpg/960px-Dyrh%C3%B3laey%2C_seen_from_Reynisfjara%2C_Iceland%2C_20240720_0831_2823.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Dyrh%C3%B3laey,_seen_from_Reynisfjara,_Iceland,_20240720_0831_2823.jpg",
+   "file": "File:Dyrhólaey, seen from Reynisfjara, Iceland, 20240720 0831 2823.jpg",
+   "artist": "Jakub Hałun",
+   "licence": "CC BY 4.0",
+   "caption": "Black sand and surf at Reynisfjara"
   }
  },
  {
@@ -4178,6 +4980,15 @@
   "wikipedia": {
    "title": "Nicaragua",
    "url": "https://en.wikipedia.org/wiki/Nicaragua"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Playa_Montelimar.jpg/500px-Playa_Montelimar.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Playa_Montelimar.jpg/500px-Playa_Montelimar.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Playa_Montelimar.jpg/960px-Playa_Montelimar.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Playa_Montelimar.jpg",
+   "file": "File:Playa Montelimar.jpg",
+   "artist": "https://www.flickr.com/photos/alfinaldeesteviaje/",
+   "licence": "CC BY 2.0",
+   "caption": "Playa Montelimar on Nicaragua's Pacific coast"
   }
  },
  {
@@ -4225,6 +5036,15 @@
   "wikipedia": {
    "title": "Newport Beach, California",
    "url": "https://en.wikipedia.org/wiki/Newport_Beach,_California"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Newport_Beach_Pier_by_Don_Ramey_Logan_%281%29_copy.jpg/500px-Newport_Beach_Pier_by_Don_Ramey_Logan_%281%29_copy.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Newport_Beach_Pier_by_Don_Ramey_Logan_%281%29_copy.jpg/500px-Newport_Beach_Pier_by_Don_Ramey_Logan_%281%29_copy.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Newport_Beach_Pier_by_Don_Ramey_Logan_%281%29_copy.jpg/960px-Newport_Beach_Pier_by_Don_Ramey_Logan_%281%29_copy.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Newport_Beach_Pier_by_Don_Ramey_Logan_(1)_copy.jpg",
+   "file": "File:Newport Beach Pier by Don Ramey Logan (1) copy.jpg",
+   "artist": "Don Ramey Logan",
+   "licence": "CC BY 4.0",
+   "caption": "Newport Beach Pier and sand from above"
   }
  },
  {
@@ -4272,6 +5092,15 @@
   "wikipedia": {
    "title": "Lake Michigan",
    "url": "https://en.wikipedia.org/wiki/Lake_Michigan"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Indiana_Sand_Dunes_-_Dunbar_Beach_on_Lake_Michigan_-_Beverly_Shores_%2852886936512%29.jpg/500px-Indiana_Sand_Dunes_-_Dunbar_Beach_on_Lake_Michigan_-_Beverly_Shores_%2852886936512%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Indiana_Sand_Dunes_-_Dunbar_Beach_on_Lake_Michigan_-_Beverly_Shores_%2852886936512%29.jpg/500px-Indiana_Sand_Dunes_-_Dunbar_Beach_on_Lake_Michigan_-_Beverly_Shores_%2852886936512%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Indiana_Sand_Dunes_-_Dunbar_Beach_on_Lake_Michigan_-_Beverly_Shores_%2852886936512%29.jpg/960px-Indiana_Sand_Dunes_-_Dunbar_Beach_on_Lake_Michigan_-_Beverly_Shores_%2852886936512%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Indiana_Sand_Dunes_-_Dunbar_Beach_on_Lake_Michigan_-_Beverly_Shores_(52886936512).jpg",
+   "file": "File:Indiana Sand Dunes - Dunbar Beach on Lake Michigan - Beverly Shores (52886936512).jpg",
+   "artist": "Tony Webster",
+   "licence": "CC BY 2.0",
+   "caption": "Dunbar Beach on Lake Michigan"
   }
  },
  {
@@ -4319,6 +5148,15 @@
   "wikipedia": {
    "title": "Santa Cruz de la Sierra",
    "url": "https://en.wikipedia.org/wiki/Santa_Cruz_de_la_Sierra"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Lomas_de_Arena_-_Santa_Cruz%2C_Bolivia.jpg/500px-Lomas_de_Arena_-_Santa_Cruz%2C_Bolivia.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Lomas_de_Arena_-_Santa_Cruz%2C_Bolivia.jpg/500px-Lomas_de_Arena_-_Santa_Cruz%2C_Bolivia.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Lomas_de_Arena_-_Santa_Cruz%2C_Bolivia.jpg/960px-Lomas_de_Arena_-_Santa_Cruz%2C_Bolivia.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Lomas_de_Arena_-_Santa_Cruz,_Bolivia.jpg",
+   "file": "File:Lomas de Arena - Santa Cruz, Bolivia.jpg",
+   "artist": "Gabriel Millos",
+   "licence": "CC BY-SA 2.0",
+   "caption": "Lomas de Arena dunes near Santa Cruz"
   }
  },
  {
@@ -4366,6 +5204,15 @@
   "wikipedia": {
    "title": "Nevis",
    "url": "https://en.wikipedia.org/wiki/Nevis"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Pinneys_Beach_%2849855727551%29.jpg/500px-Pinneys_Beach_%2849855727551%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Pinneys_Beach_%2849855727551%29.jpg/500px-Pinneys_Beach_%2849855727551%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Pinneys_Beach_%2849855727551%29.jpg/960px-Pinneys_Beach_%2849855727551%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Pinneys_Beach_(49855727551).jpg",
+   "file": "File:Pinneys Beach (49855727551).jpg",
+   "artist": "David Stanley from Nanaimo, Canada",
+   "licence": "CC BY 2.0",
+   "caption": "Pinney's Beach shoreline on Nevis"
   }
  },
  {
@@ -4413,6 +5260,15 @@
   "wikipedia": {
    "title": "Cozumel",
    "url": "https://en.wikipedia.org/wiki/Cozumel"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Palancar_Beach_Cozumel_Mexico_%28125161039%29.jpeg/500px-Palancar_Beach_Cozumel_Mexico_%28125161039%29.jpeg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Palancar_Beach_Cozumel_Mexico_%28125161039%29.jpeg/500px-Palancar_Beach_Cozumel_Mexico_%28125161039%29.jpeg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Palancar_Beach_Cozumel_Mexico_%28125161039%29.jpeg/960px-Palancar_Beach_Cozumel_Mexico_%28125161039%29.jpeg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Palancar_Beach_Cozumel_Mexico_(125161039).jpeg",
+   "file": "File:Palancar Beach Cozumel Mexico (125161039).jpeg",
+   "artist": "Dronepicr",
+   "licence": "CC BY 3.0",
+   "caption": "Palancar Beach shoreline on Cozumel"
   }
  },
  {
@@ -4459,6 +5315,15 @@
   "wikipedia": {
    "title": "Havana",
    "url": "https://en.wikipedia.org/wiki/Havana"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Beach_-_Havana_Cuba.jpg/500px-Beach_-_Havana_Cuba.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Beach_-_Havana_Cuba.jpg/500px-Beach_-_Havana_Cuba.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Beach_-_Havana_Cuba.jpg/960px-Beach_-_Havana_Cuba.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Beach_-_Havana_Cuba.jpg",
+   "file": "File:Beach - Havana Cuba.jpg",
+   "artist": "Rômulo Ferreira",
+   "licence": "CC BY 2.0",
+   "caption": "Palm and white sand at a Havana beach"
   }
  },
  {
@@ -4506,6 +5371,15 @@
   "wikipedia": {
    "title": "Ocho Rios",
    "url": "https://en.wikipedia.org/wiki/Ocho_Rios"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Mahogany_Beach_Ocho_Rios_Jamaica.jpg/500px-Mahogany_Beach_Ocho_Rios_Jamaica.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Mahogany_Beach_Ocho_Rios_Jamaica.jpg/500px-Mahogany_Beach_Ocho_Rios_Jamaica.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Mahogany_Beach_Ocho_Rios_Jamaica.jpg/960px-Mahogany_Beach_Ocho_Rios_Jamaica.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Mahogany_Beach_Ocho_Rios_Jamaica.jpg",
+   "file": "File:Mahogany Beach Ocho Rios Jamaica.jpg",
+   "artist": "Jimfbleak",
+   "licence": "CC BY-SA 3.0",
+   "caption": "Mahogany Beach in Ocho Rios"
   }
  },
  {
@@ -4552,6 +5426,15 @@
   "wikipedia": {
    "title": "Montego Bay",
    "url": "https://en.wikipedia.org/wiki/Montego_Bay"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Doctors-Cave-Beach.jpg/500px-Doctors-Cave-Beach.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Doctors-Cave-Beach.jpg/500px-Doctors-Cave-Beach.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Doctors-Cave-Beach.jpg/960px-Doctors-Cave-Beach.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Doctors-Cave-Beach.jpg",
+   "file": "File:Doctors-Cave-Beach.jpg",
+   "artist": "en:User:Op. Deo",
+   "licence": "Public domain",
+   "caption": "Doctor's Cave Beach, Montego Bay"
   }
  },
  {
@@ -4598,6 +5481,15 @@
   "wikipedia": {
    "title": "Nassau, Bahamas",
    "url": "https://en.wikipedia.org/wiki/Nassau%2C_Bahamas"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Cabbage_Beach%2C_Bahamas.jpg/500px-Cabbage_Beach%2C_Bahamas.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Cabbage_Beach%2C_Bahamas.jpg/500px-Cabbage_Beach%2C_Bahamas.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Cabbage_Beach%2C_Bahamas.jpg/960px-Cabbage_Beach%2C_Bahamas.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Cabbage_Beach,_Bahamas.jpg",
+   "file": "File:Cabbage Beach, Bahamas.jpg",
+   "artist": "Coolcaesar",
+   "licence": "CC BY 4.0",
+   "caption": "Turquoise water at Cabbage Beach, Nassau"
   }
  },
  {
@@ -4645,6 +5537,15 @@
   "wikipedia": {
    "title": "Biloxi, Mississippi",
    "url": "https://en.wikipedia.org/wiki/Biloxi%2C_Mississippi"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Beach_in_Biloxi%2C_Mississippi_%282017%29.jpg/500px-Beach_in_Biloxi%2C_Mississippi_%282017%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Beach_in_Biloxi%2C_Mississippi_%282017%29.jpg/500px-Beach_in_Biloxi%2C_Mississippi_%282017%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Beach_in_Biloxi%2C_Mississippi_%282017%29.jpg/960px-Beach_in_Biloxi%2C_Mississippi_%282017%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Beach_in_Biloxi,_Mississippi_(2017).jpg",
+   "file": "File:Beach in Biloxi, Mississippi (2017).jpg",
+   "artist": "Alan &amp; Flora Botting",
+   "licence": "CC BY-SA 2.0",
+   "caption": "White sand beach in Biloxi"
   }
  },
  {
@@ -4692,6 +5593,15 @@
   "wikipedia": {
    "title": "Kapalua, Hawaii",
    "url": "https://en.wikipedia.org/wiki/Kapalua%2C_Hawaii"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Kapalua_Beach_park_Maui_Hawaii_%2845740255431%29.jpg/500px-Kapalua_Beach_park_Maui_Hawaii_%2845740255431%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Kapalua_Beach_park_Maui_Hawaii_%2845740255431%29.jpg/500px-Kapalua_Beach_park_Maui_Hawaii_%2845740255431%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Kapalua_Beach_park_Maui_Hawaii_%2845740255431%29.jpg/960px-Kapalua_Beach_park_Maui_Hawaii_%2845740255431%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Kapalua_Beach_park_Maui_Hawaii_(45740255431).jpg",
+   "file": "File:Kapalua Beach park Maui Hawaii (45740255431).jpg",
+   "artist": "dronepicr",
+   "licence": "CC BY 2.0",
+   "caption": "Crescent of sand at Kapalua Bay"
   }
  },
  {
@@ -4738,6 +5648,15 @@
   "wikipedia": {
    "title": "Tulum",
    "url": "https://en.wikipedia.org/wiki/Tulum"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Maya_ruins_at_Tulum_2023_-_beach.jpg/500px-Maya_ruins_at_Tulum_2023_-_beach.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Maya_ruins_at_Tulum_2023_-_beach.jpg/500px-Maya_ruins_at_Tulum_2023_-_beach.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Maya_ruins_at_Tulum_2023_-_beach.jpg/960px-Maya_ruins_at_Tulum_2023_-_beach.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Maya_ruins_at_Tulum_2023_-_beach.jpg",
+   "file": "File:Maya ruins at Tulum 2023 - beach.jpg",
+   "artist": "Erik Cleves Kristensen",
+   "licence": "CC BY 2.0",
+   "caption": "Beach below the Maya ruins at Tulum"
   }
  },
  {
@@ -4785,6 +5704,15 @@
   "wikipedia": {
    "title": "Doha",
    "url": "https://en.wikipedia.org/wiki/Doha"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Katar_Doha_Katara_beach%2C_Strand.jpg/500px-Katar_Doha_Katara_beach%2C_Strand.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Katar_Doha_Katara_beach%2C_Strand.jpg/500px-Katar_Doha_Katara_beach%2C_Strand.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Katar_Doha_Katara_beach%2C_Strand.jpg/960px-Katar_Doha_Katara_beach%2C_Strand.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Katar_Doha_Katara_beach,_Strand.jpg",
+   "file": "File:Katar Doha Katara beach, Strand.jpg",
+   "artist": "FLASHPACKER TRAVELGUIDE",
+   "licence": "CC BY-SA 2.0",
+   "caption": "Katara Beach with the Doha skyline"
   }
  },
  {
@@ -4828,6 +5756,15 @@
   "wikipedia": {
    "title": "Punta Mita",
    "url": "https://en.wikipedia.org/wiki/Punta_Mita"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Praia-Destiladeras-Punta-Mita-8.jpg/500px-Praia-Destiladeras-Punta-Mita-8.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Praia-Destiladeras-Punta-Mita-8.jpg/500px-Praia-Destiladeras-Punta-Mita-8.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Praia-Destiladeras-Punta-Mita-8.jpg/960px-Praia-Destiladeras-Punta-Mita-8.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Praia-Destiladeras-Punta-Mita-8.jpg",
+   "file": "File:Praia-Destiladeras-Punta-Mita-8.jpg",
+   "artist": "DELVALLE",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Destiladeras beach curving along Punta Mita"
   }
  },
  {
@@ -4874,6 +5811,15 @@
   "wikipedia": {
    "title": "Mendenhall Glacier",
    "url": "https://en.wikipedia.org/wiki/Mendenhall_Glacier"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Mendenhall_Glacier_%28Winter%29.jpg/500px-Mendenhall_Glacier_%28Winter%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Mendenhall_Glacier_%28Winter%29.jpg/500px-Mendenhall_Glacier_%28Winter%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Mendenhall_Glacier_%28Winter%29.jpg/960px-Mendenhall_Glacier_%28Winter%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Mendenhall_Glacier_(Winter).jpg",
+   "file": "File:Mendenhall Glacier (Winter).jpg",
+   "artist": "",
+   "licence": "CC BY-SA 3.0",
+   "caption": "Mendenhall Glacier and lake"
   }
  },
  {
@@ -4921,6 +5867,15 @@
   "wikipedia": {
    "title": "Aruba",
    "url": "https://en.wikipedia.org/wiki/Aruba"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Mangrove_tree_%28Conocarpus_erectus%29_Aruba_Eagle_Beach_%282896884375%29.jpg/500px-Mangrove_tree_%28Conocarpus_erectus%29_Aruba_Eagle_Beach_%282896884375%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Mangrove_tree_%28Conocarpus_erectus%29_Aruba_Eagle_Beach_%282896884375%29.jpg/500px-Mangrove_tree_%28Conocarpus_erectus%29_Aruba_Eagle_Beach_%282896884375%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Mangrove_tree_%28Conocarpus_erectus%29_Aruba_Eagle_Beach_%282896884375%29.jpg/960px-Mangrove_tree_%28Conocarpus_erectus%29_Aruba_Eagle_Beach_%282896884375%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Mangrove_tree_(Conocarpus_erectus)_Aruba_Eagle_Beach_(2896884375).jpg",
+   "file": "File:Mangrove tree (Conocarpus erectus) Aruba Eagle Beach (2896884375).jpg",
+   "artist": "Serge Melki from Indianapolis, USA",
+   "licence": "CC BY 2.0",
+   "caption": "Divi-divi tree on Eagle Beach, Aruba"
   }
  },
  {
@@ -4968,7 +5923,8 @@
   "wikipedia": {
    "title": "Rayong province",
    "url": "https://en.wikipedia.org/wiki/Rayong_province"
-  }
+  },
+  "image": null
  },
  {
   "id": "SJ-109",
@@ -5014,6 +5970,15 @@
   "wikipedia": {
    "title": "Ring of Kerry",
    "url": "https://en.wikipedia.org/wiki/Ring_of_Kerry"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Derrynane_Beach%2C_Kerry%2C_Ireland_-_2025-8_1.jpg/500px-Derrynane_Beach%2C_Kerry%2C_Ireland_-_2025-8_1.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Derrynane_Beach%2C_Kerry%2C_Ireland_-_2025-8_1.jpg/500px-Derrynane_Beach%2C_Kerry%2C_Ireland_-_2025-8_1.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Derrynane_Beach%2C_Kerry%2C_Ireland_-_2025-8_1.jpg/960px-Derrynane_Beach%2C_Kerry%2C_Ireland_-_2025-8_1.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Derrynane_Beach,_Kerry,_Ireland_-_2025-8_1.jpg",
+   "file": "File:Derrynane Beach, Kerry, Ireland - 2025-8 1.jpg",
+   "artist": "dconvertini",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Derrynane Beach on the Ring of Kerry"
   }
  },
  {
@@ -5060,6 +6025,15 @@
   "wikipedia": {
    "title": "Turks and Caicos Islands",
    "url": "https://en.wikipedia.org/wiki/Turks_and_Caicos_Islands"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Grace_Bay_-_panoramio.jpg/500px-Grace_Bay_-_panoramio.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Grace_Bay_-_panoramio.jpg/500px-Grace_Bay_-_panoramio.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Grace_Bay_-_panoramio.jpg/960px-Grace_Bay_-_panoramio.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Grace_Bay_-_panoramio.jpg",
+   "file": "File:Grace Bay - panoramio.jpg",
+   "artist": "Csouthard",
+   "licence": "CC BY-SA 3.0",
+   "caption": "White sand and turquoise water at Grace Bay"
   }
  },
  {
@@ -5105,6 +6079,15 @@
   "wikipedia": {
    "title": "Busan",
    "url": "https://en.wikipedia.org/wiki/Busan"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Haeundae_Beach_in_Busan.jpg/500px-Haeundae_Beach_in_Busan.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Haeundae_Beach_in_Busan.jpg/500px-Haeundae_Beach_in_Busan.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Haeundae_Beach_in_Busan.jpg/960px-Haeundae_Beach_in_Busan.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Haeundae_Beach_in_Busan.jpg",
+   "file": "File:Haeundae Beach in Busan.jpg",
+   "artist": "StephNurnberg",
+   "licence": "CC BY 2.0",
+   "caption": "Parasols on Haeundae Beach, Busan"
   }
  },
  {
@@ -5151,6 +6134,15 @@
   "wikipedia": {
    "title": "Victoria Falls",
    "url": "https://en.wikipedia.org/wiki/Victoria_Falls"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_05.jpg/500px-Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_05.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_05.jpg/500px-Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_05.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_05.jpg/960px-Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_05.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Cataratas_Victoria,_Zambia-Zimbabue,_2018-07-27,_DD_05.jpg",
+   "file": "File:Cataratas Victoria, Zambia-Zimbabue, 2018-07-27, DD 05.jpg",
+   "artist": "Diego Delso",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Zambezi River at Victoria Falls from above"
   }
  },
  {
@@ -5197,7 +6189,8 @@
   "wikipedia": {
    "title": "St Lucia, South Africa",
    "url": "https://en.wikipedia.org/wiki/St_Lucia,_South_Africa"
-  }
+  },
+  "image": null
  },
  {
   "id": "SJ-114",
@@ -5243,6 +6236,15 @@
   "wikipedia": {
    "title": "Elafonisi",
    "url": "https://en.wikipedia.org/wiki/Elafonisi"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/%CE%95%CE%BB%CE%B1%CF%86%CE%BF%CE%BD%CE%AE%CF%83%CE%B9_8547.jpg/500px-%CE%95%CE%BB%CE%B1%CF%86%CE%BF%CE%BD%CE%AE%CF%83%CE%B9_8547.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/%CE%95%CE%BB%CE%B1%CF%86%CE%BF%CE%BD%CE%AE%CF%83%CE%B9_8547.jpg/500px-%CE%95%CE%BB%CE%B1%CF%86%CE%BF%CE%BD%CE%AE%CF%83%CE%B9_8547.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/%CE%95%CE%BB%CE%B1%CF%86%CE%BF%CE%BD%CE%AE%CF%83%CE%B9_8547.jpg/960px-%CE%95%CE%BB%CE%B1%CF%86%CE%BF%CE%BD%CE%AE%CF%83%CE%B9_8547.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:%CE%95%CE%BB%CE%B1%CF%86%CE%BF%CE%BD%CE%AE%CF%83%CE%B9_8547.jpg",
+   "file": "File:Ελαφονήσι 8547.jpg",
+   "artist": "C messier",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Pink-tinged sand in Elafonisi shallows"
   }
  },
  {
@@ -5290,6 +6292,15 @@
   "wikipedia": {
    "title": "Daytona Beach, Florida",
    "url": "https://en.wikipedia.org/wiki/Daytona_Beach%2C_Florida"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Daytona_Beach_Pier_from_north.jpg/500px-Daytona_Beach_Pier_from_north.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Daytona_Beach_Pier_from_north.jpg/500px-Daytona_Beach_Pier_from_north.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Daytona_Beach_Pier_from_north.jpg/960px-Daytona_Beach_Pier_from_north.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Daytona_Beach_Pier_from_north.jpg",
+   "file": "File:Daytona Beach Pier from north.jpg",
+   "artist": "Dough4872",
+   "licence": "CC BY-SA 3.0",
+   "caption": "Daytona Beach sand and pier from the north"
   }
  },
  {
@@ -5336,6 +6347,15 @@
   "wikipedia": {
    "title": "Saint Kitts",
    "url": "https://en.wikipedia.org/wiki/Saint_Kitts"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Beach2013jan%28StKitts%26Nevis%29.jpg/500px-Beach2013jan%28StKitts%26Nevis%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Beach2013jan%28StKitts%26Nevis%29.jpg/500px-Beach2013jan%28StKitts%26Nevis%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Beach2013jan%28StKitts%26Nevis%29.jpg/960px-Beach2013jan%28StKitts%26Nevis%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Beach2013jan(StKitts%26Nevis).jpg",
+   "file": "File:Beach2013jan(StKitts&Nevis).jpg",
+   "artist": "M.ª Alejandra Gómez",
+   "licence": "CC0",
+   "caption": "Beach on the St. Kitts peninsula"
   }
  },
  {
@@ -5381,6 +6401,15 @@
   "wikipedia": {
    "title": "Destin, Florida",
    "url": "https://en.wikipedia.org/wiki/Destin%2C_Florida"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Destin%2C_Florida_%288202933191%29.jpg/500px-Destin%2C_Florida_%288202933191%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Destin%2C_Florida_%288202933191%29.jpg/500px-Destin%2C_Florida_%288202933191%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Destin%2C_Florida_%288202933191%29.jpg/960px-Destin%2C_Florida_%288202933191%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Destin,_Florida_(8202933191).jpg",
+   "file": "File:Destin, Florida (8202933191).jpg",
+   "artist": "Steve Evans from Citizen of the World",
+   "licence": "CC BY 2.0",
+   "caption": "White sand and emerald water at Destin"
   }
  },
  {
@@ -5428,6 +6457,15 @@
   "wikipedia": {
    "title": "Gulf of Papagayo",
    "url": "https://en.wikipedia.org/wiki/Gulf_of_Papagayo"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Papagayo_Peninsula.JPG/500px-Papagayo_Peninsula.JPG",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Papagayo_Peninsula.JPG/500px-Papagayo_Peninsula.JPG 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Papagayo_Peninsula.JPG/960px-Papagayo_Peninsula.JPG 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Papagayo_Peninsula.JPG",
+   "file": "File:Papagayo Peninsula.JPG",
+   "artist": "LorraineAtkins",
+   "licence": "CC BY-SA 3.0",
+   "caption": "Beach on the Papagayo Peninsula"
   }
  },
  {
@@ -5474,6 +6512,15 @@
   "wikipedia": {
    "title": "Great Blasket Island",
    "url": "https://en.wikipedia.org/wiki/Great_Blasket_Island"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Great_Blasket_Island_-_geograph.org.uk_-_8193351.jpg/500px-Great_Blasket_Island_-_geograph.org.uk_-_8193351.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Great_Blasket_Island_-_geograph.org.uk_-_8193351.jpg/500px-Great_Blasket_Island_-_geograph.org.uk_-_8193351.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Great_Blasket_Island_-_geograph.org.uk_-_8193351.jpg/960px-Great_Blasket_Island_-_geograph.org.uk_-_8193351.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Great_Blasket_Island_-_geograph.org.uk_-_8193351.jpg",
+   "file": "File:Great Blasket Island - geograph.org.uk - 8193351.jpg",
+   "artist": "David Purchase",
+   "licence": "CC BY-SA 2.0",
+   "caption": "Great Blasket Island across turquoise water"
   }
  },
  {
@@ -5520,6 +6567,15 @@
   "wikipedia": {
    "title": "Palmi, Calabria",
    "url": "https://en.wikipedia.org/wiki/Palmi,_Calabria"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Scoglio_dell%27Ulivo_%28Palmi%29.JPG/500px-Scoglio_dell%27Ulivo_%28Palmi%29.JPG",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Scoglio_dell%27Ulivo_%28Palmi%29.JPG/500px-Scoglio_dell%27Ulivo_%28Palmi%29.JPG 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Scoglio_dell%27Ulivo_%28Palmi%29.JPG/960px-Scoglio_dell%27Ulivo_%28Palmi%29.JPG 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Scoglio_dell%27Ulivo_(Palmi).JPG",
+   "file": "File:Scoglio dell'Ulivo (Palmi).JPG",
+   "artist": "Rollopack",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Palmi beach and Scoglio dell'Ulivo"
   }
  },
  {
@@ -5567,6 +6623,15 @@
   "wikipedia": {
    "title": "Cape Town",
    "url": "https://en.wikipedia.org/wiki/Cape_Town"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Camps_Bay_Beach_...%2C_Cape_Town.jpg/500px-Camps_Bay_Beach_...%2C_Cape_Town.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Camps_Bay_Beach_...%2C_Cape_Town.jpg/500px-Camps_Bay_Beach_...%2C_Cape_Town.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Camps_Bay_Beach_...%2C_Cape_Town.jpg/960px-Camps_Bay_Beach_...%2C_Cape_Town.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Camps_Bay_Beach_...,_Cape_Town.jpg",
+   "file": "File:Camps Bay Beach ..., Cape Town.jpg",
+   "artist": "Nithin bolar k",
+   "licence": "CC BY-SA 3.0",
+   "caption": "A Cape Town beach (exact beach unknown)"
   }
  },
  {
@@ -5613,6 +6678,15 @@
   "wikipedia": {
    "title": "Eleuthera",
    "url": "https://en.wikipedia.org/wiki/Eleuthera"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Beach_scene_at_Current%2C_Eleuthera_%288222670396%29.jpg/500px-Beach_scene_at_Current%2C_Eleuthera_%288222670396%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Beach_scene_at_Current%2C_Eleuthera_%288222670396%29.jpg/500px-Beach_scene_at_Current%2C_Eleuthera_%288222670396%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Beach_scene_at_Current%2C_Eleuthera_%288222670396%29.jpg/960px-Beach_scene_at_Current%2C_Eleuthera_%288222670396%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Beach_scene_at_Current,_Eleuthera_(8222670396).jpg",
+   "file": "File:Beach scene at Current, Eleuthera (8222670396).jpg",
+   "artist": "Trish Hartmann from Tampa, Florida, USA",
+   "licence": "CC BY 2.0",
+   "caption": "Beach at Current, Eleuthera"
   }
  },
  {
@@ -5660,6 +6734,15 @@
   "wikipedia": {
    "title": "Grand Isle, Louisiana",
    "url": "https://en.wikipedia.org/wiki/Grand_Isle,_Louisiana"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Grand_Isle_State_Park.jpg/500px-Grand_Isle_State_Park.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Grand_Isle_State_Park.jpg/500px-Grand_Isle_State_Park.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Grand_Isle_State_Park.jpg/960px-Grand_Isle_State_Park.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Grand_Isle_State_Park.jpg",
+   "file": "File:Grand Isle State Park.jpg",
+   "artist": "Rebecca Milby",
+   "licence": "CC BY 2.0",
+   "caption": "Fishing pier at Grand Isle State Park"
   }
  },
  {
@@ -5706,6 +6789,15 @@
   "wikipedia": {
    "title": "Sarandë",
    "url": "https://en.wikipedia.org/wiki/Sarand%C3%AB"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Sarand%C3%AB%2C_Albania_2022-11_-_Enjoying_the_beach.jpg/500px-Sarand%C3%AB%2C_Albania_2022-11_-_Enjoying_the_beach.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Sarand%C3%AB%2C_Albania_2022-11_-_Enjoying_the_beach.jpg/500px-Sarand%C3%AB%2C_Albania_2022-11_-_Enjoying_the_beach.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Sarand%C3%AB%2C_Albania_2022-11_-_Enjoying_the_beach.jpg/960px-Sarand%C3%AB%2C_Albania_2022-11_-_Enjoying_the_beach.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Sarand%C3%AB,_Albania_2022-11_-_Enjoying_the_beach.jpg",
+   "file": "File:Sarandë, Albania 2022-11 - Enjoying the beach.jpg",
+   "artist": "Sharon Hahn Darlin",
+   "licence": "CC BY 2.0",
+   "caption": "Sarandë town beach"
   }
  },
  {
@@ -5752,6 +6844,15 @@
   "wikipedia": {
    "title": "Lake Ohrid",
    "url": "https://en.wikipedia.org/wiki/Lake_Ohrid"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Beach_at_Lake_Ohrid_October_2022a.jpg/500px-Beach_at_Lake_Ohrid_October_2022a.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Beach_at_Lake_Ohrid_October_2022a.jpg/500px-Beach_at_Lake_Ohrid_October_2022a.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Beach_at_Lake_Ohrid_October_2022a.jpg/960px-Beach_at_Lake_Ohrid_October_2022a.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Beach_at_Lake_Ohrid_October_2022a.jpg",
+   "file": "File:Beach at Lake Ohrid October 2022a.jpg",
+   "artist": "Matej Grochal",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Pebble beach on the Lake Ohrid shore"
   }
  },
  {
@@ -5798,6 +6899,15 @@
   "wikipedia": {
    "title": "Kunë-Vain-Talë-Patok-Fushëkuqe-Ishëm Nature Park",
    "url": "https://en.wikipedia.org/wiki/Kun%C3%AB-Vain-Tal%C3%AB-Patok-Fush%C3%ABkuqe-Ish%C3%ABm_Nature_Park"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Laguna_Kune_6.jpg/500px-Laguna_Kune_6.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Laguna_Kune_6.jpg/500px-Laguna_Kune_6.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Laguna_Kune_6.jpg/960px-Laguna_Kune_6.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Laguna_Kune_6.jpg",
+   "file": "File:Laguna Kune 6.jpg",
+   "artist": "Rrozafa",
+   "licence": "CC BY-SA 4.0",
+   "caption": "Shore of the Kune lagoon near Lezhë"
   }
  },
  {
@@ -5844,6 +6954,15 @@
   "wikipedia": {
    "title": "Alps of Albania National Park",
    "url": "https://en.wikipedia.org/wiki/Alps_of_Albania_National_Park"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/River_flowing_the_Theth_Valley_%28Lumi_i_Thethit%29.jpg/500px-River_flowing_the_Theth_Valley_%28Lumi_i_Thethit%29.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/River_flowing_the_Theth_Valley_%28Lumi_i_Thethit%29.jpg/500px-River_flowing_the_Theth_Valley_%28Lumi_i_Thethit%29.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/River_flowing_the_Theth_Valley_%28Lumi_i_Thethit%29.jpg/960px-River_flowing_the_Theth_Valley_%28Lumi_i_Thethit%29.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:River_flowing_the_Theth_Valley_(Lumi_i_Thethit).jpg",
+   "file": "File:River flowing the Theth Valley (Lumi i Thethit).jpg",
+   "artist": "Tom.whitehead337",
+   "licence": "CC BY-SA 4.0",
+   "caption": "River through the Theth valley"
   }
  },
  {
@@ -5891,6 +7010,15 @@
   "wikipedia": {
    "title": "St Andrews",
    "url": "https://en.wikipedia.org/wiki/St_Andrews"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/The_West_Sands%2C_St_Andrews_-_geograph.org.uk_-_7987631.jpg/500px-The_West_Sands%2C_St_Andrews_-_geograph.org.uk_-_7987631.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/The_West_Sands%2C_St_Andrews_-_geograph.org.uk_-_7987631.jpg/500px-The_West_Sands%2C_St_Andrews_-_geograph.org.uk_-_7987631.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/The_West_Sands%2C_St_Andrews_-_geograph.org.uk_-_7987631.jpg/960px-The_West_Sands%2C_St_Andrews_-_geograph.org.uk_-_7987631.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:The_West_Sands,_St_Andrews_-_geograph.org.uk_-_7987631.jpg",
+   "file": "File:The West Sands, St Andrews - geograph.org.uk - 7987631.jpg",
+   "artist": "Gordon Brown",
+   "licence": "CC BY-SA 2.0",
+   "caption": "West Sands beach at St Andrews"
   }
  },
  {
@@ -5936,6 +7064,15 @@
   "wikipedia": {
    "title": "Gulf Shores, Alabama",
    "url": "https://en.wikipedia.org/wiki/Gulf_Shores,_Alabama"
+  },
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Gulf_Shores_Ocean_View.jpg/500px-Gulf_Shores_Ocean_View.jpg",
+   "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Gulf_Shores_Ocean_View.jpg/500px-Gulf_Shores_Ocean_View.jpg 500w, https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Gulf_Shores_Ocean_View.jpg/960px-Gulf_Shores_Ocean_View.jpg 960w",
+   "page": "https://commons.wikimedia.org/wiki/File:Gulf_Shores_Ocean_View.jpg",
+   "file": "File:Gulf Shores Ocean View.jpg",
+   "artist": "https://ourgulfshoresvacation.com",
+   "licence": "CC BY-SA 4.0",
+   "caption": "White sand beach at Gulf Shores"
   }
  }
 ]

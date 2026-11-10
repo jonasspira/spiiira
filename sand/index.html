@@ -9,7 +9,7 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="vendor/leaflet.css">
 <link rel="stylesheet" href="vendor/MarkerCluster.css">
-<link rel="stylesheet" href="style.css?v=2">
+<link rel="stylesheet" href="style.css?v=3">
 
 <!-- Visit counter. Every page on this site has these two lines; stats are at
      spiiira.goatcounter.com. It records the page address only. -->
@@ -17,28 +17,35 @@
 </head>
 <body>
 <header class="bar">
-  <h1 class="title">Sand jars</h1>
+  <div class="brand">
+    <h1 class="title">Sand jars</h1>
+    <p class="subtitle">Sand from around the world, and what it is made of</p>
+  </div>
   <ul class="stats" id="stats" aria-label="Collection totals"></ul>
-  <button type="button" class="btn btn-primary" id="random">Random</button>
+  <button type="button" class="btn btn-primary" id="random">Random jar</button>
 </header>
 
 <main class="stage">
   <div id="map" class="map" aria-label="World map of sand jars"></div>
 
-  <button type="button" class="btn btn-float" id="world" hidden>Return to map</button>
+  <p class="hint" id="hint">Click a pin to see its sand, or try a random jar</p>
+  <button type="button" class="btn btn-float" id="world" hidden>&larr; World map</button>
 
-  <div class="legend" id="legend" role="group" aria-label="Map key">
-    <span class="legend-title">Key</span>
-    <span class="legend-item"><span class="key key-beach" aria-hidden="true"></span>Beach</span>
-    <span class="legend-item"><span class="key key-nonbeach" aria-hidden="true"></span>Not a beach</span>
-    <span class="legend-item"><span class="key key-approx" aria-hidden="true"></span>Approx. place</span>
-    <span class="legend-item"><span class="key key-cluster" aria-hidden="true">3</span>Group of jars</span>
-    <button type="button" class="link" id="empty-jar" hidden></button>
-  </div>
+  <details class="legend" id="legend">
+    <summary>Map key</summary>
+    <ul>
+      <li><span class="key key-beach" aria-hidden="true"></span><div><strong>Beach</strong> <span class="t">beach sand</span></div></li>
+      <li><span class="key key-nonbeach" aria-hidden="true"></span><div><strong>Not a beach</strong> <span class="t">desert, canyon, glacier, river, soil</span></div></li>
+      <li><span class="key key-approx" aria-hidden="true"></span><div><strong>Approximate</strong> <span class="t">the label names an area, not a spot</span></div></li>
+      <li><span class="key key-cluster" aria-hidden="true">12</span><div><strong>Group</strong> <span class="t">jars close together; click to zoom in</span></div></li>
+      <li><span class="key key-selected" aria-hidden="true"></span><div><strong>Open jar</strong> <span class="t">its card is showing</span></div></li>
+    </ul>
+    <div class="empty-note"><button type="button" class="link" id="empty-jar" hidden></button></div>
+  </details>
 
   <aside class="drawer" id="drawer" aria-labelledby="card-title" hidden>
     <div class="drawer-head">
-      <button type="button" class="btn" id="back">Return to map</button>
+      <button type="button" class="btn" id="back">&larr; World map</button>
       <button type="button" class="btn btn-icon" id="close" aria-label="Close card">&times;</button>
     </div>
     <div class="drawer-body" id="card"></div>
@@ -49,6 +56,6 @@
 
 <script src="vendor/leaflet.js"></script>
 <script src="vendor/leaflet.markercluster.js"></script>
-<script src="app.js?v=2"></script>
+<script src="app.js?v=3"></script>
 </body>
 </html>

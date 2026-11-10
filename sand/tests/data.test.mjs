@@ -70,6 +70,18 @@ test('cards have a short highlight, quick facts and a Wikipedia link', () => {
   }
 });
 
+test('card photos come from Wikimedia Commons with a free licence and a credit', () => {
+  for (const j of pinned) {
+    if (!j.image) continue;
+    const im = j.image;
+    assert.match(im.src, /^https:\/\/(upload|thumb)\.wikimedia\.org\/[^?]+$/, j.id);
+    assert.match(im.page, /^https:\/\/commons\.wikimedia\.org\//, j.id);
+    assert.match(im.licence, /^(CC BY|CC0|Public domain|PD)/i, j.id + ' licence: ' + im.licence);
+    assert.doesNotMatch(im.licence, /NC|ND/, j.id + ' licence forbids reuse: ' + im.licence);
+    assert.ok(im.caption && im.caption.split(/\s+/).length <= 12, j.id + ' caption');
+  }
+});
+
 test('the country-only jars are Hawaii, Iceland and Nicaragua', () => {
   assert.deepEqual(jars.filter(j => j.category === 'country_only').map(j => j.id), ['SJ-054', 'SJ-057', 'SJ-091']);
 });

@@ -20,23 +20,50 @@ merges it into `main` and pushes. No homepage card or README row, by design.
 
 What a visitor sees:
 
-- A dark world map with 128 pins (129 jars; SJ-025 is empty and has no pin).
-  Amber circles are beaches, purple diamonds are not beaches, hollow dashed
-  pins are approximate places. A key in the corner explains them. Pins group
-  into numbered clusters; a purple ring means the group mixes both kinds.
-- A stats strip computed from the data: 129 jars, 128 pins, 118 places,
-  33 countries & territories, 5 continents, 116 beaches, 12 not beaches.
-- Click a pin (or press Random): the map flies in and a card opens with one
-  interesting sentence, three quick facts (colour, made of, from), a Wikipedia
-  link, and "More" folding the full researched description and its sources.
-- Return to map flies back out. Escape closes the card. Pins and clusters work
-  from the keyboard.
+- A header with the title, a one-line subtitle, the stats (129 jars, 118
+  places, 33 countries & territories, 5 continents, 116 beaches, 12 not
+  beaches, all computed from the data) and a blue "Random jar" button.
+- A dark world map with 128 pins (SJ-025 is empty and has no pin). Amber
+  circles are beaches, purple diamonds are not beaches, hollow dashed pins are
+  approximate places, numbered circles are groups (a purple slice means the
+  group mixes both). Hovering a pin shows its name. A hint at the top says
+  "Click a pin to see its sand, or try a random jar" until the first card opens.
+- A map key, bottom-right: each symbol with a short plain explanation. Open on
+  desktop, folded on phones, hidden while a card is open.
+- Click a pin (or Random jar): the map flies in, the pin gets an orange ring,
+  and a card opens: a photo of the place (116 of 118 places) with its credit,
+  one interesting sentence, three quick facts (colour, made of, from), a
+  Wikipedia link, and "More" folding the full researched description and its
+  sources. "World map" flies back out. Escape closes the card.
+- The OpenStreetMap credit is small in the corner (it is legally required).
 
-Checks: `node --test sand/tests/data.test.mjs` passes 9 checks. Headless Chrome
-checks at desktop and phone size passed on 2026-11-10: every pin present,
-cluster click separates, pin click opens the right card, 24 Random picks each
-showed the right pin, duplicate jars fan out and switch, keyboard Enter works,
-no console errors, no failed requests (only map tiles cancelled mid-zoom).
+Checks: `node --test sand/tests/data.test.mjs` passes 10 checks. Headless Chrome
+checks at desktop and phone size passed on 2026-11-10 after the latest changes:
+every pin present, cluster click separates, pin click opens the right card,
+24 Random picks each showed the right pin, duplicate jars fan out and switch,
+keyboard Enter works, no console errors, no failed requests (only map tiles
+cancelled mid-zoom). All 116 photos were reviewed on contact sheets.
+
+## Engagement: how to read it
+
+Visits and engagement are counted by GoatCounter, the site's existing visit
+counter, at https://spiiira.goatcounter.com (Jonas's login). Nothing else is
+used: no cookies, no personal data. Nothing is counted until the page is live,
+and local previews never count.
+
+- **Visits**: the `/sand/` row, as for every page on the site.
+- **Time on the page**: rows named `sand-time-30s`, `sand-time-1m`,
+  `sand-time-2m`, `sand-time-5m`, `sand-time-10m`. Each counts visits that
+  stayed at least that long with the tab visible. Example: 200 visits,
+  `sand-time-1m` 80 and `sand-time-5m` 15 means 40% stayed a minute or more and
+  7.5% stayed five or more. GoatCounter cannot give an exact average time per
+  visit; these steps are the closest it gets.
+- **Clicks**: `sand-open-pin` (a card opened from the map), `sand-random`
+  (Random jar pressed), `sand-open-sibling` (switched between jars from the
+  same beach), `sand-wikipedia` (a Wikipedia link opened), `sand-more` ("More"
+  opened on a card).
+- Events show in the same list as pages; set the dashboard's date range to see
+  a period.
 
 ## Next
 
@@ -59,7 +86,12 @@ no console errors, no failed requests (only map tiles cancelled mid-zoom).
    (Belize, a travel blog), Jacó (real-estate blog), Papagayo (travel writing
    only), Positano, Elafonisi, Santorini (black and red), Strandhill (a
    Facebook post for the dune age), Nevis, Koh Talu, St Kitts.
-6. Natural round-2 ideas that v1 deliberately leaves out: search, filters, a
+6. **Photos to improve if better ones appear on Commons**: Koh Talu and
+   St. Lucia have none (no verifiable photo of the place); Key Largo shows a
+   rocky shore; Bimini and Great Blasket are seen from a distance; Kune shows
+   the lagoon shore; Grand Isle shows the fishing pier; Santo Domingo is Boca
+   Chica nearby; SJ-121 is a general Cape Town beach (Camps Bay), captioned so.
+7. Natural round-2 ideas that v1 deliberately leaves out: search, filters, a
    list view. Only build them if Jonas asks.
 
 ## How to look at it
@@ -143,6 +175,35 @@ same command from `~/Projects/"SPIIIRA Tools"/spiiira` instead.)
   details"): highlight + three facts + Wikipedia up top; long text under More.
 
 ## Log
+
+### 2026-11-10 — calmer colours, photos, engagement, bigger key (Claude Code)
+
+Jonas said the page looked better but the colours felt random and the UX was
+a bit hard; asked how to track engagement and time on the page; asked for
+shoreline photos on the cards; wanted a larger, clearer key; and asked whether
+the Leaflet credit had to stay.
+
+- Colours: each accent now has one job (amber beach, purple not a beach,
+  orange the open jar, blue things you press); tags, numbers and captions are
+  grey; the four-colour stripe under the header is gone.
+- UX: pin names on hover, a first-visit hint, a subtitle, "Random jar" and
+  "World map" labels, a calmer card with the photo on top.
+- Key: bottom-right, one line per symbol with a plain explanation, includes
+  "Open jar"; open on desktop, folded on phones, hidden while a card is open.
+  A taller version covered pins in Central America and Thailand, so it was
+  made compact.
+- Map credit: the "Leaflet" label is removed; the OpenStreetMap credit is
+  legally required and stays, at 10px.
+- Engagement: GoatCounter events for clicks and visible time steps (see
+  "Engagement: how to read it"). No new service.
+- Photos: three agents searched Wikimedia Commons per place with a helper that
+  keeps only free licences (CC BY, CC BY-SA, CC0, public domain) and landscape
+  photos, looked at numbered contact sheets and picked one each. Rejected after
+  review: Koh Talu (photo was of another Rayong beach), St. Lucia (location
+  only guessed), and a Hawaiian "Sunset Beach" (the jar is Sunset Beach,
+  Orange County; re-picked). Wikimedia now serves thumbnails from
+  thumb.wikimedia.org with tracking tags, which are stripped.
+- Version numbers bumped to `?v=3`.
 
 ### 2026-11-10 — "I'm not seeing any of the updates" (Claude Code)
 

@@ -48,7 +48,8 @@ this folder are both the source and what is served. Edit them directly.
 - **Public and indexable.** No PIN, no `noindex`, no login.
 - **No backend of any kind.** No Worker, no D1 database, no intake endpoint, no
   server, no API key. All data is in `data/sand-jars.json` in this repository.
-  The page makes no requests except the OpenStreetMap tiles and GoatCounter.
+  The page's only outside requests are the OpenStreetMap tiles, GoatCounter,
+  and card photos loaded from upload.wikimedia.org when a card opens.
 - **No build step** (see above), so nyc26's "edit `src/`, then `npm run build`"
   rule does not apply here.
 - Same as nyc26: **no homepage card and no `README.md` row** unless Jonas asks.
@@ -77,23 +78,42 @@ this folder are both the source and what is served. Edit them directly.
 - **v1 has one flow only**: map, pin, card, Random, Return to map. No search,
   filters, list view, accounts, comments, sharing or editing on the page. Do not
   turn it into a list, gallery or blog. The map is the page.
-- **Colours carry meaning; use them the same way everywhere.** Surfaces are the
-  spiiira-ui greys. Jonas chose four accents (2026-11-10):
-  amber `#FDBA21` = beach pins, the sand, numbers;
-  purple `#BF63F3` = not a beach (pins, clusters, tag, stat);
-  orange `#FE5517` = approximate or uncertain (approx. tag, confidence, caveat line);
-  blue `#0066FF` = controls (Random, links, focus ring, current jar), shown as
-  `#5C9BFF` where it is text on dark grey because `#0066FF` is too dark to read.
-  Do not use a colour for a second meaning.
+- **Each colour has exactly one job; everything else is grey.** Jonas chose four
+  accents (2026-11-10), then said the first use of them felt random, so each now
+  means one thing only:
+  amber `#FDBA21` = a beach jar (pins, groups, the card's highlight rule);
+  purple `#BF63F3` = not a beach (pins, groups, its tag);
+  orange `#FE5517` = the jar you are looking at now (selected pin ring, current
+  jar button);
+  blue `#0066FF` = something you can press (Random jar, links, focus), shown as
+  `#6AA6FF` where it is text, because `#0066FF` is too dark to read on grey.
+  Tags, caveats, numbers and captions are grey. No decorative colour (the
+  four-colour stripe under the header was removed for that reason).
 - **Colour is never the only cue.** Beach pins are circles, not-a-beach pins
-  are diamonds, approximate pins are hollow and dashed. The key on the map
-  explains all three. Keep the key in step with the pins.
+  are diamonds, approximate pins are hollow and dashed, the open jar has a ring.
+  The map key explains each with a plain-language line. Keep the key in step
+  with the pins. It sits bottom-right (over empty ocean), starts open on wide
+  screens and folded on phones, and hides while a card is open.
 - **Cards are for glancing** (Jonas, 2026-11-10: less text, just interesting
-  details). Top to bottom: ID and country, place, label, tags, one short caveat
-  line at most, the one-sentence `highlight`, three quick facts (`glance`), the
-  Wikipedia link, the other jars from the same beach. Everything longer (the
-  full summary, grain, sources, inventory notes) stays folded under "More".
-  Do not move long text back above the fold.
+  details). Top to bottom: photo, ID and country, place, label, tags, one short
+  caveat line at most, the one-sentence `highlight`, three quick facts
+  (`glance`), the Wikipedia link, the other jars from the same beach.
+  Everything longer (the full summary, grain, sources, inventory notes) stays
+  folded under "More". Do not move long text back above the fold.
+- **Photos must be free to reuse and credited.** Each `image` is a Wikimedia
+  Commons photo under CC BY, CC BY-SA, CC0 or public domain (never NC or ND),
+  shown with the photographer, the licence and a link to its Commons page, as
+  those licences require. Photos are chosen by looking at them: the actual
+  place, shoreline and sand in frame. A place with no suitable photo has
+  `image: null` and the card simply has no photo.
+- **Engagement is counted with GoatCounter events, nothing else.** `app.js`
+  sends named events (`sand-open-pin`, `sand-random`, `sand-open-sibling`,
+  `sand-wikipedia`, `sand-more`, and `sand-time-30s` / `-1m` / `-2m` / `-5m` /
+  `-10m` for visible time on the page). No cookies, no personal data, no other
+  analytics service. GoatCounter ignores localhost, so local previews count
+  nothing.
+- **The OpenStreetMap credit must stay** (its licence requires it). It is
+  shown small; the "Leaflet" label is removed, which is allowed.
 - **Highlights and quick facts are condensed from the sourced summary**, never
   new facts. A place with `known: false` has an empty highlight; the card then
   says the composition is not published.
@@ -121,7 +141,11 @@ Pelosa links to Stintino), and `sand`: `known`, `highlight` (one sentence, at
 most about 22 words), `glance` (`colour`, `made_of`, `from`, a few words each,
 empty when unknown), then the longer research fields `colour`, `composition`,
 `origin`, `why_this_colour`, `grain`, `summary` (2 to 4 sentences) and
-`sources`. `country` uses the sovereign state, except for
+`sources`; and `image` (or `null`): `src` (a 500px Commons thumbnail),
+`srcset` (adds the 960px one when the original is big enough), `page` (the
+Commons file page), `file`, `artist`, `licence`, `caption` (what the photo
+shows, a few words). Do not confuse `image` with `photo`, which is the
+inventory photo of the shelf (IMG_0831 to IMG_0836). `country` uses the sovereign state, except for
 territories counted on their own: Hong Kong, Aruba, Cayman Islands, Turks and
 Caicos Islands. Hawaii is `United States`. The continent for each country is
 in the `CONTINENT` table in `app.js`; if a country is missing there, the

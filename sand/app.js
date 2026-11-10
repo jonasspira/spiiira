@@ -3,9 +3,10 @@
 (function () {
   'use strict';
 
-  var DATA_URL = 'data/sand-jars.json?v=2'; // bump ?v= in index.html and here after every change, so browsers fetch the new files
-  var WORLD = L.latLngBounds([[-48, -160], [68, 165]]);
+  var DATA_URL = 'data/sand-jars.json?v=3'; // bump ?v= in index.html and here after every change, so browsers fetch the new files
+  var WORLD = L.latLngBounds([[-48, -170], [68, 165]]);
   var WIDE = window.matchMedia('(min-width: 721px)');
+  var HOVER = window.matchMedia('(hover: hover)');
 
   // Country -> continent. If a jar's country is missing here, the continent
   // stat is left out rather than guessed.
@@ -33,6 +34,36 @@
   var jars = [], pinned = [], markers = {}, byGroup = {};
   var current = null, lastFocus = null, map, cluster;
 
+  // ---------- engagement (GoatCounter events) ----------
+  // GoatCounter (the site's visit counter) already counts the page view. These
+  // add named events, which appear under "sand-..." in the GoatCounter
+  // dashboard. They carry no personal data: just the event name. GoatCounter
+  // ignores localhost, so nothing is counted while previewing on the Mac.
+  function track(name, title) {
+    try {
+      if (window.goatcounter && window.goatcounter.count) {
+        window.goatcounter.count({ path: 'sand-' + name, title: title || name, event: true });
+      }
+    } catch (e) { /* counting must never break the page */ }
+  }
+
+  // Time on page: counts only while the tab is visible, and sends one event
+  // the first time each mark is passed (sand-time-30s, -1m, -2m, -5m, -10m).
+  // "sand-time-2m: 40" in the dashboard means 40 visits stayed 2+ minutes.
+  function trackTime() {
+    var marks = [[30, '30s'], [60, '1m'], [120, '2m'], [300, '5m'], [600, '10m']];
+    var seconds = 0;
+    var timer = setInterval(function () {
+      if (document.visibilityState !== 'visible') return;
+      seconds += 5;
+      while (marks.length && seconds >= marks[0][0]) {
+        var m = marks.shift();
+        track('time-' + m[1], 'Stayed ' + m[1] + ' or more');
+      }
+      if (!marks.length) clearInterval(timer);
+    }, 5000);
+  }
+
   // ---------- small DOM helper ----------
   function el(tag, attrs, children) {
     var n = document.createElement(tag);
@@ -47,10 +78,11 @@
 
   // ---------- map ----------
   function initMap() {
-    map = L.map('map', { worldCopyJump: true, minZoom: 0, maxZoom: 17, zoomSnap: 0.25, attributionControl: true });
+    map = L.map('map', { worldCopyJump: true, minZoom: 0, maxZoom: 17, zoomSnap: 0.25 });
+    map.attributionControl.setPrefix(false); // drop the "Leaflet" label; the OpenStreetMap credit is required and stays
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 17,
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(map);
     map.fitBounds(WORLD, { animate: false });
     map.on('zoomend moveend', updateWorldButton);
@@ -78,15 +110,15 @@
       showCoverageOnHover: false,
       maxClusterRadius: 38,
       spiderfyDistanceMultiplier: 1.6,
-      // Amber for beaches; purple when every jar inside is not a beach; a purple
-      // ring when the group mixes both.
+      // Amber for beaches; purple when every jar inside is not a beach; a
+      // purple slice on the rim when the group mixes both.
       iconCreateFunction: function (c) {
         var kids = c.getAllChildMarkers();
         var non = kids.filter(function (k) { return k.options.nonBeach; }).length;
         var kind = non === kids.length ? ' nonbeach' : non ? ' mixed' : '';
         var n = c.getChildCount();
         var s = n < 5 ? 28 : n < 15 ? 34 : 40;
-        return L.divIcon({ className: 'cluster' + kind, html: '<span>' + n + '</span>', iconSize: [s, s] });
+        return L.divIcon({ className: 'cluster' + kind, html: '<span><b>' + n + '</b></span>', iconSize: [s, s] });
       }
     });
     // Clusters are markers too: give them a readable label for keyboard and screen-reader users.
@@ -95,10 +127,12 @@
 
     pinned.forEach(function (jar) {
       var m = L.marker([jar.latitude, jar.longitude], {
-        icon: pinIcon(jar, false), keyboard: true, title: pinLabel(jar), alt: pinLabel(jar), riseOnHover: true,
+        icon: pinIcon(jar, false), keyboard: true, alt: pinLabel(jar), riseOnHover: true,
         nonBeach: isNonBeach(jar)
       });
-      m.on('click', function () { openJar(jar, { fly: true }); });
+      // Name on hover (mouse only; on touch screens a tap opens the card straight away).
+      if (HOVER.matches) m.bindTooltip(jar.place, { className: 'pin-tip', direction: 'top', offset: [0, -10] });
+      m.on('click', function () { openJar(jar, { fly: true }); track('open-pin', 'Opened a jar from the map'); });
       m.on('add', function () { decorate(m, jar); });
       markers[jar.id] = m;
       cluster.addLayer(m);
@@ -141,7 +175,7 @@
   function offsetTarget(latlng, zoom) {
     var p = map.project(latlng, zoom);
     if (WIDE.matches) p = p.add([drawer.offsetWidth / 2 || 200, 0]);
-    else p = p.add([0, (map.getSize().y * 0.58) / 2 - 20]);
+    else p = p.add([0, (map.getSize().y * 0.64) / 2 - 20]);
     return map.unproject(p, zoom);
   }
 
@@ -161,6 +195,8 @@
   function openJar(jar, opts) {
     opts = opts || {};
     if (drawer.hidden) lastFocus = document.activeElement;
+    $('hint').hidden = true;
+    if (markers[jar.id]) markers[jar.id].closeTooltip();
     setSelected(jar);
     renderCard(jar);
     drawer.hidden = false;
@@ -175,6 +211,7 @@
     } else if (jar.latitude != null) {
       revealMarker(jar);
     }
+    card.scrollTop = 0;
     card.focus({ preventScroll: true });
   }
 
@@ -195,32 +232,36 @@
 
   function reduceMotion() { return window.matchMedia('(prefers-reduced-motion: reduce)').matches; }
 
-  // The card reads top-down in a glance: name, tags, one interesting line,
-  // three quick facts, links. Everything longer sits under "More".
+  // The card reads top-down in a glance: photo, name, tags, one interesting
+  // line, three quick facts, Wikipedia. Everything longer sits under "More".
   function renderCard(jar) {
     card.textContent = '';
     card.setAttribute('tabindex', '-1');
     card.className = 'drawer-body card' + (isNonBeach(jar) ? ' nonbeach' : '');
 
-    card.appendChild(el('p', { class: 'card-meta', text: jar.id + (jar.country ? ' · ' + jar.country : '') }));
-    card.appendChild(el('h2', { class: 'card-title', id: 'card-title', text: jar.category === 'empty' ? 'Empty jar awaiting sand' : jar.place }));
-    card.appendChild(el('p', { class: 'label-quote' }, ['Label: ', el('q', { text: jar.label_as_written })]));
+    if (jar.image) card.appendChild(renderPhoto(jar));
+
+    var inner = el('div', { class: 'card-inner' });
+    card.appendChild(inner);
+    inner.appendChild(el('p', { class: 'card-meta', text: jar.id + (jar.country ? ' · ' + jar.country : '') }));
+    inner.appendChild(el('h2', { class: 'card-title', id: 'card-title', text: jar.category === 'empty' ? 'Empty jar awaiting sand' : jar.place }));
+    inner.appendChild(el('p', { class: 'label-quote' }, ['Label: ', el('q', { text: jar.label_as_written })]));
 
     var tags = el('ul', { class: 'tags', 'aria-label': 'About this jar' });
-    if (jar.category === 'not_a_beach') tags.appendChild(el('li', { class: 'tag tag-purple', text: 'Not a beach' }));
-    if (jar.category === 'country_only') tags.appendChild(el('li', { class: 'tag tag-amber', text: 'Country only' }));
+    if (jar.category === 'not_a_beach') tags.appendChild(el('li', { class: 'tag tag-nonbeach', text: 'Not a beach' }));
+    if (jar.category === 'country_only') tags.appendChild(el('li', { class: 'tag', text: 'Country only' }));
     if (jar.category === 'empty') tags.appendChild(el('li', { class: 'tag', text: 'Empty jar' }));
-    if (jar.approximate) tags.appendChild(el('li', { class: 'tag tag-orange', text: 'Approx. location' }));
-    if (jar.confidence === 'low') tags.appendChild(el('li', { class: 'tag tag-orange', text: 'Name unresolved' }));
-    if (jar.confidence !== 'high') tags.appendChild(el('li', { class: 'tag tag-orange', text: jar.confidence.charAt(0).toUpperCase() + jar.confidence.slice(1) + ' confidence' }));
-    if (tags.children.length) card.appendChild(tags);
+    if (jar.approximate) tags.appendChild(el('li', { class: 'tag', text: 'Approximate place' }));
+    if (jar.confidence === 'low') tags.appendChild(el('li', { class: 'tag', text: 'Name unresolved' }));
+    else if (jar.confidence === 'medium') tags.appendChild(el('li', { class: 'tag', text: 'Label partly cut off' }));
+    if (tags.children.length) inner.appendChild(tags);
 
     // One short caveat line at most; the full explanation is under More.
     var caveat = CONFIDENCE_NOTE[jar.confidence] || (jar.approximate ? jar.approx_note : '');
     if (jar.category === 'empty') caveat = 'Genuinely empty glass with no tag, so it has no pin on the map.';
-    if (caveat) card.appendChild(el('p', { class: 'caveat', text: caveat }));
+    if (caveat) inner.appendChild(el('p', { class: 'caveat', text: caveat }));
 
-    if (jar.sand) renderGlance(jar);
+    if (jar.sand) renderGlance(jar, inner);
 
     var group = jar.duplicate_group ? byGroup[jar.duplicate_group] : null;
     if (group && group.length > 1) {
@@ -228,38 +269,53 @@
       group.forEach(function (j) {
         var b = el('button', { type: 'button', class: 'btn', text: j.id });
         if (j.id === jar.id) b.setAttribute('aria-current', 'true');
-        else b.addEventListener('click', function () { openJar(j, { fly: false }); });
+        else b.addEventListener('click', function () { openJar(j, { fly: false }); track('open-sibling', 'Switched to another jar from the same beach'); });
         list.appendChild(el('li', null, [b]));
       });
-      card.appendChild(el('div', { class: 'dupes' }, [group.length + ' jars from this beach. Each has its own label:', list]));
+      inner.appendChild(el('div', { class: 'dupes' }, [group.length + ' jars from this beach. Each has its own label:', list]));
     }
 
-    card.appendChild(renderMore(jar));
-    card.appendChild(el('p', { class: 'foot', text: [jar.shelf_group && 'Shelf ' + jar.shelf_group, jar.photo && 'Photo ' + jar.photo].filter(Boolean).join(' · ') }));
+    inner.appendChild(renderMore(jar));
+    inner.appendChild(el('p', { class: 'foot', text: [jar.shelf_group && 'Shelf ' + jar.shelf_group, jar.photo && 'Photo ' + jar.photo].filter(Boolean).join(' · ') }));
   }
 
-  function renderGlance(jar) {
+  // Photo from Wikimedia Commons, credited as its licence requires.
+  function renderPhoto(jar) {
+    var im = jar.image;
+    var img = el('img', { alt: im.caption || jar.place, loading: 'lazy', decoding: 'async', src: im.src, width: '960', height: '600' });
+    if (im.srcset) { img.setAttribute('srcset', im.srcset); img.setAttribute('sizes', '(max-width: 720px) 100vw, 400px'); }
+    var fig = el('figure', { class: 'photo' }, [img]);
+    img.addEventListener('load', function () { img.classList.add('loaded'); });
+    img.addEventListener('error', function () { fig.remove(); });
+    var credit = el('span', null, ['Photo: ', el('a', { href: im.page, target: '_blank', rel: 'noopener', text: (im.artist || 'Wikimedia Commons') + ', ' + im.licence })]);
+    fig.appendChild(el('figcaption', null, [im.caption || '', credit]));
+    return fig;
+  }
+
+  function renderGlance(jar, inner) {
     var s = jar.sand;
-    if (s.known && s.highlight) card.appendChild(el('p', { class: 'highlight', text: s.highlight }));
-    else card.appendChild(el('p', { class: 'highlight unknown', text: 'What this sand is made of is not published. The jar is on the map from its label.' }));
+    if (s.known && s.highlight) inner.appendChild(el('p', { class: 'highlight', text: s.highlight }));
+    else inner.appendChild(el('p', { class: 'highlight unknown', text: 'What this sand is made of is not published. The jar is on the map from its label.' }));
 
     var g = s.glance || {};
     var rows = [['Colour', g.colour], ['Made of', g.made_of], ['From', g.from]].filter(function (r) { return r[1]; });
     if (rows.length) {
       var dl = el('dl', { class: 'glance' });
       rows.forEach(function (r) { dl.appendChild(el('div', null, [el('dt', { text: r[0] }), el('dd', { text: r[1] })])); });
-      card.appendChild(dl);
+      inner.appendChild(dl);
     }
 
     if (jar.wikipedia && /^https:\/\/en\.wikipedia\.org\//.test(jar.wikipedia.url)) {
-      var a = el('a', { class: 'btn', href: jar.wikipedia.url, target: '_blank', rel: 'noopener', text: 'Wikipedia: ' + jar.wikipedia.title });
-      card.appendChild(el('div', { class: 'links' }, [a]));
+      var a = el('a', { href: jar.wikipedia.url, target: '_blank', rel: 'noopener', text: 'Read about ' + jar.wikipedia.title + ' on Wikipedia ↗' });
+      a.addEventListener('click', function () { track('wikipedia', 'Opened a Wikipedia link'); });
+      inner.appendChild(el('p', { class: 'links' }, [a]));
     }
   }
 
   // Full research, sources and inventory notes, folded away.
   function renderMore(jar) {
     var d = el('details', { class: 'more' }, [el('summary', { text: jar.sand ? 'More about this ' + (isNonBeach(jar) ? 'material' : 'sand') : 'Inventory details' })]);
+    d.addEventListener('toggle', function () { if (d.open) track('more', 'Opened More on a card'); });
     var s = jar.sand;
     if (s) {
       d.appendChild(el('p', { text: s.summary }));
@@ -288,7 +344,7 @@
 
   // ---------- stats (all computed from the data file) ----------
   function renderStats() {
-    var places = {}, countries = {}, continents = {}, missing = false, beach = 0, notBeach = 0;
+    var places = {}, countries = {}, continents = {}, missing = false, notBeach = 0;
     jars.forEach(function (j) {
       if (j.place_key) places[j.place_key] = 1;
       if (j.country) {
@@ -296,18 +352,16 @@
         if (CONTINENT[j.country]) continents[CONTINENT[j.country]] = 1; else missing = true;
       }
       if (j.category === 'not_a_beach') notBeach++;
-      else if (j.category === 'beach' || j.category === 'country_only') beach++;
     });
     var items = [
       [jars.length, 'jars'],
-      [pinned.length, 'pins'],
       [Object.keys(places).length, 'places'],
       [Object.keys(countries).length, 'countries & territories']
     ];
     if (!missing) items.push([Object.keys(continents).length, 'continents']);
-    items.push([beach, 'beaches'], [notBeach, 'not beaches', 's-purple']);
+    items.push([jars.length - notBeach - (jars.length - pinned.length), 'beaches'], [notBeach, 'not beaches']);
     var ul = $('stats');
-    items.forEach(function (it) { ul.appendChild(el('li', it[2] ? { class: it[2] } : null, [el('b', { text: String(it[0]) }), it[1]])); });
+    items.forEach(function (it) { ul.appendChild(el('li', null, [el('b', { text: String(it[0]) }), it[1]])); });
   }
 
   // ---------- random ----------
@@ -318,6 +372,7 @@
     while (pinned.length > 1 && current && pick.id === current.id);
     cluster.unspiderfy();
     openJar(pick, { fly: true });
+    track('random', 'Pressed Random jar');
   }
 
   // ---------- wire up ----------
@@ -330,10 +385,13 @@
     initMap();
     addMarkers();
 
+    // The key starts open on wide screens and folded on phones.
+    if (WIDE.matches) $('legend').open = true;
+
     var empty = jars.filter(function (j) { return j.category === 'empty'; });
     if (empty.length) {
       var b = $('empty-jar');
-      b.textContent = empty.map(function (j) { return j.id; }).join(', ') + ': empty jar awaiting sand';
+      b.textContent = empty.map(function (j) { return j.id; }).join(', ') + ' is an empty jar awaiting sand';
       b.hidden = false;
       b.addEventListener('click', function () { openJar(empty[0], { fly: false }); });
     }
@@ -358,6 +416,7 @@
         }
       }
     });
+    trackTime();
   }
 
   fetch(DATA_URL)
