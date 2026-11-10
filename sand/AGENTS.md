@@ -136,4 +136,9 @@ node --test sand/tests/data.test.mjs   # data checks; all must pass
 ```
 
 To change a jar, edit `data/sand-jars.json`, run the tests, reload the page.
+
+**After any change, bump the version number** (`?v=2` -> `?v=3`) on
+`style.css` and `app.js` in `index.html` and on `DATA_URL` in `app.js`.
+Browsers keep old copies of these files, and without the bump visitors (and
+Jonas, previewing locally) keep seeing the old page.
 Commit and push only when Jonas asks.
