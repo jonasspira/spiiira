@@ -102,7 +102,7 @@ cd ~/Projects/"SPIIIRA Tools"/spiiira/.claude/worktrees/sand-map
 python3 -m http.server 8080
 ```
 
-Then open http://127.0.0.1:8080/sand/. (If the branch has been merged, run the
+Then open `http://127.0.0.1:8080/sand/`. (If the branch has been merged, run the
 same command from `~/Projects/"SPIIIRA Tools"/spiiira` instead.)
 
 ## Where the data came from (so it can be redone or extended)
