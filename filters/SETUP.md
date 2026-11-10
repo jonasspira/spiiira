@@ -102,7 +102,7 @@ Gmail classifies some read scopes as restricted. Google may show an unverified-a
 From Terminal:
 
 ```sh
-cd ~/Projects/"SPIIIRA Tools"/jonasspira.github.io
+cd ~/Projects/"SPIIIRA Tools"/spiiira
 python3 -m http.server 8000
 ```
 

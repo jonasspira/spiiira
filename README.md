@@ -1,4 +1,4 @@
-# jonasspira.github.io
+# spiiira
 
 The source for [www.spiiira.com](https://www.spiiira.com). GitHub Pages publishes the `main` branch automatically, usually within a minute or two of a change.
 

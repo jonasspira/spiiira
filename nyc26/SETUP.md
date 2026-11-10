@@ -36,7 +36,7 @@ it does not touch your domain or DNS.
 In Terminal:
 
 ```bash
-cd ~/Projects/"SPIIIRA Tools"/jonasspira.github.io/nyc26 && npx wrangler login
+cd ~/Projects/"SPIIIRA Tools"/spiiira/nyc26 && npx wrangler login
 ```
 
 A browser window opens. Approve it, then come back to Terminal. You only ever
@@ -45,7 +45,7 @@ do this once on this Mac.
 ## 2. Create the database
 
 ```bash
-cd ~/Projects/"SPIIIRA Tools"/jonasspira.github.io/nyc26 && npx wrangler d1 create nyc26
+cd ~/Projects/"SPIIIRA Tools"/spiiira/nyc26 && npx wrangler d1 create nyc26
 ```
 
 It prints a block of text containing `database_id = "..."` with a long code.
@@ -63,7 +63,7 @@ the database was created on 25 October 2026.
 ## 3. Create the tables
 
 ```bash
-cd ~/Projects/"SPIIIRA Tools"/jonasspira.github.io/nyc26 && npx wrangler d1 execute nyc26 --remote --file worker/schema.sql --config worker/wrangler.toml
+cd ~/Projects/"SPIIIRA Tools"/spiiira/nyc26 && npx wrangler d1 execute nyc26 --remote --file worker/schema.sql --config worker/wrangler.toml
 ```
 
 Say yes if it asks to confirm.
@@ -71,7 +71,7 @@ Say yes if it asks to confirm.
 ## 4. Deploy the Worker
 
 ```bash
-cd ~/Projects/"SPIIIRA Tools"/jonasspira.github.io/nyc26 && npx wrangler deploy --config worker/wrangler.toml
+cd ~/Projects/"SPIIIRA Tools"/spiiira/nyc26 && npx wrangler deploy --config worker/wrangler.toml
 ```
 
 It prints the address it deployed to. It should be
@@ -84,7 +84,7 @@ built into it.
 These are the only private values, and they live only in Cloudflare.
 
 ```bash
-cd ~/Projects/"SPIIIRA Tools"/jonasspira.github.io/nyc26 && npx wrangler secret put ACCESS_PIN --config worker/wrangler.toml
+cd ~/Projects/"SPIIIRA Tools"/spiiira/nyc26 && npx wrangler secret put ACCESS_PIN --config worker/wrangler.toml
 ```
 
 It waits for you to type the PIN. Type it and press Return. Nothing appears on
@@ -94,7 +94,7 @@ Then the signing key. This generates it and feeds it straight in, so there is
 nothing to read, copy or remember:
 
 ```bash
-cd ~/Projects/"SPIIIRA Tools"/jonasspira.github.io/nyc26 && openssl rand -hex 32 | npx wrangler secret put SESSION_SECRET --config worker/wrangler.toml
+cd ~/Projects/"SPIIIRA Tools"/spiiira/nyc26 && openssl rand -hex 32 | npx wrangler secret put SESSION_SECRET --config worker/wrangler.toml
 ```
 
 Do not set `DEV_ORIGINS` on the deployed Worker. It exists only for local work.

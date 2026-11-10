@@ -3,7 +3,7 @@
 published: false
 ---
 
-# jonasspira.github.io
+# spiiira
 
 This repository is Jonas's website, www.spiiira.com. GitHub Pages builds it with Jekyll and publishes the `main` branch automatically through `.github/workflows/pages.yml`. The separate `.github/workflows/link-check.yml` checks every page and Markdown file for broken links on each push. The repository holds web tools only.
 

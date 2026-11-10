@@ -23,7 +23,7 @@ If you already ran the v2 setup, you have the first two secrets. Skip to step 3.
 | Path | What it is |
 |---|---|
 | `jonasspira/groton-inventory` | Source of truth. Edit here. |
-| `jonasspira.github.io/groton-inventory/` | Deployed copy, served at spiiira.com/groton-inventory/ |
+| `spiiira/groton-inventory/` | Deployed copy, served at spiiira.com/groton-inventory/ |
 | Cloudflare worker | `groton-vision.jonas-spira.workers.dev` |
 | Notion | Home Inventory database, under Groton |
 
