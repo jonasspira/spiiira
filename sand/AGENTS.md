@@ -125,7 +125,7 @@ this folder are both the source and what is served. Edit them directly.
 | Duplicate jars (Venice x3; Nassau, Daytona, Pensacola, Barcelona, Manhattan Beach, Santa Monica, Papagayo, Eleuthera x2) | One pin per jar, same coordinates, shared `duplicate_group`. They cluster, then fan out when clicked. The card links to the other jar(s). |
 | Non-beach jars | `category: "not_a_beach"`, with a purple diamond pin, a card and a purple "Not a beach" tag. |
 | Country-only labels (Hawaii, Iceland, Nicaragua) | `category: "country_only"`, approximate pin at the country or state centre. |
-| SJ-025, the empty jar | `category: "empty"`, no coordinates, no pin. Shown only as the "empty jar awaiting sand" note in the legend, which opens its inventory row. |
+| SJ-025, the empty jar | `category: "empty"`, no coordinates, no pin, and **not mentioned anywhere on the page** (Jonas, 2026-11-10: "doesn't need to be noted"). It stays in the data file and counts toward the 129 jars. |
 | SJ-121, "[?]af Beach, Cape Town" | Low confidence, approximate pin at central Cape Town, card says the name is unresolved. Do not guess the beach name; it needs a photo of the jar's left side. |
 | Cut-off labels (SJ-095 Nevis, SJ-106 Mendenhall, SJ-126 Kunë-Vain-Talë, SJ-129 Gulf Shores, and the other medium rows) | Inferred name kept, `confidence: "medium"`, and the card says it is not fully verified. |
 

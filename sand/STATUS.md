@@ -23,7 +23,8 @@ What a visitor sees:
 - A header with the title, a one-line subtitle, the stats (129 jars, 118
   places, 33 countries & territories, 5 continents, 116 beaches, 12 not
   beaches, all computed from the data) and a blue "Random jar" button.
-- A dark world map with 128 pins (SJ-025 is empty and has no pin). Amber
+- A dark world map with 128 pins (SJ-025 is an empty jar: in the data, not on
+  the page). Amber
   circles are beaches, purple diamonds are not beaches, hollow dashed pins are
   approximate places, numbered circles are groups (a purple slice means the
   group mixes both). Hovering a pin shows its name. A hint at the top says
@@ -175,6 +176,13 @@ same command from `~/Projects/"SPIIIRA Tools"/spiiira` instead.)
   details"): highlight + three facts + Wikipedia up top; long text under More.
 
 ## Log
+
+### 2026-11-10 — final revision and going live (Claude Code)
+
+Jonas asked to drop the SJ-025 "empty jar awaiting sand" note from the key:
+it does not need to be noted. Removed from the page (the jar stays in the data
+and in the 129 count). Versions bumped to `?v=4`. Then pushed live at his
+request.
 
 ### 2026-11-10 — calmer colours, photos, engagement, bigger key (Claude Code)
 

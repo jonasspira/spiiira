@@ -3,7 +3,7 @@
 (function () {
   'use strict';
 
-  var DATA_URL = 'data/sand-jars.json?v=3'; // bump ?v= in index.html and here after every change, so browsers fetch the new files
+  var DATA_URL = 'data/sand-jars.json?v=4'; // bump ?v= in index.html and here after every change, so browsers fetch the new files
   var WORLD = L.latLngBounds([[-48, -170], [68, 165]]);
   var WIDE = window.matchMedia('(min-width: 721px)');
   var HOVER = window.matchMedia('(hover: hover)');
@@ -387,14 +387,6 @@
 
     // The key starts open on wide screens and folded on phones.
     if (WIDE.matches) $('legend').open = true;
-
-    var empty = jars.filter(function (j) { return j.category === 'empty'; });
-    if (empty.length) {
-      var b = $('empty-jar');
-      b.textContent = empty.map(function (j) { return j.id; }).join(', ') + ' is an empty jar awaiting sand';
-      b.hidden = false;
-      b.addEventListener('click', function () { openJar(empty[0], { fly: false }); });
-    }
 
     $('random').addEventListener('click', randomJar);
     $('back').addEventListener('click', returnToWorld);
