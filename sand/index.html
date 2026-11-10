@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="description" content="A world map of a collection of small jars of sand from beaches and other places, with what each sand is made of and why it looks the way it does.">
+<title>Sand jars</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="vendor/leaflet.css">
+<link rel="stylesheet" href="vendor/MarkerCluster.css">
+<link rel="stylesheet" href="style.css">
+
+<!-- Visit counter. Every page on this site has these two lines; stats are at
+     spiiira.goatcounter.com. It records the page address only. -->
+<script data-goatcounter="https://spiiira.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</head>
+<body>
+<header class="bar">
+  <h1 class="title">Sand jars</h1>
+  <ul class="stats" id="stats" aria-label="Collection totals"></ul>
+  <button type="button" class="btn btn-primary" id="random">Random</button>
+</header>
+
+<main class="stage">
+  <div id="map" class="map" aria-label="World map of sand jars"></div>
+
+  <button type="button" class="btn btn-float" id="world" hidden>Return to map</button>
+
+  <div class="legend" id="legend">
+    <span class="legend-item"><span class="dot dot-exact" aria-hidden="true"></span>Exact place</span>
+    <span class="legend-item"><span class="dot dot-approx" aria-hidden="true"></span>Approx. place</span>
+    <button type="button" class="link" id="empty-jar" hidden></button>
+  </div>
+
+  <aside class="drawer" id="drawer" aria-labelledby="card-title" hidden>
+    <div class="drawer-head">
+      <button type="button" class="btn" id="back">Return to map</button>
+      <button type="button" class="btn btn-icon" id="close" aria-label="Close card">&times;</button>
+    </div>
+    <div class="drawer-body" id="card"></div>
+  </aside>
+
+  <p class="load-error" id="load-error" hidden>The jar list could not be loaded. Reload the page to try again.</p>
+</main>
+
+<script src="vendor/leaflet.js"></script>
+<script src="vendor/leaflet.markercluster.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
