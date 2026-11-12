@@ -4,12 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#151417">
 <meta name="description" content="A world map of a collection of small jars of sand from beaches and other places, with what each sand is made of and why it looks the way it does.">
-<title>Sand jars</title>
+<title>Sand</title>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="vendor/fonts/unbounded-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="vendor/leaflet.css">
-<link rel="stylesheet" href="vendor/MarkerCluster.css">
-<link rel="stylesheet" href="style.css?v=4">
+<link rel="stylesheet" href="style.css?v=13">
 
 <!-- Visit counter. Every page on this site has these two lines; stats are at
      spiiira.goatcounter.com. It records the page address only. -->
@@ -18,17 +19,20 @@
 <body>
 <header class="bar">
   <div class="brand">
-    <h1 class="title">Sand jars</h1>
+    <h1 class="title">Sand</h1>
     <p class="subtitle">Sand from around the world, and what it is made of</p>
   </div>
   <ul class="stats" id="stats" aria-label="Collection totals"></ul>
-  <button type="button" class="btn btn-primary" id="random">Random jar</button>
+  <div class="bar-actions">
+    <button type="button" class="btn btn-quiet" id="about" aria-haspopup="dialog">About</button>
+    <a class="btn btn-quiet" href="rarity/">Rarity</a>
+    <button type="button" class="btn btn-primary" id="random">Random jar</button>
+  </div>
 </header>
 
 <main class="stage">
   <div id="map" class="map" aria-label="World map of sand jars"></div>
 
-  <p class="hint" id="hint">Click a pin to see its sand, or try a random jar</p>
   <button type="button" class="btn btn-float" id="world" hidden>&larr; World map</button>
 
   <details class="legend" id="legend">
@@ -37,13 +41,16 @@
       <li><span class="key key-beach" aria-hidden="true"></span><div><strong>Beach</strong> <span class="t">beach sand</span></div></li>
       <li><span class="key key-nonbeach" aria-hidden="true"></span><div><strong>Not a beach</strong> <span class="t">desert, canyon, glacier, river, soil</span></div></li>
       <li><span class="key key-approx" aria-hidden="true"></span><div><strong>Approximate</strong> <span class="t">the label names an area, not a spot</span></div></li>
-      <li><span class="key key-cluster" aria-hidden="true">12</span><div><strong>Group</strong> <span class="t">jars close together; click to zoom in</span></div></li>
       <li><span class="key key-selected" aria-hidden="true"></span><div><strong>Open jar</strong> <span class="t">its card is showing</span></div></li>
     </ul>
   </details>
 
+  <!-- The list behind a header number; filled by app.js. -->
+  <section class="panel" id="panel" aria-label="List" hidden></section>
+
   <aside class="drawer" id="drawer" aria-labelledby="card-title" hidden>
-    <div class="drawer-head">
+    <div class="drawer-head" id="drawer-head">
+      <span class="grab" aria-hidden="true"></span>
       <button type="button" class="btn" id="back">&larr; World map</button>
       <button type="button" class="btn btn-icon" id="close" aria-label="Close card">&times;</button>
     </div>
@@ -53,8 +60,43 @@
   <p class="load-error" id="load-error" hidden>The jar list could not be loaded. Reload the page to try again.</p>
 </main>
 
+<!-- The intro. Shown on a visitor's first visit only; "About" reopens it. -->
+<dialog class="intro" id="intro" aria-labelledby="intro-title">
+  <div class="intro-panel" tabindex="-1" autofocus>
+    <p class="intro-eyebrow" style="--i:0">A note on the collection</p>
+    <h2 class="intro-title" id="intro-title" style="--i:1">Sand</h2>
+    <p class="intro-text" style="--i:2">For decades, sand has come home in small jars. Until now it has existed only on a shelf.</p>
+    <p class="intro-text" style="--i:3">This map lays the collection out for the first time. Each pin is a jar. Open one to visit the place it came from and see what makes its sand distinctive: what it is made of, and why it looks the way it does.</p>
+    <p class="intro-stats" id="intro-stats" style="--i:4" aria-live="polite"></p>
+    <ul class="intro-how" style="--i:5" aria-label="How to use the map">
+      <li>
+        <span class="how-icon" aria-hidden="true"><span class="key key-beach"></span><span class="key key-nonbeach"></span></span>
+        <p><strong>Pins</strong> Each is a jar; purple diamonds are not beaches. Click one to fly there.</p>
+      </li>
+      <li>
+        <span class="how-icon how-total" aria-hidden="true">129</span>
+        <p><strong>Totals</strong> Click a number at the top to list the jars behind it.</p>
+      </li>
+      <li>
+        <span class="how-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h3.5c2 0 3.2 1 4.4 2.6l2.2 3c1.2 1.6 2.4 2.4 4.4 2.4H21"/><path d="M3 17h3.5c1.4 0 2.4-.5 3.3-1.4"/><path d="M14.2 8.4c.9-.9 1.9-1.4 3.3-1.4H21"/><path d="M18.5 4.5 21 7l-2.5 2.5"/><path d="M18.5 14.5 21 17l-2.5 2.5"/></svg>
+        </span>
+        <p><strong>Random jar</strong> Picks one for you.</p>
+      </li>
+      <li>
+        <span class="how-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M5 10h14" /><path d="M8 13.5h8M8 16.5h5" stroke-linecap="round"/></svg>
+        </span>
+        <p><strong>Cards</strong> A photo, one striking detail and quick facts. &ldquo;More&rdquo; has the full description and sources.</p>
+      </li>
+    </ul>
+    <div class="intro-go" style="--i:6">
+      <button type="button" class="btn btn-primary btn-lg" id="intro-go">Explore the map <span aria-hidden="true">&rarr;</span></button>
+    </div>
+  </div>
+</dialog>
+
 <script src="vendor/leaflet.js"></script>
-<script src="vendor/leaflet.markercluster.js"></script>
-<script src="app.js?v=4"></script>
+<script src="app.js?v=13"></script>
 </body>
 </html>

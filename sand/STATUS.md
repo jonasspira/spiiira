@@ -10,40 +10,39 @@ sessions) gets the full picture. The repo's other `STATUS.md` files stay on
 Jonas's Mac only; this one is the exception (see `AGENTS.md`). Read
 `AGENTS.md` first for the rules; this file is the history and the to-do list.
 
-Last activity: 2026-11-10
+Last activity: 2026-11-12
 
 ## Now
 
-**Built, not yet live.** The page is finished on branch `worktree-sand-map`
-and has not been merged or pushed. www.spiiira.com/sand/ will 404 until Jonas
-merges it into `main` and pushes. No homepage card or README row, by design.
+**Live at www.spiiira.com/sand/ (the 2026-11-10 version). A redesign with a
+first-visit intro is built locally and waiting for Jonas's go-ahead to
+commit and push** (versions `?v=13`). No homepage card or README row, by design.
 
-What a visitor sees:
+What a visitor sees after the redesign:
 
-- A header with the title, a one-line subtitle, the stats (129 jars, 118
-  places, 33 countries & territories, 5 continents, 116 beaches, 12 not
-  beaches, all computed from the data) and a blue "Random jar" button.
-- A dark world map with 128 pins (SJ-025 is an empty jar: in the data, not on
-  the page). Amber
-  circles are beaches, purple diamonds are not beaches, hollow dashed pins are
-  approximate places, numbered circles are groups (a purple slice means the
-  group mixes both). Hovering a pin shows its name. A hint at the top says
-  "Click a pin to see its sand, or try a random jar" until the first card opens.
-- A map key, bottom-right: each symbol with a short plain explanation. Open on
-  desktop, folded on phones, hidden while a card is open.
-- Click a pin (or Random jar): the map flies in, the pin gets an orange ring,
-  and a card opens: a photo of the place (116 of 118 places) with its credit,
-  one interesting sentence, three quick facts (colour, made of, from), a
-  Wikipedia link, and "More" folding the full researched description and its
-  sources. "World map" flies back out. Escape closes the card.
-- The OpenStreetMap credit is small in the corner (it is legally required).
+- The page is called **Sand**; the mark is Unbounded (weight 625).
+- **First visit only: an intro** over the map, which is dimmed and blurred
+  behind it: "A note on the collection", the title, two short paragraphs about
+  the collection (written only from what Jonas said; no names), the totals
+  line (129 jars, 118 places, 33 countries and territories, computed), four
+  one-line how-tos (pins, groups, Random jar, cards) and a blue "Explore the
+  map" button. Closing it clears the blur and the pins sweep in west to east.
+  "About" in the header reopens it.
+- A full-screen dark map under a translucent header (the mark, subtitle and
+  stats on wide screens, About and Random jar buttons). No lines between map
+  tiles; Antarctica painted out in the sea colour.
+- Pins, groups, key and card content as before. The card is now a floating
+  rounded panel on wide screens and a draggable bottom sheet on phones;
+  switching jars cross-fades it; one orange pulse marks the pin on arrival.
+- The old "Click a pin..." hint is gone; the intro replaced it.
 
-Checks: `node --test sand/tests/data.test.mjs` passes 10 checks. Headless Chrome
-checks at desktop and phone size passed on 2026-11-10 after the latest changes:
-every pin present, cluster click separates, pin click opens the right card,
-24 Random picks each showed the right pin, duplicate jars fan out and switch,
-keyboard Enter works, no console errors, no failed requests (only map tiles
-cancelled mid-zoom). All 116 photos were reviewed on contact sheets.
+Checks on 2026-11-11 (headless Chrome at 1440x900, 390x844, 375x667): no page
+errors; intro opens on first visit only, closes by button, Escape and About
+reopens it; pins hidden behind it then sweep in; Random opens the right card
+with the pin ringed and pulsed; repeated Random cross-fades; the phone sheet
+drags to full and swipes closed; all 128 pins in the phone world view; on the
+small phone the intro scrolls with the button kept on screen; no sideways
+scroll. Data tests pass.
 
 ## Engagement: how to read it
 
@@ -68,8 +67,10 @@ and local previews never count.
 
 ## Next
 
-1. **Jonas reviews the page locally** (see "How to look at it" below), then
-   decides whether to merge and push to make it live.
+- **Jonas reviews the redesign** (screenshots, or locally), then decides
+  whether to commit and push it.
+1. ~~Jonas reviews the page locally, then merges and pushes.~~ Done
+   2026-11-10; v1 is live.
 2. **The original CSV was never attached.** The prompt referred to
    `sand-jars-inventory.csv`, but it was not on the Mac. The data was built
    from the Notion "Sand Jars" database instead (SpiraOS / Projects,
@@ -176,6 +177,115 @@ same command from `~/Projects/"SPIIIRA Tools"/spiiira` instead.)
   details"): highlight + three facts + Wikipedia up top; long text under More.
 
 ## Log
+
+### 2026-11-12 — intro fits the window, rose R and J (Claude Code)
+
+From annotations 2 and 3: the intro was cut off in a short browser window;
+it now scales to fit on wide screens (checked 1440x900 down to 800x500;
+centring plus scaling overflowed at first, so a scaled intro starts at the
+top). Shelf codes: rose and bold R/J were rejected ("red isn't it",
+"mix of bold/unbold looks bizarre"); after a five-option sheet Jonas chose
+monospace, regular weight, R and J in light blue, and the current jar's
+button outlined in the same blue instead of orange.
+
+### 2026-11-12 — rarity sub-page (Claude Code)
+
+Built `rarity/index.html` (Jonas: keep it simple and low on tokens). Each
+place's sand got a `sand.type`, assigned by hand from its researched
+"made of" line: Quartz 40 jars, Shell and coral 29, Quartz and shell 16,
+Volcanic 13, Rock and mineral 12, Soil and silt 4, Moved by people 4,
+Volcanic and coral 3 (Hawaii, both Papagayo jars: labels covering both kinds
+of beach), Not analysed 7 (unranked). The rarest "type" is that mixed group;
+if Jonas would rather rank only single types, fold it into Volcanic. New
+data check (12 now). Unused markercluster files deleted with Jonas's OK.
+
+### 2026-11-12 — every jar a dot, clickable totals (Claude Code)
+
+From Jonas's first annotated screenshot:
+- **"More pins rather than groups... impactful that there are over 100."**
+  Shrinking the grouping distance alone got only to 36 single pins (most
+  jars really are within a few pixels at world view: 18 around Los Angeles,
+  about 20 in Florida), and at its tightest the number bubbles overlapped.
+  Jonas chose "every jar its own dot": markercluster is no longer loaded;
+  `layoutPins()` packs touching dots side by side (simple collision pass, a
+  gentle pull to each true spot, recomputed after every zoom, with a short
+  glide). The phone's world view uses the smallest dots so the North America
+  swarm doesn't spill over Mexico and South America. The key's "Group" row and
+  the intro's "Groups" how-to were replaced (intro now: "Totals").
+- **Clickable totals**: each header number opens a panel of the jars behind
+  it; a jar opens its card. Beaches are A to Z (Jonas). Numbers are bigger;
+  on screens under 1000px the totals move to a second header row, and the
+  header height is measured into `--bar-h`. Also fixed: on mid-width screens
+  the first totals were cut off and could not be scrolled to.
+- **Next: the rarity sub-page.** Jonas: "I want the Rarity as a new
+  sub-page. That's interesting data and info to explore." Approach agreed in
+  principle: group each sand by what it is made of, from the researched
+  profiles already in the data (no new claims), and rank by how few jars
+  share its type: rarity within the collection, not worldwide. Details
+  (address, layout, how types are named) still to settle with him.
+
+### 2026-11-12 — shelf codes, card titles, green totals (Claude Code)
+
+- **Shelf codes** (Jonas: "RXJX, from left to right"): new data field
+  `shelf_code`, e.g. `R6J10`. Row = the number at the start of
+  `shelf_group` (11 rows); J = the jar's place in its row, counted in
+  inventory order. Assumed: the inventory was numbered left to right along
+  each row (each row is named after its first jar, which fits), but nobody
+  has checked this against the shelf. If a row turns out to be numbered right
+  to left, reverse that row's codes in the data. Cards and the same-beach
+  buttons show the code; the `SJ-` number moved to the card footer
+  ("Inventory SJ-067") so the Notion inventory can still be matched. New data
+  check for the codes (11 checks now).
+- **Card place names** now use Unbounded 625 (22px, 20px on phones), like
+  the mark.
+- **Stats numbers** use a fifth accent, green `#2EE6A6`, whose one job is
+  the collection's totals (header and the intro's line).
+
+### 2026-11-12 — name, typeface, phone map (Claude Code)
+
+Jonas reviewed the screenshots and approved the redesign except:
+- **Wording**: he disliked "from vacations and from relatives" and "never
+  catalogued, counted or mapped"; both dropped. The first paragraph is now
+  "For decades, sand has come home in small jars. Until now it has existed
+  only on a shelf."
+- **Name**: "Sand", not "Sand jars" (tab title, header, intro).
+- **Typefaces**: Instrument Serif looked "too clearly AI". Two option sheets
+  (Archivo, Schibsted Grotesk, IBM Plex, Apple system; then EB Garamond,
+  Spectral, Literata, Zilla Slab, Courier Prime, Alegreya Sans, Josefin Sans,
+  Big Shoulders, Karla) were all rejected. Jonas chose Unbounded himself, at
+  28px weight 625 for the header mark. Card titles and highlights moved to
+  the system sans, so Instrument Serif is no longer used.
+- **Phone map looked odd**: two causes fixed. Thin dark lines where tiles met
+  came from the filter on the whole tile layer (moved onto each tile; tried
+  and dropped first: overlapping tiles by 1px, and `mix-blend-mode`). The dark
+  Antarctica slab is painted out in the sea colour from 60°S.
+- Also fixed: a card with a single quick fact (e.g. Barcelona) left it in a
+  third-width box; it now spans the row. The phone intro's button now sits
+  at the bottom of the screen when the text is short.
+
+### 2026-11-11 — intro and redesign (Claude Code)
+
+Jonas asked for a landing intro (the story, then brief how-tos, quick to
+dismiss), a more impressive and distinctive UI with purposeful motion, a dark
+theme with bold accents, and a page that works well on phones. He said the
+page need not follow spiiira-ui and asked to consult One Page Love for
+references (used: Felix Haas's "letter" layout, Monolog's dimmed full-screen
+background, April Leihuanani's serif title on near-black).
+
+- Decided: no React or BoardUI. Both need React and a build step, which
+  sand's rules forbid, and motion needs neither (CSS and `element.animate()`).
+- Decided (Jonas): the intro shows on the first visit only; "About" reopens it.
+- The story came from Jonas: a family member's decades-long collection, from
+  vacations and relatives, kept only in jars on a shelf, never catalogued or
+  mapped until now; the page is for exploring the places and what makes each
+  sand distinctive. Text must be generic: no names, not addressed to anyone.
+  Two word choices he was asked to confirm: "from vacations and from
+  relatives" and "never catalogued, counted or mapped".
+- Instrument Serif (OFL) added in `vendor/fonts/`, so the page still makes no
+  new outside requests.
+- Accents unchanged (Jonas was open to others; kept the four).
+- Phones: the world view now fits the pins instead of the globe (about 20%
+  larger, every pin still visible); the header drops subtitle and stats.
 
 ### 2026-11-10 — final revision and going live (Claude Code)
 

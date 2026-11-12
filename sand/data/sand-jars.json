@@ -4,6 +4,7 @@
   "place": "Sanibel Island, Florida",
   "label_as_written": "Sanibel Island Florida",
   "shelf_group": "1 - Sanibel top row",
+  "shelf_code": "R1J1",
   "photo": "IMG_0832",
   "confidence": "high",
   "notes": "",
@@ -23,6 +24,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz and shell",
    "highlight": "Sanibel runs east to west, so waves hit it broadside and dump shells, making it famous for shelling.",
    "glance": {
     "colour": "Light tan to grey-white",
@@ -60,6 +62,7 @@
   "place": "Stinson Beach CA",
   "label_as_written": "Stinson Beach CA",
   "shelf_group": "1 - Sanibel top row",
+  "shelf_code": "R1J2",
   "photo": "IMG_0832",
   "confidence": "high",
   "notes": "",
@@ -79,6 +82,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Rock and mineral",
    "highlight": "The San Andreas Fault comes ashore near the east end of this beach.",
    "glance": {
     "colour": "Light tan to grey-brown",
@@ -116,6 +120,7 @@
   "place": "Laguna Beach CA",
   "label_as_written": "Laguna Beach Ca.",
   "shelf_group": "1 - Sanibel top row",
+  "shelf_code": "R1J3",
   "photo": "IMG_0832",
   "confidence": "high",
   "notes": "",
@@ -135,6 +140,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "Quartz is so hard it outlasts nearly every other mineral on the river trip, so it ends up the main ingredient.",
    "glance": {
     "colour": "Golden tan with dark specks",
@@ -171,6 +177,7 @@
   "place": "Panama Beach Florida",
   "label_as_written": "Panama Beach Florida",
   "shelf_group": "1 - Sanibel top row",
+  "shelf_code": "R1J4",
   "photo": "IMG_0832",
   "confidence": "high",
   "notes": "Label as written; likely Panama City Beach",
@@ -190,6 +197,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "Dry sand this pure quartz often squeaks underfoot, and it stays cooler than darker sand in the sun.",
    "glance": {
     "colour": "Brilliant sugar-white",
@@ -227,6 +235,7 @@
   "place": "Brittas Bay Wicklow Ireland",
   "label_as_written": "Brittas Bay Wicklow Ireland",
   "shelf_group": "1 - Sanibel top row",
+  "shelf_code": "R1J5",
   "photo": "IMG_0832",
   "confidence": "high",
   "notes": "",
@@ -246,6 +255,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Rock and mineral",
    "highlight": "This coast's beaches formed about 5,000 years ago from Ice Age debris that glaciers bulldozed south from Scotland.",
    "glance": {
     "colour": "Pale golden",
@@ -282,6 +292,7 @@
   "place": "Siesta Key Florida",
   "label_as_written": "Siesta Key Florida",
   "shelf_group": "1 - Sanibel top row",
+  "shelf_code": "R1J6",
   "photo": "IMG_0832",
   "confidence": "high",
   "notes": "",
@@ -301,6 +312,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "The north end is nearly pure white quartz, while the south end near Turtle Beach is darker and full of shell.",
    "glance": {
     "colour": "Brilliant white, shellier in south",
@@ -337,6 +349,7 @@
   "place": "Seychelles East Africa",
   "label_as_written": "Seychelles East Africa",
   "shelf_group": "1 - Sanibel top row",
+  "shelf_code": "R1J7",
   "photo": "IMG_0832",
   "confidence": "high",
   "notes": "",
@@ -356,6 +369,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "These are rare mid-ocean islands made of real granite, so white reef sand sits against pink and grey boulders.",
    "glance": {
     "colour": "Bright white to cream",
@@ -392,6 +406,7 @@
   "place": "Key Biscayne Florida",
   "label_as_written": "Key Biscayne Florida",
   "shelf_group": "1 - Sanibel top row",
+  "shelf_code": "R1J8",
   "photo": "IMG_0832",
   "confidence": "high",
   "notes": "",
@@ -411,6 +426,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz and shell",
    "highlight": "It is the southernmost barrier island with much quartz sand; south of here, beaches turn to shell and coral.",
    "glance": {
     "colour": "Light tan to cream",
@@ -448,6 +464,7 @@
   "place": "Playa Jaco Costa Rica",
   "label_as_written": "Playa Jaco Costa Rica",
   "shelf_group": "1 - Sanibel top row",
+  "shelf_code": "R1J9",
   "photo": "IMG_0832",
   "confidence": "high",
   "notes": "Likely Playa Jacó",
@@ -467,6 +484,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Volcanic",
    "highlight": "Nearby Playa Blanca is golden, showing how much a beach's colour depends on the rock nearby.",
    "glance": {
     "colour": "Dark grey",
@@ -503,6 +521,7 @@
   "place": "Topsail Island NC",
   "label_as_written": "Topsail Island NC",
   "shelf_group": "1 - Sanibel top row",
+  "shelf_code": "R1J10",
   "photo": "IMG_0832",
   "confidence": "high",
   "notes": "",
@@ -522,6 +541,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz and shell",
    "highlight": "Black streaks on the beach are heavy dark minerals, not oil, and fossil sharks' teeth wash up here.",
    "glance": {
     "colour": "Light golden tan with shell",
@@ -557,6 +577,7 @@
   "place": "Big Beach South Maui",
   "label_as_written": "Big Beach South Maui",
   "shelf_group": "1 - Sanibel top row",
+  "shelf_code": "R1J11",
   "photo": "IMG_0832",
   "confidence": "high",
   "notes": "",
@@ -576,6 +597,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "With no continent nearby to supply quartz, this sand is made of coral, chalky seaweed and tiny sea creatures.",
    "glance": {
     "colour": "Golden to light tan",
@@ -612,6 +634,7 @@
   "place": "Daytona Beach Florida",
   "label_as_written": "Daytona Beach Flor...",
   "shelf_group": "1 - Sanibel top row",
+  "shelf_code": "R1J12",
   "photo": "IMG_0832",
   "confidence": "medium",
   "notes": "Label cut at right edge; Florida inferred; duplicate of SJ-115",
@@ -631,6 +654,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz and shell",
    "highlight": "The fine grains pack so hard when wet that cars can drive on the beach, which launched Daytona's beach racing.",
    "glance": {
     "colour": "Light tan with orange patches",
@@ -668,6 +692,7 @@
   "place": "Tampa Florida",
   "label_as_written": "Tampa Florida",
   "shelf_group": "2 - Tampa row",
+  "shelf_code": "R2J1",
   "photo": "IMG_0832",
   "confidence": "high",
   "notes": "",
@@ -687,6 +712,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz and shell",
    "highlight": "Florida is built of limestone with little quartz of its own, so nearly all this quartz travelled in from far away.",
    "glance": {
     "colour": "White to light grey",
@@ -723,6 +749,7 @@
   "place": "Pensacola Florida",
   "label_as_written": "Pensacola Florida",
   "shelf_group": "2 - Tampa row",
+  "shelf_code": "R2J2",
   "photo": "IMG_0832",
   "confidence": "high",
   "notes": "Duplicate of SJ-068",
@@ -742,6 +769,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "The sand is almost pure quartz, so clean and white that it can squeak when you walk on it.",
    "glance": {
     "colour": "Brilliant sugar-white",
@@ -778,6 +806,7 @@
   "place": "Tybee Island GA",
   "label_as_written": "Tybee Island GA",
   "shelf_group": "2 - Tampa row",
+  "shelf_code": "R2J3",
   "photo": "IMG_0832",
   "confidence": "high",
   "notes": "",
@@ -797,6 +826,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "Tybee loses so much sand that about 1.3 million cubic yards were added in a single winter, 2019-2020.",
    "glance": {
     "colour": "Light tan with dark specks",
@@ -834,6 +864,7 @@
   "place": "Nassau Bahamas",
   "label_as_written": "Nassau Bahamas",
   "shelf_group": "2 - Tampa row",
+  "shelf_code": "R2J4",
   "photo": "IMG_0832",
   "confidence": "high",
   "notes": "Duplicate of SJ-100",
@@ -853,6 +884,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "A tiny red sea creature called Homotrema gives some Bahamian beaches pink specks, even whole pink beaches.",
    "glance": {
     "colour": "White to cream, pink-flecked",
@@ -889,6 +921,7 @@
   "place": "Coronado Island CA",
   "label_as_written": "Coronado Island Ca.",
   "shelf_group": "2 - Tampa row",
+  "shelf_code": "R2J5",
   "photo": "IMG_0832",
   "confidence": "high",
   "notes": "",
@@ -908,6 +941,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "The gold-looking flecks in Coronado's sand are mica, a mineral that splits into thin, shiny, mirror-like sheets.",
    "glance": {
     "colour": "Light tan with gold sparkles",
@@ -945,6 +979,7 @@
   "place": "Valley of Fire Nevada",
   "label_as_written": "Valley of Fire Nevada",
   "shelf_group": "2 - Tampa row",
+  "shelf_code": "R2J6",
   "photo": "IMG_0832",
   "confidence": "high",
   "notes": "Not a beach - desert / park sand",
@@ -964,6 +999,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Rock and mineral",
    "highlight": "This sand was once giant dunes that turned to stone about 150 million years ago, in the age of dinosaurs.",
    "glance": {
     "colour": "Red, orange, pink and cream",
@@ -1001,6 +1037,7 @@
   "place": "Split Croatia",
   "label_as_written": "Split Croatia",
   "shelf_group": "2 - Tampa row",
+  "shelf_code": "R2J7",
   "photo": "IMG_0832",
   "confidence": "high",
   "notes": "",
@@ -1020,6 +1057,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Rock and mineral",
    "highlight": "Sandy beaches are rare in Croatia because sand-sized bits of limestone dissolve quickly.",
    "glance": {
     "colour": "White to beige",
@@ -1056,6 +1094,7 @@
   "place": "Strandhill Ireland",
   "label_as_written": "Strandhill Ireland",
   "shelf_group": "2 - Tampa row",
+  "shelf_code": "R2J8",
   "photo": "IMG_0832",
   "confidence": "high",
   "notes": "",
@@ -1075,6 +1114,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "The shells make the sand alkaline, so orchids and other lime-loving wildflowers grow on the dunes.",
    "glance": {
     "colour": "Pale golden",
@@ -1111,6 +1151,7 @@
   "place": "St. Tropez France",
   "label_as_written": "St. Tropez France",
   "shelf_group": "2 - Tampa row",
+  "shelf_code": "R2J9",
   "photo": "IMG_0832",
   "confidence": "high",
   "notes": "",
@@ -1130,6 +1171,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "The glitter in the water is white mica, which floats for a while before settling on the bottom.",
    "glance": {
     "colour": "Light golden, rusty, glittery specks",
@@ -1165,6 +1207,7 @@
   "place": "Spiaggia La Pelosa Sardinia Italy",
   "label_as_written": "Spiaggia La Pelosa Sardinia Italy",
   "shelf_group": "2 - Tampa row",
+  "shelf_code": "R2J10",
   "photo": "IMG_0832",
   "confidence": "high",
   "notes": "",
@@ -1184,6 +1227,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "Visitors must use mats and cannot take sand home, because it comes slowly from creatures living on offshore seagrass.",
    "glance": {
     "colour": "Very pale white",
@@ -1219,6 +1263,7 @@
   "place": "Cape Cod MA",
   "label_as_written": "Cape Cod MA",
   "shelf_group": "2 - Tampa row",
+  "shelf_code": "R2J11",
   "photo": "IMG_0832",
   "confidence": "high",
   "notes": "",
@@ -1238,6 +1283,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "Many grains are far older than the Cape: eroded from older rocks, then scooped up and dropped by glaciers.",
    "glance": {
     "colour": "Pale tan to light beige",
@@ -1273,6 +1319,7 @@
   "place": "Barcelona Spain",
   "label_as_written": "Barcelona Spain",
   "shelf_group": "2 - Tampa row",
+  "shelf_code": "R2J12",
   "photo": "IMG_0832",
   "confidence": "high",
   "notes": "Duplicate of SJ-067",
@@ -1292,6 +1339,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Moved by people",
    "highlight": "Barcelona had almost no beaches before the 1700s; today's sand is mostly brought in from elsewhere on the coast.",
    "glance": {
     "colour": "",
@@ -1328,6 +1376,7 @@
   "place": "[unlabeled - empty jar]",
   "label_as_written": "[no tag - jar is genuinely empty glass]",
   "shelf_group": "3 - LA tags row",
+  "shelf_code": "R3J1",
   "photo": "IMG_0833",
   "confidence": "high",
   "notes": "Leftmost jar in tag row; genuinely empty glass, no tag at all - confirmed from tags crop",
@@ -1349,6 +1398,7 @@
   "place": "Huntington Beach",
   "label_as_written": "HUNTINGTON Beach",
   "shelf_group": "3 - LA tags row",
+  "shelf_code": "R3J2",
   "photo": "IMG_0833",
   "confidence": "high",
   "notes": "Hanging tag",
@@ -1368,6 +1418,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Moved by people",
    "highlight": "Pumping oil made the seabed here sink by up to 1.2 m, explaining much of the sand that seemed to vanish.",
    "glance": {
     "colour": "",
@@ -1404,6 +1455,7 @@
   "place": "Sunset Beach",
   "label_as_written": "sunset beach",
   "shelf_group": "3 - LA tags row",
+  "shelf_code": "R3J3",
   "photo": "IMG_0833",
   "confidence": "high",
   "notes": "Hanging tag",
@@ -1423,6 +1475,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Moved by people",
    "highlight": "This is a feeder beach: sand is dumped here on purpose so waves can spread it south to Huntington and Newport.",
    "glance": {
     "colour": "",
@@ -1459,6 +1512,7 @@
   "place": "Manhattan Beach",
   "label_as_written": "MANHATTAN beach",
   "shelf_group": "3 - LA tags row",
+  "shelf_code": "R3J4",
   "photo": "IMG_0833",
   "confidence": "high",
   "notes": "Hanging tag; duplicate of SJ-051",
@@ -1478,6 +1532,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "Much of this beach is sand dug out for a sewage plant in 1947 and a marina in the 1960s.",
    "glance": {
     "colour": "Light grey-tan",
@@ -1514,6 +1569,7 @@
   "place": "Santa Monica Beach",
   "label_as_written": "SANTA MONICA beach",
   "shelf_group": "3 - LA tags row",
+  "shelf_code": "R3J5",
   "photo": "IMG_0833",
   "confidence": "high",
   "notes": "Hanging tag; duplicate of SJ-069",
@@ -1533,6 +1589,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "A 1934 breakwater by the pier trapped drifting sand and made the beach about 200 m wider.",
    "glance": {
     "colour": "Light grey-tan",
@@ -1569,6 +1626,7 @@
   "place": "Playa Del Ray Beach",
   "label_as_written": "PLAYA DEL RAY beach",
   "shelf_group": "3 - LA tags row",
+  "shelf_code": "R3J6",
   "photo": "IMG_0833",
   "confidence": "high",
   "notes": "Hanging tag spelling as written; likely Playa del Rey",
@@ -1588,6 +1646,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "Sand from building Marina del Rey and from the sewage plant site next door was piled here, some by conveyor belt.",
    "glance": {
     "colour": "Light grey-tan",
@@ -1624,6 +1683,7 @@
   "place": "Redondo Beach",
   "label_as_written": "Redondo beach",
   "shelf_group": "3 - LA tags row",
+  "shelf_code": "R3J7",
   "photo": "IMG_0833",
   "confidence": "high",
   "notes": "Hanging tag",
@@ -1643,6 +1703,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "Nearly 23 million cubic metres of sand were added to the beaches of this bay between 1938 and 1989.",
    "glance": {
     "colour": "Light grey-tan",
@@ -1679,6 +1740,7 @@
   "place": "Malibu Beach",
   "label_as_written": "malibu beach",
   "shelf_group": "3 - LA tags row",
+  "shelf_code": "R3J8",
   "photo": "IMG_0833",
   "confidence": "high",
   "notes": "Hanging tag",
@@ -1698,6 +1760,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Rock and mineral",
    "highlight": "The black and red flecks are bits of lava from volcanoes that erupted here about 24 million years ago.",
    "glance": {
     "colour": "Tan, black and red flecks",
@@ -1734,6 +1797,7 @@
   "place": "Muscle Beach",
   "label_as_written": "muscle beach",
   "shelf_group": "3 - LA tags row",
+  "shelf_code": "R3J9",
   "photo": "IMG_0833",
   "confidence": "high",
   "notes": "Hanging tag",
@@ -1753,6 +1817,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "This beach is wide mainly because a 1934 breakwater by the pier trapped drifting sand, adding about 200 m.",
    "glance": {
     "colour": "Light grey-tan",
@@ -1789,6 +1854,7 @@
   "place": "Venice Beach",
   "label_as_written": "venice beach",
   "shelf_group": "3 - LA tags row",
+  "shelf_code": "R3J10",
   "photo": "IMG_0833",
   "confidence": "high",
   "notes": "Hanging tag; duplicate of SJ-043 and SJ-059",
@@ -1808,6 +1874,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "Southern California's beach-building began here in 1936, when work crews moved sand onto Venice's eroded beach.",
    "glance": {
     "colour": "Light grey-tan",
@@ -1845,6 +1912,7 @@
   "place": "Hermosa Beach",
   "label_as_written": "HERMOSA beach",
   "shelf_group": "3 - LA tags row",
+  "shelf_code": "R3J11",
   "photo": "IMG_0833",
   "confidence": "high",
   "notes": "Hanging tag",
@@ -1864,6 +1932,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "This bay's beaches were naturally narrow; much of their sand was dug out of the Hyperion plant and Marina del Rey.",
    "glance": {
     "colour": "Light grey-tan",
@@ -1900,6 +1969,7 @@
   "place": "Mojave Desert",
   "label_as_written": "Mojave Desert",
   "shelf_group": "4 - Mojave row",
+  "shelf_code": "R4J1",
   "photo": "IMG_0833 bottom / IMG_0834 top",
   "confidence": "high",
   "notes": "Not a beach - desert sand",
@@ -1919,6 +1989,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "Kelso Dunes sand started as mountain granite, rode the Mojave River, then blew about 35 miles east on the wind.",
    "glance": {
     "colour": "Pale tan to light grey",
@@ -1955,6 +2026,7 @@
   "place": "Sesimbra Portugal",
   "label_as_written": "Sesimbra Portugal",
   "shelf_group": "4 - Mojave row",
+  "shelf_code": "R4J2",
   "photo": "IMG_0833 bottom / IMG_0834 top",
   "confidence": "high",
   "notes": "",
@@ -1974,6 +2046,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Rock and mineral",
    "highlight": "The biggest source of sand on this coast is its own sea cliffs, which are 140 to 150 million years old.",
    "glance": {
     "colour": "Golden",
@@ -2010,6 +2083,7 @@
   "place": "Ambergris Caye Belize CA",
   "label_as_written": "Ambergris Caye Belize CA",
   "shelf_group": "4 - Mojave row",
+  "shelf_code": "R4J3",
   "photo": "IMG_0833 bottom / IMG_0834 top",
   "confidence": "high",
   "notes": "CA here likely Central America",
@@ -2029,6 +2103,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "Less than 1% of this sand is quartz, because no rivers bring rock sand this far; living things make the rest.",
    "glance": {
     "colour": "Bright white to cream",
@@ -2065,6 +2140,7 @@
   "place": "Bávaro Dominican Republic (Atlantic side)",
   "label_as_written": "Bávaro Dominican Republic (Atlantic side)",
   "shelf_group": "4 - Mojave row",
+  "shelf_code": "R4J4",
   "photo": "IMG_0833 bottom / IMG_0834 top",
   "confidence": "high",
   "notes": "",
@@ -2084,6 +2160,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "On other Dominican tourist beaches, 88% of the sand comes from living things, earning reefs the name 'carbonate factories'.",
    "glance": {
     "colour": "White",
@@ -2120,6 +2197,7 @@
   "place": "Eleuthera Island Bahamas",
   "label_as_written": "Eleuthera Island Bahamas",
   "shelf_group": "4 - Mojave row",
+  "shelf_code": "R4J5",
   "photo": "IMG_0833 bottom / IMG_0834 top",
   "confidence": "high",
   "notes": "Duplicate place of SJ-122 (spelling differs: Eleuthera vs Eluthera)",
@@ -2139,6 +2217,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "Some beaches here are pink, from the crushed red shells of a tiny sea creature; the pink shows best when wet.",
    "glance": {
     "colour": "White to pale pink",
@@ -2175,6 +2254,7 @@
   "place": "Cabo San Lucas",
   "label_as_written": "Cabo San Lucas",
   "shelf_group": "4 - Mojave row",
+  "shelf_code": "R4J6",
   "photo": "IMG_0833 bottom / IMG_0834 top",
   "confidence": "high",
   "notes": "",
@@ -2194,6 +2274,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "Just offshore, sand pours down an undersea canyon in 'sand falls' to depths over 1,000 m.",
    "glance": {
     "colour": "Golden to light tan",
@@ -2230,6 +2311,7 @@
   "place": "Provincetown MA",
   "label_as_written": "Provincetown MA",
   "shelf_group": "4 - Mojave row",
+  "shelf_code": "R4J7",
   "photo": "IMG_0833 bottom / IMG_0834 top",
   "confidence": "high",
   "notes": "",
@@ -2249,6 +2331,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "The curled tip of Cape Cod was built by waves carrying sand north from glacial cliffs farther south.",
    "glance": {
     "colour": "Pale tan to light grey",
@@ -2286,6 +2369,7 @@
   "place": "Venice Beach CA",
   "label_as_written": "Venice Beach CA",
   "shelf_group": "4 - Mojave row",
+  "shelf_code": "R4J8",
   "photo": "IMG_0833 bottom / IMG_0834 top",
   "confidence": "high",
   "notes": "Duplicate of SJ-034 and SJ-059",
@@ -2305,6 +2389,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "Southern California's beach-building began here in 1936, when work crews moved sand onto Venice's eroded beach.",
    "glance": {
     "colour": "Light grey-tan",
@@ -2342,6 +2427,7 @@
   "place": "Lamma Island Hong Kong",
   "label_as_written": "Lamma Island Hong Kong",
   "shelf_group": "4 - Mojave row",
+  "shelf_code": "R4J9",
   "photo": "IMG_0833 bottom / IMG_0834 top",
   "confidence": "high",
   "notes": "",
@@ -2361,6 +2447,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "In Hong Kong's humid climate, granite's feldspar rots into clay while tough quartz grains survive as sand.",
    "glance": {
     "colour": "Pale cream to light tan",
@@ -2398,6 +2485,7 @@
   "place": "Punta Cana Dominican Republic",
   "label_as_written": "Punta Cana Dominican Republic",
   "shelf_group": "4 - Mojave row",
+  "shelf_code": "R4J10",
   "photo": "IMG_0833 bottom / IMG_0834 top",
   "confidence": "high",
   "notes": "",
@@ -2417,6 +2505,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "This sand was never dark rock, just broken coral and shells, so the beach stays bright white.",
    "glance": {
     "colour": "Bright white",
@@ -2453,6 +2542,7 @@
   "place": "Cocoa Beach Florida",
   "label_as_written": "Cocoa Beach Flor...",
   "shelf_group": "4 - Mojave row",
+  "shelf_code": "R4J11",
   "photo": "IMG_0833 bottom / IMG_0834 top",
   "confidence": "medium",
   "notes": "Label cut at right edge; Florida inferred",
@@ -2472,6 +2562,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz and shell",
    "highlight": "Tiny brown shell bits, some stained rusty orange by iron, give this sand its tan or orange tint.",
    "glance": {
     "colour": "Light tan, sometimes orange-tinted",
@@ -2509,6 +2600,7 @@
   "place": "Santa Domingo Dominican Republic (Pacific side)",
   "label_as_written": "Santa Domingo Dominican Republic (Pacific side)",
   "shelf_group": "5 - Santa Domingo row",
+  "shelf_code": "R5J1",
   "photo": "IMG_0834",
   "confidence": "high",
   "notes": "Label as written; likely Santo Domingo",
@@ -2528,6 +2620,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "Despite the label, Santo Domingo faces the Caribbean; the Dominican Republic has no Pacific coast at all.",
    "glance": {
     "colour": "White to cream",
@@ -2565,6 +2658,7 @@
   "place": "Messina (Sicily) Italy",
   "label_as_written": "Messina (Sicily) Italy",
   "shelf_group": "5 - Santa Domingo row",
+  "shelf_code": "R5J2",
   "photo": "IMG_0834",
   "confidence": "high",
   "notes": "",
@@ -2584,6 +2678,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Rock and mineral",
    "highlight": "Small red garnets are mixed into this sand, which is about half quartz and half heat-transformed rock.",
    "glance": {
     "colour": "Light grey",
@@ -2619,6 +2714,7 @@
   "place": "Grand Canyon",
   "label_as_written": "Grand Canyon",
   "shelf_group": "5 - Santa Domingo row",
+  "shelf_code": "R5J3",
   "photo": "IMG_0834",
   "confidence": "high",
   "notes": "Not a beach",
@@ -2638,6 +2734,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "The red is a paper-thin rust-like coating on quartz grains, which river water scrubs off, so river sand is paler.",
    "glance": {
     "colour": "Red-brown to pale tan",
@@ -2675,6 +2772,7 @@
   "place": "Key West Florida",
   "label_as_written": "Key West Florida",
   "shelf_group": "5 - Santa Domingo row",
+  "shelf_code": "R5J4",
   "photo": "IMG_0834",
   "confidence": "high",
   "notes": "",
@@ -2694,6 +2792,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "Key West's main public beach was built from crushed limestone and later topped up with sand barged from the Bahamas.",
    "glance": {
     "colour": "White",
@@ -2730,6 +2829,7 @@
   "place": "Manhattan Beach CA",
   "label_as_written": "Manhattan Beach CA",
   "shelf_group": "5 - Santa Domingo row",
+  "shelf_code": "R5J5",
   "photo": "IMG_0834",
   "confidence": "high",
   "notes": "Duplicate of SJ-028",
@@ -2749,6 +2849,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "Much of this beach is sand dug out for a sewage plant in 1947 and a marina in the 1960s.",
    "glance": {
     "colour": "Light grey-tan",
@@ -2785,6 +2886,7 @@
   "place": "Bimini",
   "label_as_written": "Bimini",
   "shelf_group": "5 - Santa Domingo row",
+  "shelf_code": "R5J6",
   "photo": "IMG_0834",
   "confidence": "high",
   "notes": "",
@@ -2804,6 +2906,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "Sand here grows from the sea: tiny round grains build up in layers like pearls as currents roll them.",
    "glance": {
     "colour": "White to cream",
@@ -2841,6 +2944,7 @@
   "place": "Santorini Greece - black sand beach",
   "label_as_written": "Santorini Greece black sand beach",
   "shelf_group": "5 - Santa Domingo row",
+  "shelf_code": "R5J7",
   "photo": "IMG_0834",
   "confidence": "high",
   "notes": "Same island as SJ-060, different sand/beach",
@@ -2860,6 +2964,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Volcanic",
    "highlight": "Santorini is the rim of a collapsed volcano, and waves grind its dark lava into this sand, which gets very hot.",
    "glance": {
     "colour": "Black to dark grey",
@@ -2897,6 +3002,7 @@
   "place": "Iceland",
   "label_as_written": "Iceland",
   "shelf_group": "5 - Santa Domingo row",
+  "shelf_code": "R5J8",
   "photo": "IMG_0834",
   "confidence": "high",
   "notes": "Label is just 'Iceland', no beach name",
@@ -2916,6 +3022,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Volcanic",
    "highlight": "At Reynisfjara, the same black lava rock stands as huge six-sided columns.",
    "glance": {
     "colour": "Black",
@@ -2952,6 +3059,7 @@
   "place": "Golden Gate State Park",
   "label_as_written": "Golden Gate State Par...",
   "shelf_group": "5 - Santa Domingo row",
+  "shelf_code": "R5J9",
   "photo": "IMG_0834",
   "confidence": "medium",
   "notes": "Label truncated at jar edge",
@@ -2971,6 +3079,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "This sand starts in the Sierra Nevada and travels down rivers, through the Bay and out the Golden Gate.",
    "glance": {
     "colour": "Tan to grey, dark specks",
@@ -3008,6 +3117,7 @@
   "place": "Ft. Lauderdale Florida",
   "label_as_written": "Ft. Lauderdale Florida",
   "shelf_group": "5 - Santa Domingo row",
+  "shelf_code": "R5J10",
   "photo": "IMG_0834",
   "confidence": "high",
   "notes": "",
@@ -3027,6 +3137,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz and shell",
    "highlight": "Florida sits on limestone, so its quartz travelled all the way from the Appalachian Mountains.",
    "glance": {
     "colour": "Light tan to cream",
@@ -3063,6 +3174,7 @@
   "place": "Hawaii",
   "label_as_written": "Hawaii",
   "shelf_group": "5 - Santa Domingo row",
+  "shelf_code": "R5J11",
   "photo": "IMG_0834",
   "confidence": "high",
   "notes": "Label is just 'Hawaii', no beach name",
@@ -3082,6 +3194,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Volcanic and coral",
    "highlight": "At South Point on the Big Island, one beach is almost entirely green, made of olivine crystals from lava.",
    "glance": {
     "colour": "White, black or green",
@@ -3118,6 +3231,7 @@
   "place": "Playa Papagayo (Pacific side) Costa Rica",
   "label_as_written": "... Papagayo (Pacific side) Costa Rica",
   "shelf_group": "6 - Papagayo row",
+  "shelf_code": "R6J1",
   "photo": "IMG_0834",
   "confidence": "medium",
   "notes": "First word cut at left edge; likely Playa; duplicate of SJ-118",
@@ -3137,6 +3251,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Volcanic and coral",
    "highlight": "The main beaches in this gulf have dark volcanic sand, while some boat-access coves nearby are white.",
    "glance": {
     "colour": "Dark grey; some white coves",
@@ -3174,6 +3289,7 @@
   "place": "Venice Beach CA",
   "label_as_written": "Venice Beach CA",
   "shelf_group": "6 - Papagayo row",
+  "shelf_code": "R6J2",
   "photo": "IMG_0834",
   "confidence": "high",
   "notes": "Duplicate of SJ-034 and SJ-043",
@@ -3193,6 +3309,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "Southern California's beach-building began here in 1936, when work crews moved sand onto Venice's eroded beach.",
    "glance": {
     "colour": "Light grey-tan",
@@ -3230,6 +3347,7 @@
   "place": "Santorini Greece - red sand beach",
   "label_as_written": "Santorini Greece red sand beach",
   "shelf_group": "6 - Papagayo row",
+  "shelf_code": "R6J3",
   "photo": "IMG_0834",
   "confidence": "high",
   "notes": "Same island as SJ-053, different sand/beach",
@@ -3249,6 +3367,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Volcanic",
    "highlight": "The cliffs turned brick red as air and rain rusted the iron in layers of volcanic rock.",
    "glance": {
     "colour": "Rust red with black",
@@ -3286,6 +3405,7 @@
   "place": "Dubai United Arab Emirates",
   "label_as_written": "Dubai United Arab Emirates",
   "shelf_group": "6 - Papagayo row",
+  "shelf_code": "R6J4",
   "photo": "IMG_0834",
   "confidence": "high",
   "notes": "",
@@ -3305,6 +3425,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "Palm Jumeirah alone was built from about 94 million cubic metres of shell sand dredged from the seabed.",
    "glance": {
     "colour": "Pale cream to white",
@@ -3342,6 +3463,7 @@
   "place": "Koh Yao Yai Thailand",
   "label_as_written": "Koh Yao Yai Thailand",
   "shelf_group": "6 - Papagayo row",
+  "shelf_code": "R6J5",
   "photo": "IMG_0834",
   "confidence": "high",
   "notes": "",
@@ -3361,6 +3483,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz and shell",
    "highlight": "Coastal sand on the nearby Phang Nga coast is mostly rounded quartz, with a few shell and coral bits mixed in.",
    "glance": {
     "colour": "White to light tan",
@@ -3397,6 +3520,7 @@
   "place": "Playa Manuel Antonio Costa Rica",
   "label_as_written": "Playa Manuel Antonio Costa Rica",
   "shelf_group": "6 - Papagayo row",
+  "shelf_code": "R6J6",
   "photo": "IMG_0834",
   "confidence": "high",
   "notes": "",
@@ -3416,6 +3540,7 @@
   },
   "sand": {
    "known": false,
+   "type": "Not analysed",
    "highlight": "",
    "glance": {
     "colour": "",
@@ -3449,6 +3574,7 @@
   "place": "Grand Cayman Island Caribbean",
   "label_as_written": "Grand Cayman Island Caribbean",
   "shelf_group": "6 - Papagayo row",
+  "shelf_code": "R6J7",
   "photo": "IMG_0834",
   "confidence": "high",
   "notes": "",
@@ -3468,6 +3594,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "Parrotfish help make this sand: they bite off coral to eat the algae and pass out the ground-up rock.",
    "glance": {
     "colour": "Bright white",
@@ -3503,6 +3630,7 @@
   "place": "Omaha Beach Normandy France",
   "label_as_written": "Omaha Beach Normandy France",
   "shelf_group": "6 - Papagayo row",
+  "shelf_code": "R6J8",
   "photo": "IMG_0834",
   "confidence": "high",
   "notes": "",
@@ -3522,6 +3650,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "About 4% of one sample was tiny bits of rusted shrapnel from the D-Day landings in 1944.",
    "glance": {
     "colour": "Light grey",
@@ -3558,6 +3687,7 @@
   "place": "Naples Florida",
   "label_as_written": "Naples Florida",
   "shelf_group": "6 - Papagayo row",
+  "shelf_code": "R6J9",
   "photo": "IMG_0834",
   "confidence": "high",
   "notes": "",
@@ -3577,6 +3707,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz and shell",
    "highlight": "These white grains began as Appalachian Mountain rock, carried all the way to the Gulf by rivers.",
    "glance": {
     "colour": "White",
@@ -3613,6 +3744,7 @@
   "place": "Barcelona",
   "label_as_written": "Barcelona",
   "shelf_group": "6 - Papagayo row",
+  "shelf_code": "R6J10",
   "photo": "IMG_0834",
   "confidence": "high",
   "notes": "Duplicate of SJ-024 (which says Barcelona Spain)",
@@ -3632,6 +3764,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Moved by people",
    "highlight": "Barcelona had almost no beaches before the 1700s; today's sand is mostly brought in from elsewhere on the coast.",
    "glance": {
     "colour": "",
@@ -3668,6 +3801,7 @@
   "place": "Pensacola Florida",
   "label_as_written": "Pensacola Florida",
   "shelf_group": "6 - Papagayo row",
+  "shelf_code": "R6J11",
   "photo": "IMG_0834",
   "confidence": "high",
   "notes": "Duplicate of SJ-014",
@@ -3687,6 +3821,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "The sand is almost pure quartz, so clean and white that it can squeak when you walk on it.",
    "glance": {
     "colour": "Brilliant sugar-white",
@@ -3723,6 +3858,7 @@
   "place": "Santa Monica Beach",
   "label_as_written": "Santa Monica B...",
   "shelf_group": "6 - Papagayo row",
+  "shelf_code": "R6J12",
   "photo": "IMG_0834",
   "confidence": "medium",
   "notes": "Label cut at right edge; Beach inferred; duplicate of SJ-029",
@@ -3742,6 +3878,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "A 1934 breakwater by the pier trapped drifting sand and made the beach about 200 m wider.",
    "glance": {
     "colour": "Light grey-tan",
@@ -3778,6 +3915,7 @@
   "place": "Tarifa Spain (where Mediterranean & Atlantic meet)",
   "label_as_written": "Tarifa Spain (where Mediterranean & Atlantic meet)",
   "shelf_group": "7 - Tarifa row",
+  "shelf_code": "R7J1",
   "photo": "IMG_0831",
   "confidence": "high",
   "notes": "",
@@ -3797,6 +3935,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "Tarifa's strong winds pile this sand into one of Europe's biggest moving dunes, about 50 metres tall.",
    "glance": {
     "colour": "Pale golden to off-white",
@@ -3833,6 +3972,7 @@
   "place": "Playa Del Carmen Mexico",
   "label_as_written": "Playa Del Carmen Mexico",
   "shelf_group": "7 - Tarifa row",
+  "shelf_code": "R7J2",
   "photo": "IMG_0831",
   "confidence": "high",
   "notes": "",
@@ -3852,6 +3992,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "This is not ground-up rock but broken coral, shells and seaweed skeletons, so it stays cool underfoot.",
    "glance": {
     "colour": "Bright white",
@@ -3889,6 +4030,7 @@
   "place": "Pacific Beach CA",
   "label_as_written": "Pacific Beach Ca.",
   "shelf_group": "7 - Tarifa row",
+  "shelf_code": "R7J3",
   "photo": "IMG_0831",
   "confidence": "high",
   "notes": "",
@@ -3908,6 +4050,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "Quartz stands out because it is tough enough to survive the long trip from the granite mountains inland.",
    "glance": {
     "colour": "Tan to light brown",
@@ -3945,6 +4088,7 @@
   "place": "Petroglyph Nat'l Monument NM",
   "label_as_written": "Petroglyph Nat'l Monument NM",
   "shelf_group": "7 - Tarifa row",
+  "shelf_code": "R7J4",
   "photo": "IMG_0831",
   "confidence": "high",
   "notes": "Not a beach",
@@ -3964,6 +4108,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Volcanic",
    "highlight": "The famous rock carvings were made by chipping through a dark natural coating to lighter stone beneath.",
    "glance": {
     "colour": "Dark grey to black",
@@ -4000,6 +4145,7 @@
   "place": "Haleakala Nat'l Park Summit",
   "label_as_written": "Haleakala Nat'l Park Summit",
   "shelf_group": "7 - Tarifa row",
+  "shelf_code": "R7J5",
   "photo": "IMG_0831",
   "confidence": "high",
   "notes": "Not a beach - summit",
@@ -4019,6 +4165,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Volcanic",
    "highlight": "The red and black cinders are the same lava; the red bits simply rusted more.",
    "glance": {
     "colour": "Red, black and grey",
@@ -4054,6 +4201,7 @@
   "place": "Santa Cruz CA",
   "label_as_written": "Santa Cruz CA",
   "shelf_group": "7 - Tarifa row",
+  "shelf_code": "R7J6",
   "photo": "IMG_0831",
   "confidence": "high",
   "notes": "",
@@ -4073,6 +4221,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "The granite behind this sand formed far to the south and slid north along the San Andreas Fault.",
    "glance": {
     "colour": "Light tan with dark flecks",
@@ -4109,6 +4258,7 @@
   "place": "Kalkaska Michigan",
   "label_as_written": "Kalkaska Michigan",
   "shelf_group": "7 - Tarifa row",
+  "shelf_code": "R7J7",
   "photo": "IMG_0831",
   "confidence": "high",
   "notes": "",
@@ -4128,6 +4278,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Soil and silt",
    "highlight": "Kalkaska sand is Michigan's official state soil, covering nearly a million acres across 29 counties.",
    "glance": {
     "colour": "Black, brown and reddish layers",
@@ -4165,6 +4316,7 @@
   "place": "Orlando Florida",
   "label_as_written": "Orlando Florida",
   "shelf_group": "7 - Tarifa row",
+  "shelf_code": "R7J8",
   "photo": "IMG_0831",
   "confidence": "high",
   "notes": "",
@@ -4184,6 +4336,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "Central Florida's sandy ridges are thought to be ancient beaches and dunes from when the sea was much higher.",
    "glance": {
     "colour": "White to grey-brown",
@@ -4220,6 +4373,7 @@
   "place": "Hopkins Belize CA",
   "label_as_written": "Hopkins Belize CA",
   "shelf_group": "7 - Tarifa row",
+  "shelf_code": "R7J9",
   "photo": "IMG_0831",
   "confidence": "high",
   "notes": "",
@@ -4239,6 +4393,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "Unlike Belize's white coral islands, this golden sand is ground-up granite washed down from the Maya Mountains.",
    "glance": {
     "colour": "Golden",
@@ -4275,6 +4430,7 @@
   "place": "Formby Beach Liverpool UK",
   "label_as_written": "Formby Beach Liverpool UK",
   "shelf_group": "7 - Tarifa row",
+  "shelf_code": "R7J10",
   "photo": "IMG_0831",
   "confidence": "high",
   "notes": "",
@@ -4294,6 +4450,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "The dunes at Formby Point are retreating by up to about 3 metres a year.",
    "glance": {
     "colour": "Pale golden",
@@ -4330,6 +4487,7 @@
   "place": "Pawley's Island SC",
   "label_as_written": "Pawley's Island SC",
   "shelf_group": "7 - Tarifa row",
+  "shelf_code": "R7J11",
   "photo": "IMG_0831",
   "confidence": "high",
   "notes": "",
@@ -4349,6 +4507,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "Deep layers hold sharp quartz from an old river course, while today's surface grains are smooth and well worn.",
    "glance": {
     "colour": "",
@@ -4385,6 +4544,7 @@
   "place": "Progreso Yucatan Mexico",
   "label_as_written": "Progreso Yucatan Mexico",
   "shelf_group": "7 - Tarifa row",
+  "shelf_code": "R7J12",
   "photo": "IMG_0831",
   "confidence": "high",
   "notes": "",
@@ -4404,6 +4564,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "With no big rivers bringing rock to this flat limestone coast, the beach is about 90% broken shells.",
    "glance": {
     "colour": "White to cream",
@@ -4440,6 +4601,7 @@
   "place": "Wai'anapanapa State Park Maui - Volcanic Black Sand Beach",
   "label_as_written": "Wai'anapanapa State Park Maui Volcanic Black Sand Beach",
   "shelf_group": "8 - Waianapanapa row",
+  "shelf_code": "R8J1",
   "photo": "IMG_0831",
   "confidence": "high",
   "notes": "",
@@ -4459,6 +4621,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Volcanic",
    "highlight": "Black sand beaches are short-lived: once coral reefs grow nearby, lighter sand tends to bury them.",
    "glance": {
     "colour": "Black",
@@ -4495,6 +4658,7 @@
   "place": "Roussillon France",
   "label_as_written": "Roussillon France",
   "shelf_group": "8 - Waianapanapa row",
+  "shelf_code": "R8J2",
   "photo": "IMG_0831",
   "confidence": "high",
   "notes": "",
@@ -4514,6 +4678,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Soil and silt",
    "highlight": "These cliffs are natural ochre pigment, and the quarries once produced 17 different colours.",
    "glance": {
     "colour": "Yellow, orange and deep red",
@@ -4550,6 +4715,7 @@
   "place": "Key Largo Florida",
   "label_as_written": "Key Largo Florida",
   "shelf_group": "8 - Waianapanapa row",
+  "shelf_code": "R8J3",
   "photo": "IMG_0831",
   "confidence": "high",
   "notes": "",
@@ -4569,6 +4735,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "Most grains are flakes of a green seaweed that grows a limy skeleton, not quartz at all.",
    "glance": {
     "colour": "White to pale cream",
@@ -4606,6 +4773,7 @@
   "place": "Copper Harbor Michigan",
   "label_as_written": "Copper Harbor Michigan",
   "shelf_group": "8 - Waianapanapa row",
+  "shelf_code": "R8J4",
   "photo": "IMG_0831",
   "confidence": "high",
   "notes": "",
@@ -4625,6 +4793,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Rock and mineral",
    "highlight": "Agates turn up here, formed as mineral fillings in gas bubbles of ancient lava.",
    "glance": {
     "colour": "Reddish brown and grey pebbles",
@@ -4662,6 +4831,7 @@
   "place": "Oneuli Beach Maui",
   "label_as_written": "Oneuli Beach Maui",
   "shelf_group": "8 - Waianapanapa row",
+  "shelf_code": "R8J5",
   "photo": "IMG_0831",
   "confidence": "high",
   "notes": "",
@@ -4681,6 +4851,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Volcanic",
    "highlight": "The sand comes from a 360-foot cinder cone right at the end of the beach, worn down by waves.",
    "glance": {
     "colour": "Dark grey to reddish grey",
@@ -4717,6 +4888,7 @@
   "place": "Treasure Island Florida",
   "label_as_written": "Treasure Island Florida",
   "shelf_group": "8 - Waianapanapa row",
+  "shelf_code": "R8J6",
   "photo": "IMG_0831",
   "confidence": "high",
   "notes": "",
@@ -4736,6 +4908,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz and shell",
    "highlight": "The soft white quartz here started as Appalachian Mountain rock carried to the Gulf by rivers long ago.",
    "glance": {
     "colour": "White to light grey",
@@ -4772,6 +4945,7 @@
   "place": "Positano Italy",
   "label_as_written": "Positano Italy",
   "shelf_group": "8 - Waianapanapa row",
+  "shelf_code": "R8J7",
   "photo": "IMG_0831",
   "confidence": "high",
   "notes": "",
@@ -4791,6 +4965,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Volcanic",
    "highlight": "Positano's main beach is coarse dark grey sand and pebbles, though the cliffs above are pale limestone.",
    "glance": {
     "colour": "Dark grey",
@@ -4828,6 +5003,7 @@
   "place": "Ka'anapali Beach Maui",
   "label_as_written": "Ka'anapali Beach Maui",
   "shelf_group": "8 - Waianapanapa row",
+  "shelf_code": "R8J8",
   "photo": "IMG_0831",
   "confidence": "high",
   "notes": "",
@@ -4847,6 +5023,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "Sand dredged offshore to rebuild the beach starts out grey and lightens once mixed in.",
    "glance": {
     "colour": "Light tan",
@@ -4884,6 +5061,7 @@
   "place": "Reynisfjara Beach Vik Iceland",
   "label_as_written": "Reynisfjara Beach Vik Iceland",
   "shelf_group": "8 - Waianapanapa row",
+  "shelf_code": "R8J9",
   "photo": "IMG_0831",
   "confidence": "high",
   "notes": "",
@@ -4903,6 +5081,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Volcanic",
    "highlight": "This is one of Iceland's rainiest spots, so the beach is nearly always wet and looks even blacker.",
    "glance": {
     "colour": "Jet black",
@@ -4940,6 +5119,7 @@
   "place": "Nicaragua",
   "label_as_written": "Nicaragua",
   "shelf_group": "8 - Waianapanapa row",
+  "shelf_code": "R8J10",
   "photo": "IMG_0831",
   "confidence": "high",
   "notes": "Label is just 'Nicaragua', no beach name",
@@ -4959,6 +5139,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Volcanic",
    "highlight": "On Ometepe island in Lake Nicaragua, the volcanic sand holds enough iron mineral to be magnetic.",
    "glance": {
     "colour": "Dark Pacific, white Caribbean",
@@ -4996,6 +5177,7 @@
   "place": "Newport Beach CA",
   "label_as_written": "Newport Beach Ca",
   "shelf_group": "8 - Waianapanapa row",
+  "shelf_code": "R8J11",
   "photo": "IMG_0831",
   "confidence": "high",
   "notes": "",
@@ -5015,6 +5197,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "The Santa Ana River once supplied this sand but now runs in a concrete channel, so sand is pumped in.",
    "glance": {
     "colour": "Light tan to golden",
@@ -5052,6 +5235,7 @@
   "place": "Lake Michigan",
   "label_as_written": "Lake Michigan",
   "shelf_group": "8 - Waianapanapa row",
+  "shelf_code": "R8J12",
   "photo": "IMG_0831",
   "confidence": "high",
   "notes": "",
@@ -5071,6 +5255,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "The dark streaks are heavier minerals that waves and wind sort into bands.",
    "glance": {
     "colour": "Pale tan with dark streaks",
@@ -5108,6 +5293,7 @@
   "place": "Santa Cruz Bolivia",
   "label_as_written": "Santa Cruz Bolivia",
   "shelf_group": "9 - Santa Cruz Bolivia row",
+  "shelf_code": "R9J1",
   "photo": "IMG_0835",
   "confidence": "high",
   "notes": "",
@@ -5127,6 +5313,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Soil and silt",
    "highlight": "Winds blow sand out of the Pirai riverbed into dune fields, like Lomas de Arena just south of the city.",
    "glance": {
     "colour": "Pale tan",
@@ -5164,6 +5351,7 @@
   "place": "Nevis West Indies",
   "label_as_written": "...evis ...st Indies",
   "shelf_group": "9 - Santa Cruz Bolivia row",
+  "shelf_code": "R9J2",
   "photo": "IMG_0835",
   "confidence": "medium",
   "notes": "Label cut at left edge; 'Nevis / West Indies' inferred from visible 'evis / st Indies'",
@@ -5183,6 +5371,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Volcanic",
    "highlight": "Nevis is a volcanic island, so its golden sand is mixed with dark volcanic grains.",
    "glance": {
     "colour": "Golden brown to greyish",
@@ -5220,6 +5409,7 @@
   "place": "Cozumel Mexico",
   "label_as_written": "Cozumel Mexico",
   "shelf_group": "9 - Santa Cruz Bolivia row",
+  "shelf_code": "R9J3",
   "photo": "IMG_0835",
   "confidence": "high",
   "notes": "",
@@ -5239,6 +5429,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "The whole island is limestone built from ancient coral reefs, and some beaches hold visible coral bits.",
    "glance": {
     "colour": "Bright white",
@@ -5276,6 +5467,7 @@
   "place": "Havana Cuba",
   "label_as_written": "Havana Cuba",
   "shelf_group": "9 - Santa Cruz Bolivia row",
+  "shelf_code": "R9J4",
   "photo": "IMG_0835",
   "confidence": "high",
   "notes": "",
@@ -5295,6 +5487,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "Cuban scientists have studied how much carbon these shell-and-skeleton sands lock away.",
    "glance": {
     "colour": "White to cream",
@@ -5331,6 +5524,7 @@
   "place": "Ocho Rios Jamaica",
   "label_as_written": "Ocho Rios Jamaica",
   "shelf_group": "9 - Santa Cruz Bolivia row",
+  "shelf_code": "R9J5",
   "photo": "IMG_0835",
   "confidence": "high",
   "notes": "",
@@ -5350,6 +5544,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "Two nearby beaches differ: Turtle Beach has coarse white sand, Dunn's River has soft white sand.",
    "glance": {
     "colour": "White",
@@ -5387,6 +5582,7 @@
   "place": "Montego Bay Jamaica",
   "label_as_written": "Montego Bay Jamaica",
   "shelf_group": "9 - Santa Cruz Bolivia row",
+  "shelf_code": "R9J6",
   "photo": "IMG_0835",
   "confidence": "high",
   "notes": "",
@@ -5406,6 +5602,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "Doctor's Cave beach sits inside a marine park, with seagrass and a coral reef just offshore.",
    "glance": {
     "colour": "White",
@@ -5442,6 +5639,7 @@
   "place": "Nassau Bahamas",
   "label_as_written": "Nassau Bahamas",
   "shelf_group": "9 - Santa Cruz Bolivia row",
+  "shelf_code": "R9J7",
   "photo": "IMG_0835",
   "confidence": "high",
   "notes": "Duplicate of SJ-016",
@@ -5461,6 +5659,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "A tiny red sea creature called Homotrema gives some Bahamian beaches pink specks, even whole pink beaches.",
    "glance": {
     "colour": "White to cream, pink-flecked",
@@ -5497,6 +5696,7 @@
   "place": "Biloxi MS",
   "label_as_written": "Biloxi MS",
   "shelf_group": "9 - Santa Cruz Bolivia row",
+  "shelf_code": "R9J8",
   "photo": "IMG_0835",
   "confidence": "high",
   "notes": "",
@@ -5516,6 +5716,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "Biloxi's beach is largely man-made, and freshly pumped sand can look black until the sun bleaches it.",
    "glance": {
     "colour": "White to pale tan",
@@ -5553,6 +5754,7 @@
   "place": "Kapalua Beach Maui",
   "label_as_written": "Kapalua Beach Maui",
   "shelf_group": "9 - Santa Cruz Bolivia row",
+  "shelf_code": "R9J9",
   "photo": "IMG_0835",
   "confidence": "high",
   "notes": "",
@@ -5572,6 +5774,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "This sheltered crescent beach sits between two old lava-flow headlands where reefs have grown.",
    "glance": {
     "colour": "White to golden",
@@ -5609,6 +5812,7 @@
   "place": "Tulum Mexico",
   "label_as_written": "Tulum Mexico",
   "shelf_group": "9 - Santa Cruz Bolivia row",
+  "shelf_code": "R9J10",
   "photo": "IMG_0835",
   "confidence": "high",
   "notes": "",
@@ -5628,6 +5832,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "A study comparing beach sand whiteness worldwide ranked Tulum's as the closest to pure white.",
    "glance": {
     "colour": "Brilliant white",
@@ -5664,6 +5869,7 @@
   "place": "Doha Qatar",
   "label_as_written": "Doha Qatar",
   "shelf_group": "9 - Santa Cruz Bolivia row",
+  "shelf_code": "R9J11",
   "photo": "IMG_0835",
   "confidence": "high",
   "notes": "",
@@ -5683,6 +5889,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz and shell",
    "highlight": "Qatar's dune sands can even hold gypsum and salt crystals from its coastal salt flats.",
    "glance": {
     "colour": "Pale beige",
@@ -5720,6 +5927,7 @@
   "place": "Punta Mita Mexico",
   "label_as_written": "Punta Mita Mexico",
   "shelf_group": "9 - Santa Cruz Bolivia row",
+  "shelf_code": "R9J12",
   "photo": "IMG_0835",
   "confidence": "high",
   "notes": "",
@@ -5739,6 +5947,7 @@
   },
   "sand": {
    "known": false,
+   "type": "Not analysed",
    "highlight": "",
    "glance": {
     "colour": "",
@@ -5772,6 +5981,7 @@
   "place": "Mendenhall Glacier Juneau Alaska",
   "label_as_written": "...nall Glacier ...eau Alaska",
   "shelf_group": "10 - Glacier row",
+  "shelf_code": "R10J1",
   "photo": "IMG_0835",
   "confidence": "medium",
   "notes": "Label cut at left edge; 'Mendenhall Glacier / Juneau Alaska' inferred from visible 'nall Glacier / eau Alaska'",
@@ -5791,6 +6001,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Rock and mineral",
    "highlight": "The glacier grinds rock into flour-fine silt, and the river carries roughly 114 million pounds seaward each year.",
    "glance": {
     "colour": "Grey",
@@ -5827,6 +6038,7 @@
   "place": "Aruba",
   "label_as_written": "Aruba",
   "shelf_group": "10 - Glacier row",
+  "shelf_code": "R10J2",
   "photo": "IMG_0835",
   "confidence": "high",
   "notes": "",
@@ -5846,6 +6058,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "Much of this sand has passed through parrotfish, which eat coral and excrete the stony leftovers.",
    "glance": {
     "colour": "Bright white",
@@ -5883,6 +6096,7 @@
   "place": "Koh Talu Rayong Thailand",
   "label_as_written": "Koh Talu Rayong Thailand",
   "shelf_group": "10 - Glacier row",
+  "shelf_code": "R10J3",
   "photo": "IMG_0835",
   "confidence": "high",
   "notes": "",
@@ -5902,6 +6116,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Not analysed",
    "highlight": "A tour operator says the fine coral sand here glows pink at dawn and sunset.",
    "glance": {
     "colour": "White",
@@ -5931,6 +6146,7 @@
   "place": "Ring of Kerry Ireland",
   "label_as_written": "Ring of Kerry Ireland",
   "shelf_group": "10 - Glacier row",
+  "shelf_code": "R10J4",
   "photo": "IMG_0835",
   "confidence": "high",
   "notes": "",
@@ -5950,6 +6166,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Not analysed",
    "highlight": "The dunes are yellow near the sea and turn greyer inland as plants add humus.",
    "glance": {
     "colour": "Golden",
@@ -5986,6 +6203,7 @@
   "place": "Turks & Caicos Caribbean",
   "label_as_written": "Turks & Caicos Caribbean",
   "shelf_group": "10 - Glacier row",
+  "shelf_code": "R10J5",
   "photo": "IMG_0835",
   "confidence": "high",
   "notes": "",
@@ -6005,6 +6223,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "Many grains are ooids, tiny round beads that grow as minerals crystallise out of very warm seawater.",
    "glance": {
     "colour": "Brilliant white, sometimes pale pink",
@@ -6041,6 +6260,7 @@
   "place": "Busan South Korea",
   "label_as_written": "Busan South Korea",
   "shelf_group": "10 - Glacier row",
+  "shelf_code": "R10J6",
   "photo": "IMG_0835",
   "confidence": "high",
   "notes": "",
@@ -6060,6 +6280,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz and shell",
    "highlight": "Haeundae Beach's sand is used every year for a big sand-sculpture festival.",
    "glance": {
     "colour": "Pale",
@@ -6095,6 +6316,7 @@
   "place": "Zambezi River Rainbow Falls Republic of Zambia",
   "label_as_written": "Zambezi River Rainbow Falls Republic of Zambia",
   "shelf_group": "10 - Glacier row",
+  "shelf_code": "R10J7",
   "photo": "IMG_0835",
   "confidence": "high",
   "notes": "Not a beach - river",
@@ -6114,6 +6336,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "Above Victoria Falls the river carries nearly pure quartz recycled from ancient Kalahari desert dunes.",
    "glance": {
     "colour": "Pale",
@@ -6150,6 +6373,7 @@
   "place": "St. Lucia Estuary Indian Ocean South Africa",
   "label_as_written": "St. Lucia Estuary Indian Ocean South Africa",
   "shelf_group": "10 - Glacier row",
+  "shelf_code": "R10J8",
   "photo": "IMG_0835",
   "confidence": "high",
   "notes": "",
@@ -6169,6 +6393,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Rock and mineral",
    "highlight": "These are among the world's tallest forested coastal dunes, rising more than 170 metres.",
    "glance": {
     "colour": "",
@@ -6197,6 +6422,7 @@
   "place": "Elafonisi Beach Island of Crete",
   "label_as_written": "Elafonisi Beach Island of Crete",
   "shelf_group": "10 - Glacier row",
+  "shelf_code": "R10J9",
   "photo": "IMG_0835",
   "confidence": "high",
   "notes": "",
@@ -6216,6 +6442,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "Patches turn pink from crushed shells of tiny sea creatures, and taking sand home makes the pink fade.",
    "glance": {
     "colour": "White with pink patches",
@@ -6252,6 +6479,7 @@
   "place": "Daytona Beach",
   "label_as_written": "Daytona Beach",
   "shelf_group": "10 - Glacier row",
+  "shelf_code": "R10J10",
   "photo": "IMG_0835",
   "confidence": "high",
   "notes": "No state on label; duplicate of SJ-012",
@@ -6271,6 +6499,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz and shell",
    "highlight": "The fine grains pack so hard when wet that cars can drive on the beach, which launched Daytona's beach racing.",
    "glance": {
     "colour": "Light tan with orange patches",
@@ -6308,6 +6537,7 @@
   "place": "St. Kitts West Indies",
   "label_as_written": "St. Kitts West Indies",
   "shelf_group": "10 - Glacier row",
+  "shelf_code": "R10J11",
   "photo": "IMG_0835",
   "confidence": "high",
   "notes": "",
@@ -6327,6 +6557,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Volcanic",
    "highlight": "The island is almost entirely volcanic rock, so many of its beaches have black or grey sand.",
    "glance": {
     "colour": "Black, grey or golden",
@@ -6363,6 +6594,7 @@
   "place": "Destin Florida",
   "label_as_written": "Destin Flor...",
   "shelf_group": "10 - Glacier row",
+  "shelf_code": "R10J12",
   "photo": "IMG_0835",
   "confidence": "medium",
   "notes": "Label cut at right edge; Florida inferred",
@@ -6382,6 +6614,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "The white sand was worn from the southern Appalachians and carried to the Gulf by the Apalachicola River.",
    "glance": {
     "colour": "Brilliant white",
@@ -6417,6 +6650,7 @@
   "place": "Playa Papagayo (Pacific side) Costa Rica",
   "label_as_written": "... Papagayo (... side) ... Rica",
   "shelf_group": "11 - Bottom row",
+  "shelf_code": "R11J1",
   "photo": "IMG_0836",
   "confidence": "medium",
   "notes": "First word cut; duplicate of SJ-058",
@@ -6436,6 +6670,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Volcanic and coral",
    "highlight": "The main beaches in this gulf have dark volcanic sand, while some boat-access coves nearby are white.",
    "glance": {
     "colour": "Dark grey; some white coves",
@@ -6473,6 +6708,7 @@
   "place": "Great Blasket Island Ireland",
   "label_as_written": "Great Blasket Island Ireland",
   "shelf_group": "11 - Bottom row",
+  "shelf_code": "R11J2",
   "photo": "IMG_0836",
   "confidence": "high",
   "notes": "",
@@ -6492,6 +6728,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Not analysed",
    "highlight": "Grey seals travel from far away to haul out on this island beach.",
    "glance": {
     "colour": "Pale, white to golden",
@@ -6528,6 +6765,7 @@
   "place": "Palmi Calabria Italy",
   "label_as_written": "Palmi Calabria Italy",
   "shelf_group": "11 - Bottom row",
+  "shelf_code": "R11J3",
   "photo": "IMG_0836",
   "confidence": "high",
   "notes": "",
@@ -6547,6 +6785,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Rock and mineral",
    "highlight": "The Tonnara beach shifts between more sand and more fine gravel depending on the tide.",
    "glance": {
     "colour": "Pale",
@@ -6583,6 +6822,7 @@
   "place": "[?]af Beach Cape Town South Africa",
   "label_as_written": "Zaf Beach ...Town South Africa",
   "shelf_group": "11 - Bottom row",
+  "shelf_code": "R11J4",
   "photo": "IMG_0836",
   "confidence": "low",
   "notes": "Label reads 'Zaf Beach / [Ca]pe Town South Africa'; enlarged crop 2026-11-09 confirms the rest of the first word wraps around the jar's left curve and is not visible head-on - rotate the jar / shoot from the left side. No well-known Cape Town beach ends in -zaf, so it cannot be inferred from a beach list.",
@@ -6602,6 +6842,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz and shell",
    "highlight": "Table Mountain Sandstone is about 95 percent quartz, so the sand worn from it is mostly quartz.",
    "glance": {
     "colour": "White to pale",
@@ -6639,6 +6880,7 @@
   "place": "Eluthera Bahamas",
   "label_as_written": "Eluthera Bahamas",
   "shelf_group": "11 - Bottom row",
+  "shelf_code": "R11J5",
   "photo": "IMG_0836",
   "confidence": "high",
   "notes": "Spelling as on label; duplicate place of SJ-040 (Eleuthera Island Bahamas)",
@@ -6658,6 +6900,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Shell and coral",
    "highlight": "Some beaches here are pink, from the crushed red shells of a tiny sea creature; the pink shows best when wet.",
    "glance": {
     "colour": "White to pale pink",
@@ -6694,6 +6937,7 @@
   "place": "Grand Isle LA",
   "label_as_written": "Grand Isle LA",
   "shelf_group": "11 - Bottom row",
+  "shelf_code": "R11J6",
   "photo": "IMG_0836",
   "confidence": "high",
   "notes": "",
@@ -6713,6 +6957,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz and shell",
    "highlight": "It is tan, not white, because Mississippi River sediment is darker than the pure quartz of Florida beaches.",
    "glance": {
     "colour": "Light tan to grey-brown",
@@ -6750,6 +6995,7 @@
   "place": "Saranda Albania",
   "label_as_written": "Saranda Albania",
   "shelf_group": "11 - Bottom row",
+  "shelf_code": "R11J7",
   "photo": "IMG_0836",
   "confidence": "high",
   "notes": "",
@@ -6769,6 +7015,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Rock and mineral",
    "highlight": "Waves have carved this limestone and layered-rock coast into cliffs and coves.",
    "glance": {
     "colour": "Pale",
@@ -6805,6 +7052,7 @@
   "place": "Lake Ohrid Macedonia",
   "label_as_written": "Lake Ohrid Macedonia",
   "shelf_group": "11 - Bottom row",
+  "shelf_code": "R11J8",
   "photo": "IMG_0836",
   "confidence": "high",
   "notes": "",
@@ -6824,6 +7072,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Not analysed",
    "highlight": "The lake-bed sediment mostly formed in the lake itself, in limestone country full of springs and caves.",
    "glance": {
     "colour": "",
@@ -6860,6 +7109,7 @@
   "place": "Kunë-Vain-Talë Nature Park Albania",
   "label_as_written": "...unë-Vain-Talë Nature Park Albania",
   "shelf_group": "11 - Bottom row",
+  "shelf_code": "R11J9",
   "photo": "IMG_0836",
   "confidence": "medium",
   "notes": "First letters cut; 'unë-Vain-Talë' visible; Kunë- inferred",
@@ -6879,6 +7129,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Not analysed",
    "highlight": "Since dams went up on the Drin River around 1970, the sea has been eating away the beach.",
    "glance": {
     "colour": "",
@@ -6915,6 +7166,7 @@
   "place": "Theth National Park Albania",
   "label_as_written": "Theth National Park Albania",
   "shelf_group": "11 - Bottom row",
+  "shelf_code": "R11J10",
   "photo": "IMG_0836",
   "confidence": "high",
   "notes": "",
@@ -6934,6 +7186,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Soil and silt",
    "highlight": "About 170 caves lie in and around Theth, in limestone that water dissolves into sinkholes and chasms.",
    "glance": {
     "colour": "",
@@ -6970,6 +7223,7 @@
   "place": "St. Andrews Fife Scotland",
   "label_as_written": "St. Andrews Fife Scotland",
   "shelf_group": "11 - Bottom row",
+  "shelf_code": "R11J11",
   "photo": "IMG_0836",
   "confidence": "high",
   "notes": "",
@@ -6989,6 +7243,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz and shell",
    "highlight": "Dark streaks in sand along this coast come from heavy minerals such as garnet.",
    "glance": {
     "colour": "Pale",
@@ -7026,6 +7281,7 @@
   "place": "Gulf Shores Alabama",
   "label_as_written": "Gulf Shores A...",
   "shelf_group": "11 - Bottom row",
+  "shelf_code": "R11J12",
   "photo": "IMG_0836",
   "confidence": "medium",
   "notes": "Label cut at right edge; Alabama inferred - confirm",
@@ -7045,6 +7301,7 @@
   },
   "sand": {
    "known": true,
+   "type": "Quartz",
    "highlight": "Rising and falling seas have sorted these quartz grains until nearly all are the same size.",
    "glance": {
     "colour": "Sugar white",

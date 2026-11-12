@@ -85,3 +85,29 @@ test('card photos come from Wikimedia Commons with a free licence and a credit',
 test('the country-only jars are Hawaii, Iceland and Nicaragua', () => {
   assert.deepEqual(jars.filter(j => j.category === 'country_only').map(j => j.id), ['SJ-054', 'SJ-057', 'SJ-091']);
 });
+
+test('every jar has a shelf code: its row, then its place in the row counting from the left', () => {
+  const seen = new Set();
+  const byRow = {};
+  for (const j of jars) {
+    const m = /^R(\d+)J(\d+)$/.exec(j.shelf_code || '');
+    assert.ok(m, j.id + ' has no valid shelf_code');
+    assert.equal(Number(m[1]), parseInt(j.shelf_group, 10), j.id + ' row matches shelf_group');
+    assert.ok(!seen.has(j.shelf_code), j.shelf_code + ' is used twice');
+    seen.add(j.shelf_code);
+    (byRow[m[1]] = byRow[m[1]] || []).push([j.id, Number(m[2])]);
+  }
+  // Positions run 1, 2, 3... in inventory order within each row.
+  for (const r in byRow) {
+    const list = byRow[r].sort((a, b) => a[0].localeCompare(b[0]));
+    list.forEach(([id, pos], i) => assert.equal(pos, i + 1, id + ' position in row ' + r));
+  }
+});
+
+test('every jar with a place has one of the rarity types', () => {
+  const TYPES = ['Quartz', 'Quartz and shell', 'Shell and coral', 'Volcanic', 'Volcanic and coral', 'Rock and mineral', 'Soil and silt', 'Moved by people', 'Not analysed'];
+  for (const j of jars.filter((x) => x.latitude != null)) {
+    assert.ok(TYPES.includes(j.sand && j.sand.type), j.id + ' has no valid sand.type');
+    if (!j.sand.known) assert.equal(j.sand.type, 'Not analysed', j.id);
+  }
+});

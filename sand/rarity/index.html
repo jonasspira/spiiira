@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#151417">
+<meta name="description" content="The sands in a collection of sand jars, sorted by what they are made of, rarest first.">
+<title>Sand rarity</title>
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<style>
+/* Same tokens and accents as ../style.css. Green = the collection's totals,
+   blue = something you can press, amber/purple = beach/not a beach. */
+@font-face { font-family: 'Unbounded'; font-weight: 200 900; font-display: swap; src: url(../vendor/fonts/unbounded-latin-wght-normal.woff2) format('woff2'); }
+:root { --bg: #151417; --surface: #1D1C20; --border: #2F2E33; --text: #E6E4E8; --text-secondary: #B4B3B8; --text-muted: #8C8B90;
+  --green: #2EE6A6; --blue-text: #6AA6FF; --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace; --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, "Helvetica Neue", Arial, sans-serif; --mark: "Unbounded", var(--font); }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.5 var(--font); -webkit-font-smoothing: antialiased; }
+a { color: var(--blue-text); text-decoration: none; }
+a:hover { text-decoration: underline; }
+:focus-visible { outline: 2px solid var(--blue-text); outline-offset: 2px; }
+.bar { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 12px 20px; padding-top: max(12px, env(safe-area-inset-top)); background: rgba(21,20,23,.85); border-bottom: 1px solid rgba(255,255,255,.06); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); }
+.mark { font: 625 28px/1 var(--mark); color: var(--text); }
+.mark:hover { text-decoration: none; }
+.back { font-size: 14px; }
+main { max-width: 760px; margin: 0 auto; padding: 40px 20px 80px; }
+h1 { margin: 0 0 12px; font: 625 clamp(36px, 7vw, 56px)/1.05 var(--mark); }
+.lede { margin: 0 0 36px; max-width: 36em; color: var(--text-secondary); }
+.type { margin: 0 0 34px; padding-top: 22px; border-top: 1px solid var(--border); }
+.type-head { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
+.type h2 { margin: 0; font: 625 21px/1.25 var(--mark); }
+.rank { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--text-muted); margin: 0 0 4px; }
+.count { white-space: nowrap; color: var(--text-muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+.count b { color: var(--green); font-size: 16px; }
+.share { height: 4px; margin: 10px 0 12px; background: var(--border); border-radius: 2px; overflow: hidden; }
+.share span { display: block; height: 100%; background: var(--green); border-radius: 2px; }
+.what { margin: 0 0 10px; color: var(--text-secondary); font-size: 14px; }
+.jars { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 28px; }
+.jars li { break-inside: avoid; padding: 5px 0; font-size: 14px; line-height: 1.35; }
+.rj { color: var(--blue-text); font-weight: 400; }
+.jars .code { font-family: var(--mono); color: var(--text-muted); font-size: 11.5px; font-variant-numeric: tabular-nums; margin-left: 6px; }
+.jars .made { display: block; color: var(--text-muted); font-size: 12.5px; }
+.unranked { opacity: .85; }
+.foot { margin-top: 40px; font-size: 12.5px; color: var(--text-muted); }
+@media (max-width: 600px) { .jars { columns: 1; } main { padding-top: 28px; } }
+</style>
+
+<!-- Visit counter. Every page on this site has these two lines; stats are at
+     spiiira.goatcounter.com. It records the page address only. -->
+<script data-goatcounter="https://spiiira.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</head>
+<body>
+<header class="bar">
+  <a class="mark" href="../" aria-label="Sand, back to the map">Sand</a>
+  <a class="back" href="../">&larr; Map</a>
+</header>
+<main>
+  <h1>Rarity</h1>
+  <p class="lede">Every sand in the collection, grouped by what it is made of. The fewer jars share a type, the rarer it is here: rarer within this collection, not across the world. Types come from the research behind each card.</p>
+  <div id="types"></div>
+  <p class="foot" id="foot"></p>
+</main>
+<script>
+(function () {
+  'use strict';
+  // What each type means, in general terms. Which jars belong to which type
+  // is set in ../data/sand-jars.json (sand.type), the single source of truth.
+  var WHAT = {
+    'Quartz': 'Clear or milky quartz, often with feldspar and mica, worn down from granite and other continental rock.',
+    'Quartz and shell': 'Quartz grains mixed with broken shell.',
+    'Shell and coral': 'Made by living things: broken shell, coral, chalky seaweed and the skeletons of tiny sea creatures.',
+    'Volcanic': 'Ground-down lava, cinder and volcanic glass.',
+    'Volcanic and coral': 'Labels that cover an area with both volcanic and coral beaches.',
+    'Rock and mineral': 'Grains of rock or minerals other than quartz: sandstone, limestone, chert, garnet, heavy minerals, glacial rock flour, pebbles.',
+    'Soil and silt': 'Not beach sand: inland soil, silt and clay.',
+    'Moved by people': 'Beaches built or topped up with sand brought in from elsewhere.',
+    'Not analysed': 'No published analysis of what these sands are made of, so they are not ranked.'
+  };
+  function el(tag, cls, text) { var n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; }
+
+  fetch('../data/sand-jars.json?v=11').then(function (r) { return r.json(); }).then(function (jars) {
+    var shown = jars.filter(function (j) { return j.sand && j.sand.type; });
+    var groups = {};
+    shown.forEach(function (j) { (groups[j.sand.type] = groups[j.sand.type] || []).push(j); });
+    var ranked = Object.keys(groups).filter(function (t) { return t !== 'Not analysed'; })
+      .sort(function (a, b) { return groups[a].length - groups[b].length || a.localeCompare(b); });
+    var total = ranked.reduce(function (n, t) { return n + groups[t].length; }, 0);
+    var order = ranked.concat(groups['Not analysed'] ? ['Not analysed'] : []);
+    var box = document.getElementById('types');
+
+    order.forEach(function (t, i) {
+      var list = groups[t].sort(function (a, b) { return a.place.localeCompare(b.place); });
+      var unranked = t === 'Not analysed';
+      var sec = el('section', 'type' + (unranked ? ' unranked' : ''));
+      var head = el('div', 'type-head');
+      var left = el('div');
+      left.appendChild(el('p', 'rank', unranked ? 'Not ranked' : i === 0 ? 'Rarest' : i === ranked.length - 1 ? 'Most common' : 'Number ' + (i + 1)));
+      left.appendChild(el('h2', null, t));
+      head.appendChild(left);
+      var count = el('span', 'count');
+      count.appendChild(el('b', null, String(list.length)));
+      count.appendChild(document.createTextNode(unranked ? (list.length === 1 ? ' jar' : ' jars') : ' of ' + total + ' jars'));
+      head.appendChild(count);
+      sec.appendChild(head);
+      if (!unranked) { var bar = el('div', 'share'), fill = el('span'); fill.style.width = (list.length / total * 100) + '%'; bar.appendChild(fill); sec.appendChild(bar); }
+      sec.appendChild(el('p', 'what', WHAT[t] || ''));
+      var ul = el('ul', 'jars');
+      list.forEach(function (j) {
+        var li = el('li');
+        var a = el('a', null, j.place); a.href = '../#' + j.shelf_code; // opens this jar on the map
+        li.appendChild(a);
+        var code = el('span', 'code'); // monospace, R and J in light blue, as on the map
+        j.shelf_code.split(/([RJ])/).forEach(function (part) { if (part === 'R' || part === 'J') code.appendChild(el('b', 'rj', part)); else if (part) code.appendChild(document.createTextNode(part)); });
+        li.appendChild(code);
+        var made = j.sand.glance && j.sand.glance.made_of;
+        if (made) li.appendChild(el('span', 'made', made));
+        ul.appendChild(li);
+      });
+      sec.appendChild(ul);
+      box.appendChild(sec);
+    });
+    document.getElementById('foot').textContent = shown.length + ' jars with a place. Click any one to see it on the map.';
+  }).catch(function () { document.getElementById('types').textContent = 'The jar list could not be loaded. Reload the page to try again.'; });
+})();
+</script>
+</body>
+</html>
