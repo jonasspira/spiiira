@@ -14,11 +14,11 @@ Last activity: 2026-11-12
 
 ## Now
 
-**Live at www.spiiira.com/sand/ (the 2026-11-10 version). A redesign with a
-first-visit intro is built locally and waiting for Jonas's go-ahead to
-commit and push** (versions `?v=13`). No homepage card or README row, by design.
+**Live at www.spiiira.com/sand/** with the redesign (pushed 2026-11-12,
+versions `?v=13`), plus the rarity page at www.spiiira.com/sand/rarity/.
+No homepage card or README row, by design.
 
-What a visitor sees after the redesign:
+What a visitor sees:
 
 - The page is called **Sand**; the mark is Unbounded (weight 625).
 - **First visit only: an intro** over the map, which is dimmed and blurred
@@ -67,8 +67,10 @@ and local previews never count.
 
 ## Next
 
-- **Jonas reviews the redesign** (screenshots, or locally), then decides
-  whether to commit and push it.
+- **Open question for Jonas**: on the rarity page, keep "Volcanic and coral"
+  (Hawaii, both Papagayo jars) as its own type, currently the rarest, or fold
+  it into Volcanic?
+- **Shelf codes assume left-to-right numbering**; confirm against one row.
 1. ~~Jonas reviews the page locally, then merges and pushes.~~ Done
    2026-11-10; v1 is live.
 2. **The original CSV was never attached.** The prompt referred to
